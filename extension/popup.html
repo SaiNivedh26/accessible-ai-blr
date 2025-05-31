@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>YouTube Sign Language Assistant</title>
+  <style>
+    body {
+      width: 300px;
+      padding: 10px;
+      font-family: Arial, sans-serif;
+    }
+    .container {
+      display: flex;
+      flex-direction: column;
+      gap: 10px;
+    }
+    button {
+      background-color: #c00;
+      color: white;
+      border: none;
+      padding: 8px 12px;
+      border-radius: 4px;
+      cursor: pointer;
+    }
+    button:hover {
+      background-color: #900;
+    }
+    button:disabled {
+      background-color: #ccc;
+      cursor: not-allowed;
+    }
+    .status {
+      padding: 8px;
+      border-radius: 4px;
+      margin-top: 10px;
+    }
+    .enabled {
+      background-color: #e6ffe6;
+      color: #006600;
+    }
+    .disabled {
+      background-color: #ffe6e6;
+      color: #660000;
+    }
+  </style>
+</head>
+<body>
+  <div class="container">
+    <h2>YouTube Sign Language Assistant</h2>
+    <p>Sign language caption overlay for YouTube videos</p>
+    <button id="toggleBtn">Refresh Transcript</button>
+    <div id="status" class="status disabled">Checking status...</div>
+  </div>
+  <script src="popup.js"></script>
+</body>
+</html> 
