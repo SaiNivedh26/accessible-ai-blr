@@ -82,7 +82,7 @@ export default function DevelopmentPage() {
               Under Development
             </h1>
             <p className="text-lg text-gray-600 dark:text-gray-300 max-w-2xl mx-auto">
-              Here's what we're working on to make Sign Language Extension even better.
+              Here&apos;s what we&apos;re working on to make Sign Language Extension even better.
               Check back regularly for updates on our progress.
             </p>
           </div>
@@ -125,7 +125,7 @@ export default function DevelopmentPage() {
             </div>
             <p className="text-gray-600 dark:text-gray-300 mb-6">
               These features are currently under development and may not be available yet.
-              We're working hard to bring them to you as soon as possible while ensuring
+              We&apos;re working hard to bring them to you as soon as possible while ensuring
               the highest quality and reliability.
             </p>
             <div className="flex gap-4">

@@ -45,3 +45,19 @@ create policy "Users can update their own pending contributions"
 create index sign_contributions_keyword_idx on public.sign_contributions(keyword);
 create index sign_contributions_user_id_idx on public.sign_contributions(user_id);
 create index sign_contributions_status_idx on public.sign_contributions(status);
+
+-- Create custom-signs bucket in storage
+insert into storage.buckets (id, name, public) values ('custom-signs', 'custom-signs', true) on conflict (id) do nothing;
+
+-- Set up storage policy to allow authenticated users to upload to custom-signs
+create policy "Users can upload to custom-signs"
+  on storage.objects for insert
+  with check (
+    auth.role() = 'authenticated' AND
+    bucket_id = 'custom-signs'
+  );
+
+-- Allow public read access to custom-signs
+create policy "Public read access to custom-signs"
+  on storage.objects for select
+  using (bucket_id = 'custom-signs');

@@ -16,7 +16,6 @@ export default function ProfilePage() {
   const router = useRouter()
   const [username, setUsername] = useState<string | null>(null)
   const [isLoading, setIsLoading] = useState(true)
-  const [error, setError] = useState<string | null>(null)
   
   // Redirect to login if not authenticated
   useEffect(() => {

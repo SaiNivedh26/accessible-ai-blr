@@ -3,33 +3,23 @@
 import React, { useState, useEffect } from 'react'
 import { useAuth } from '@/contexts/auth-context'
 import { createClient } from '@/lib/supabase'
-import { VideoRecorder } from '@/components/ui/video-recorder'
 import { Button } from '@/components/ui/button'
 import { motion } from 'framer-motion'
 import { useRouter } from 'next/navigation'
-import { FaPlay, FaTrash, FaSearch, FaDownload, FaExternalLinkAlt } from 'react-icons/fa'
+import { FaTrash, FaSearch, FaDownload, FaExternalLinkAlt } from 'react-icons/fa'
 import { 
   searchByWord, 
   searchByPartialMatch, 
   searchAndUploadSign, 
   listAllVideos, 
   downloadVideo,
-  PinataVideo
+  PinataVideo,
+  getVideoUrl
 } from '@/lib/pinata'
-
-interface CustomSign {
-  id: string
-  user_id: string
-  word: string
-  video_path: string
-  region: string
-  created_at: string
-  ipfs_hash?: string
-  pinata_url?: string
-}
+import { createCustomSign, getUserCustomSigns, deleteCustomSign, type CustomSign } from '@/lib/actions'
 
 export default function CustomizationsPage() {
-  const { user, isLoading: authLoading, signOut } = useAuth()
+  const { user, isLoading: authLoading } = useAuth()
   const router = useRouter()
   const [isSubmitting, setIsSubmitting] = useState(false)
   const [recordedBlob, setRecordedBlob] = useState<Blob | null>(null)
@@ -43,6 +33,13 @@ export default function CustomizationsPage() {
   const [isDownloading, setIsDownloading] = useState(false)
   const [statusMessage, setStatusMessage] = useState('')
 
+  // New states for video recording
+  const [mediaStream, setMediaStream] = useState<MediaStream | null>(null)
+  const [mediaRecorder, setMediaRecorder] = useState<MediaRecorder | null>(null)
+  const [isRecording, setIsRecording] = useState(false)
+  const [videoUrl, setVideoUrl] = useState<string | null>(null)
+  const videoRef = React.useRef<HTMLVideoElement>(null)
+
   useEffect(() => {
     if (!authLoading && !user) {
       router.push('/login')
@@ -52,16 +49,15 @@ export default function CustomizationsPage() {
     async function fetchCustomSigns() {
       if (user) {
         setIsLoadingCustomSigns(true)
-        const supabase = createClient()
-        const { data, error } = await supabase
-          .from('custom_signs')
-          .select('*')
-          .eq('user_id', user.id)
-          .order('created_at', { ascending: false })
-
-        if (!error && data) {
-          setCustomSigns(data)
-        } else if (error) {
+        try {
+          const signs = await getUserCustomSigns()
+          setCustomSigns(signs)
+          if (signs.length === 0) {
+            setStatusMessage('You have not created any custom signs yet. Record your first sign below!')
+          } else {
+            setStatusMessage('')
+          }
+        } catch (error) {
           console.error('Error fetching custom signs:', error)
           setStatusMessage('Failed to load your custom signs')
         }
@@ -79,7 +75,12 @@ export default function CustomizationsPage() {
       return
     }
 
-    if (!recordedBlob || !word.trim() || !region.trim()) {
+    // Ensure the recordedBlob is a valid video
+    if (!recordedBlob || recordedBlob.size === 0 || recordedBlob.type.indexOf('video') !== 0) {
+      setStatusMessage('Please record a valid video before submitting.')
+      return
+    }
+    if (!word.trim() || !region.trim()) {
       setStatusMessage('Please fill in all fields and record a video')
       return
     }
@@ -88,37 +89,30 @@ export default function CustomizationsPage() {
     setStatusMessage('Uploading your sign to IPFS...')
     
     try {
-      // First upload to Pinata
+      // Always upload to Pinata first
       const pinataResult = await searchAndUploadSign(word, region, recordedBlob);
-      
-      if (!pinataResult.success) {
+      if (!pinataResult.success || !pinataResult.ipfsHash || !pinataResult.url) {
         throw new Error(pinataResult.error || 'Failed to upload to Pinata');
       }
-      
       setStatusMessage('Processing with AI model...')
-      
-      // Now also send to Flask endpoint for processing
+      // Send to Flask endpoint for processing (non-blocking)
       const formData = new FormData()
       formData.append('video', recordedBlob, 'custom-sign.webm')
       formData.append('word', word.trim())
       formData.append('region', region.trim())
       formData.append('userId', user.id)
-      formData.append('ipfsHash', pinataResult.ipfsHash || '')
-
-      // Try Flask processing, but don't block if it fails
+      formData.append('ipfsHash', pinataResult.ipfsHash)
       try {
         const flaskResponse = await fetch('http://localhost:5000/process-video', {
           method: 'POST',
           body: formData,
         })
-        
         if (!flaskResponse.ok) {
           console.warn('Flask processing failed, but continuing with Pinata upload');
         }
-      } catch (flaskError) {
+      } catch {
         console.warn('Flask server unavailable, continuing with Pinata upload only');
       }
-
       setStatusMessage('Saving to your account...')
       const supabase = createClient()
       
@@ -126,40 +120,32 @@ export default function CustomizationsPage() {
       const videoFile = new File([recordedBlob], 'custom-sign.webm', {
         type: 'video/webm'
       })
-      
       const { data: uploadData, error: uploadError } = await supabase.storage
         .from('custom-signs')
         .upload(`${user.id}/${Date.now()}-${word}.webm`, videoFile)
-
       if (uploadError) throw uploadError
-
-      // Save customization metadata to database with IPFS data
-      const { data, error: dbError } = await supabase
-        .from('custom_signs')
-        .insert({
-          user_id: user.id,
-          word: word.toLowerCase().trim(),
-          region: region.trim(),
-          video_path: uploadData.path,
-          ipfs_hash: pinataResult.ipfsHash,
-          pinata_url: pinataResult.url
-        })
-        .select()
-        .single()
-
-      if (dbError) throw dbError
-
-      // Update local state
-      if (data) {
-        setCustomSigns([data, ...customSigns])
+      
+      // Use server action to save to database (this handles RLS properly)
+      const customSignData = {
+        word: word.toLowerCase().trim(),
+        region: region.trim(),
+        video_path: uploadData.path,
+        ipfs_hash: pinataResult.ipfsHash,
+        pinata_url: pinataResult.url
       }
-
+      
+      console.log('Creating custom sign with data:', customSignData)
+      
+      const newSign = await createCustomSign(customSignData)
+      
+      // Update local state with new sign at the top
+      setCustomSigns([newSign, ...customSigns])
       setStatusMessage('Custom sign saved successfully and uploaded to IPFS!')
       setTimeout(() => setStatusMessage(''), 5000)
-      
       setWord('')
       setRegion('')
       setRecordedBlob(null)
+      resetRecording() // Clear the video player
     } catch (error) {
       console.error('Error saving custom sign:', error)
       setStatusMessage(error instanceof Error ? error.message : 'Error saving custom sign')
@@ -260,13 +246,8 @@ export default function CustomizationsPage() {
 
         if (storageError) throw storageError
 
-        // Delete record from database
-        const { error: dbError } = await supabase
-          .from('custom_signs')
-          .delete()
-          .eq('id', id)
-
-        if (dbError) throw dbError
+        // Use server action to delete from database
+        await deleteCustomSign(id)
 
         // Update local state
         setCustomSigns(customSigns.filter(sign => sign.id !== id))
@@ -289,6 +270,66 @@ export default function CustomizationsPage() {
     // Scroll to recording section
     document.getElementById('record-section')?.scrollIntoView({ behavior: 'smooth' });
   };
+
+  // Start recording
+  const startRecording = async () => {
+    setStatusMessage('Requesting camera...')
+    try {
+      const stream = await navigator.mediaDevices.getUserMedia({ video: true, audio: true })
+      setMediaStream(stream)
+      if (videoRef.current) {
+        videoRef.current.srcObject = stream
+        videoRef.current.muted = true
+        videoRef.current.play()
+      }
+      const recorder = new MediaRecorder(stream)
+      const chunks: Blob[] = []
+      recorder.ondataavailable = (e) => {
+        if (e.data.size > 0) chunks.push(e.data)
+      }
+      recorder.onstop = () => {
+        const blob = new Blob(chunks, { type: 'video/webm' })
+        setRecordedBlob(blob)
+        setVideoUrl(URL.createObjectURL(blob))
+        if (videoRef.current) {
+          videoRef.current.srcObject = null
+          videoRef.current.src = URL.createObjectURL(blob)
+          videoRef.current.muted = false
+        }
+        if (mediaStream) {
+          mediaStream.getTracks().forEach(track => track.stop())
+        }
+        setIsRecording(false)
+        setStatusMessage('Recording complete!')
+      }
+      recorder.start()
+      setMediaRecorder(recorder)
+      setIsRecording(true)
+      setStatusMessage('Recording...')
+    } catch {
+      setStatusMessage('Could not access camera/mic.')
+    }
+  }
+
+  // Stop recording
+  const stopRecording = () => {
+    if (mediaRecorder) {
+      mediaRecorder.stop()
+      setMediaRecorder(null)
+      setStatusMessage('Processing video...')
+    }
+  }
+
+  // Reset recording
+  const resetRecording = () => {
+    setRecordedBlob(null)
+    setVideoUrl(null)
+    setStatusMessage('')
+    if (videoRef.current) {
+      videoRef.current.srcObject = null
+      videoRef.current.src = ''
+    }
+  }
 
   if (authLoading || isLoadingCustomSigns) {
     return (
@@ -455,9 +496,35 @@ export default function CustomizationsPage() {
                   </div>
                 </div>
 
-                <VideoRecorder
-                  onRecordingComplete={(blob: Blob) => setRecordedBlob(blob)}
-                />
+                {/* Video recording section */}
+                <div className="flex flex-col items-center space-y-4">
+                  <div className="w-full max-w-md h-64 bg-gray-900 rounded-lg overflow-hidden relative mb-4">
+                    <video ref={videoRef} className="w-full h-full object-cover" playsInline controls={!!videoUrl} />
+                    {isRecording && (
+                      <div className="absolute top-2 right-2 px-2 py-1 bg-red-600 text-white text-xs rounded-md flex items-center">
+                        <div className="w-2 h-2 bg-white rounded-full animate-pulse mr-2"></div>
+                        Recording...
+                      </div>
+                    )}
+                  </div>
+                  <div className="flex space-x-2">
+                    {!isRecording && !videoUrl && (
+                      <Button onClick={startRecording} type="button">Start Recording</Button>
+                    )}
+                    {isRecording && (
+                      <Button onClick={stopRecording} type="button" variant="destructive">Stop Recording</Button>
+                    )}
+                    {videoUrl && !isRecording && (
+                      <>
+                        <Button onClick={resetRecording} type="button" variant="outline">Re-record</Button>
+                        <Button onClick={() => videoRef.current?.play()} type="button" variant="secondary">Play</Button>
+                      </>
+                    )}
+                  </div>
+                  {videoUrl && (
+                    <p className="text-green-600 dark:text-green-400">Recording complete! You can submit or re-record.</p>
+                  )}
+                </div>
 
                 <div className="mt-8">
                   <Button
@@ -480,7 +547,7 @@ export default function CustomizationsPage() {
               {customSigns.length === 0 ? (
                 <div className="bg-white dark:bg-gray-800 rounded-xl shadow-lg p-8 text-center">
                   <p className="text-gray-600 dark:text-gray-300">
-                    You haven't created any custom signs yet. 
+                    You haven&apos;t created any custom signs yet. 
                     Record your first sign above or search for existing signs on IPFS.
                   </p>
                 </div>
@@ -516,7 +583,7 @@ export default function CustomizationsPage() {
                       
                       <video
                         className="w-full rounded-lg bg-gray-100 dark:bg-gray-700"
-                        src={sign.pinata_url || `${process.env.NEXT_PUBLIC_SUPABASE_URL}/storage/v1/object/public/custom-signs/${sign.video_path}`}
+                        src={getVideoUrl(sign)}
                         controls
                       />
                     </div>
