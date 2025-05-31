@@ -23,7 +23,7 @@ export default function DashboardPage() {
   const router = useRouter()
   const [greeting, setGreeting] = useState('')
   const [username, setUsername] = useState<string | null>(null)
-  const [stats, setStats] = useState({
+  const [stats] = useState({
     savedCount: 0,
     contributionsCount: 0
   })

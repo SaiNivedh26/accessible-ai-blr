@@ -21,25 +21,32 @@ const videoDatabase: Record<string, PinataVideo> = {
   "compression": { key: "compression", name: "Compression Sign", url: "https://ipfs.io/ipfs/QmbWqxBEKC3P8tqsKc98xmWNzrzDtRLMiMPL8wBuTGsMnR" }
 };
 
+// Helper to get Pinata JWT from env (works for both server/client)
+function getPinataJWT() {
+  // Try both server and client env variable names
+  return (
+    process.env.NEXT_PUBLIC_PINATA_JWT ||
+    process.env.PINATA_JWT ||
+    ''
+  );
+}
+
 export async function searchByWord(word: string): Promise<PinataVideo[]> {
   try {
-    // This would normally search Pinata, but for the demo we'll use our mock
     const lowerWord = word.toLowerCase();
-    
-    // Try to find from Pinata API
     try {
       const response = await axios.get(
         `https://api.pinata.cloud/data/pinList?metadata[keyvalues][word]{"value":"${lowerWord}","op":"eq"}`,
         {
           headers: {
-            'Authorization': `Bearer ${process.env.PINATA_JWT}`
+            'Authorization': `Bearer ${getPinataJWT()}`
           }
         }
       );
       
       if (response.data && response.data.rows && response.data.rows.length > 0) {
         // Transform Pinata results into our expected format
-        const results = response.data.rows.map((pin: any) => ({
+        const results = response.data.rows.map((pin: { metadata: { keyvalues?: { word?: string }, name: string }, ipfs_pin_hash: string }) => ({
           key: pin.metadata.keyvalues?.word || pin.metadata.name,
           name: pin.metadata.name,
           ipfsHash: pin.ipfs_pin_hash,
@@ -72,21 +79,19 @@ export async function searchByWord(word: string): Promise<PinataVideo[]> {
 export async function searchByPartialMatch(partialWord: string): Promise<PinataVideo[]> {
   try {
     const lowerPartial = partialWord.toLowerCase();
-    
-    // Try Pinata API first
     try {
       const response = await axios.get(
         `https://api.pinata.cloud/data/pinList?metadata[name]{"value":"${lowerPartial}","op":"ilike"}`,
         {
           headers: {
-            'Authorization': `Bearer ${process.env.PINATA_JWT}`
+            'Authorization': `Bearer ${getPinataJWT()}`
           }
         }
       );
       
       if (response.data && response.data.rows && response.data.rows.length > 0) {
         // Transform Pinata results into our expected format
-        const results = response.data.rows.map((pin: any) => ({
+        const results = response.data.rows.map((pin: { metadata: { keyvalues?: { word?: string }, name: string }, ipfs_pin_hash: string }) => ({
           key: pin.metadata.keyvalues?.word || pin.metadata.name.toLowerCase(),
           name: pin.metadata.name,
           ipfsHash: pin.ipfs_pin_hash,
@@ -134,7 +139,7 @@ export async function getVideoByKey(key: string): Promise<PinataVideo | null> {
           `https://api.pinata.cloud/data/pinList?hashContains=${lowerKey}`,
           {
             headers: {
-              'Authorization': `Bearer ${process.env.PINATA_JWT}`
+              'Authorization': `Bearer ${getPinataJWT()}`
             }
           }
         );
@@ -177,14 +182,14 @@ export async function listAllVideos(): Promise<PinataVideo[]> {
         'https://api.pinata.cloud/data/pinList?status=pinned&metadata[keyvalues][type]=custom-sign',
         {
           headers: {
-            'Authorization': `Bearer ${process.env.PINATA_JWT}`
+            'Authorization': `Bearer ${getPinataJWT()}`
           }
         }
       );
       
       if (response.data && response.data.rows && response.data.rows.length > 0) {
         // Transform Pinata results into our expected format
-        const results = response.data.rows.map((pin: any) => ({
+        const results = response.data.rows.map((pin: { metadata: { keyvalues?: { word?: string }, name: string }, ipfs_pin_hash: string }) => ({
           key: pin.metadata.keyvalues?.word || pin.metadata.name.toLowerCase(),
           name: pin.metadata.name,
           ipfsHash: pin.ipfs_pin_hash,
@@ -222,9 +227,9 @@ export async function downloadVideo(video: PinataVideo): Promise<{ success: bool
     
     console.log(`✅ Download complete: ${video.key}.mp4`);
     return { success: true, path: `${video.key}.mp4` };
-  } catch (error: any) {
-    console.error(`❌ Download failed: ${error.message}`);
-    return { success: false, error: error.message };
+  } catch (error: unknown) {
+    console.error(`❌ Download failed: ${error instanceof Error ? error.message : 'Unknown error'}`);
+    return { success: false, error: error instanceof Error ? error.message : 'Unknown error' };
   }
 }
 
@@ -243,10 +248,9 @@ export async function downloadMultipleVideos(videos: PinataVideo[]): Promise<Arr
   return results;
 }
 
-export async function uploadToPinata(file: File | Blob, metadata: Record<string, any>): Promise<{ success: boolean; ipfsHash?: string; url?: string; error?: string }> {
+export async function uploadToPinata(file: File | Blob, metadata: Record<string, unknown>): Promise<{ success: boolean; ipfsHash?: string; url?: string; error?: string }> {
   try {
     console.log(`📤 Uploading "${metadata.name}" to Pinata...`);
-    
     // Create form data for Pinata API
     const formData = new FormData();
     formData.append('file', file);
@@ -254,7 +258,6 @@ export async function uploadToPinata(file: File | Blob, metadata: Record<string,
       name: metadata.name,
       keyvalues: metadata
     }));
-    
     // Make actual Pinata API call
     try {
       const response = await axios.post(
@@ -262,25 +265,21 @@ export async function uploadToPinata(file: File | Blob, metadata: Record<string,
         formData,
         {
           headers: {
-            'Authorization': `Bearer ${process.env.PINATA_JWT}`,
+            'Authorization': `Bearer ${getPinataJWT()}`,
             'Content-Type': 'multipart/form-data'
           }
         }
       );
-      
-      if (response.data && response.data.IpfsHash) {
-        console.log(`✅ Upload complete! IPFS Hash: ${response.data.IpfsHash}`);
-        return { 
-          success: true, 
-          ipfsHash: response.data.IpfsHash, 
-          url: `https://ipfs.io/ipfs/${response.data.IpfsHash}`
-        };
+      if (response.data && (response.data.IpfsHash || response.data.IpfsHash === '')) {
+        const hash = response.data.IpfsHash;
+        const url = `https://ipfs.io/ipfs/${hash}`;
+        console.log(`✅ Upload complete! IPFS Hash: ${hash}`);
+        return { success: true, ipfsHash: hash, url };
       } else {
         throw new Error('Invalid response from Pinata');
       }
-    } catch (apiError) {
+    } catch (apiError: unknown) {
       console.error('Pinata API error:', apiError);
-      
       // Fallback to mock for development/testing
       if (process.env.NODE_ENV === 'development') {
         console.log('⚠️ Using mock IPFS hash for development');
@@ -291,43 +290,39 @@ export async function uploadToPinata(file: File | Blob, metadata: Record<string,
           url: `https://ipfs.io/ipfs/${mockIpfsHash}`
         };
       }
-      
       throw apiError;
     }
-  } catch (error: any) {
-    console.error(`❌ Upload failed: ${error.message}`);
-    return { success: false, error: error.message };
+  } catch (error: unknown) {
+    console.error(`❌ Upload failed: ${error instanceof Error ? error.message : 'Unknown error'}`);
+    return { success: false, error: error instanceof Error ? error.message : 'Unknown error' };
   }
 }
 
-export async function replaceVideo(key: string, file: File | Blob, shouldBackup: boolean = true): Promise<{ success: boolean; ipfsHash?: string; url?: string; error?: string }> {
+// Helper to always get a valid video URL for rendering
+export function getVideoUrl(sign: { pinata_url?: string; ipfs_hash?: string; video_path?: string }): string {
+  if (sign.pinata_url) return sign.pinata_url;
+  if (sign.ipfs_hash) return `https://ipfs.io/ipfs/${sign.ipfs_hash}`;
+  if (sign.video_path && process.env.NEXT_PUBLIC_SUPABASE_URL) {
+    return `${process.env.NEXT_PUBLIC_SUPABASE_URL}/storage/v1/object/public/custom-signs/${sign.video_path}`;
+  }
+  return '';
+}
+
+export async function replaceVideo(key: string, file: File | Blob): Promise<{ success: boolean; ipfsHash?: string; url?: string; error?: string }> {
   try {
     console.log(`🔄 Replacing video "${key}"`);
-    
     // Create metadata for the replacement
     const metadata = {
       word: key,
       updatedAt: new Date().toISOString(),
       type: 'custom-sign'
     };
-    
     // Perform the upload as a new file (Pinata doesn't have direct replacement)
     return await uploadToPinata(file, metadata);
-  } catch (error: any) {
-    console.error(`❌ Replacement failed: ${error.message}`);
-    return { success: false, error: error.message };
+  } catch (error: unknown) {
+    console.error(`❌ Replacement failed: ${error instanceof Error ? error.message : 'Unknown error'}`);
+    return { success: false, error: error instanceof Error ? error.message : 'Unknown error' };
   }
-}
-
-export function validateFilePath(filePath: string): { valid: boolean; name: string; size: string; type: string } {
-  // In a real app, this would validate the file exists and is a valid video
-  // For now, just simulate validation
-  return { 
-    valid: true, 
-    name: filePath.split('/').pop() || 'unknown', 
-    size: "1000000",
-    type: "video/mp4"
-  };
 }
 
 // Additional function for the customization page
@@ -351,15 +346,16 @@ export async function searchAndUploadSign(word: string, region: string, blob: Bl
     
     if (existingSign.length > 0) {
       console.log(`⚠️ Sign already exists. Replacing...`);
-      const result = await replaceVideo(existingSign[0].key, file, true);
+      // Call replaceVideo directly
+      const result = await replaceVideo(existingSign[0].key, file);
       return result;
     } else {
       console.log(`🆕 New sign. Uploading to Pinata...`);
       const result = await uploadToPinata(file, metadata);
       return result;
     }
-  } catch (error: any) {
-    console.error(`❌ Error in searchAndUploadSign: ${error.message}`);
-    return { success: false, error: error.message };
+  } catch (error: unknown) {
+    console.error(`❌ Error in searchAndUploadSign: ${error instanceof Error ? error.message : 'Unknown error'}`);
+    return { success: false, error: error instanceof Error ? error.message : 'Unknown error' };
   }
 }

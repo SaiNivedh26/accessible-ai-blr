@@ -5,7 +5,7 @@ import { Button } from '@/components/ui/button'
 import { motion } from 'framer-motion'
 import { useAuth } from '@/contexts/auth-context'
 import { createClient } from '@/lib/supabase'
-import { FaMicrophone, FaMicrophoneSlash, FaPlay, FaStop, FaPause, FaTrash, FaSignLanguage, FaUpload } from 'react-icons/fa'
+import { FaMicrophone, FaStop, FaTrash, FaSignLanguage } from 'react-icons/fa'
 import { MdTextFields } from 'react-icons/md'
 
 interface ConversionResult {
@@ -17,7 +17,6 @@ interface ConversionResult {
 export default function ConvertPage() {
   const { user } = useAuth()
   const [inputMethod, setInputMethod] = useState<'text' | 'voice'>('text')
-  const [voiceInputType, setVoiceInputType] = useState<'record' | 'upload'>('record')
   const [isRecording, setIsRecording] = useState(false)
   const [recordingTime, setRecordingTime] = useState(0)
   const [audioBlob, setAudioBlob] = useState<Blob | null>(null)
@@ -25,11 +24,9 @@ export default function ConvertPage() {
   const [text, setText] = useState('')
   const [isConverting, setIsConverting] = useState(false)
   const [conversionResult, setConversionResult] = useState<ConversionResult | null>(null)
-  const [isUploading, setIsUploading] = useState(false)
   const mediaRecorderRef = useRef<MediaRecorder | null>(null)
   const chunksRef = useRef<Blob[]>([])
   const timerRef = useRef<NodeJS.Timeout | null>(null)
-  const fileInputRef = useRef<HTMLInputElement>(null)
 
   useEffect(() => {
     if (isRecording) {
@@ -107,58 +104,6 @@ export default function ConvertPage() {
     }
   }
 
-  // Add supported file types and max file size
-  const SUPPORTED_AUDIO_TYPES = ['audio/mp3', 'audio/wav', 'audio/m4a', 'audio/mpeg', 'audio/webm']
-  const MAX_FILE_SIZE = 10 * 1024 * 1024 // 10MB
-
-  const handleFileUpload = async (event: React.ChangeEvent<HTMLInputElement>) => {
-    const file = event.target.files?.[0]
-    if (!file) return
-
-    if (!SUPPORTED_AUDIO_TYPES.includes(file.type)) {
-      alert('Unsupported file type. Please upload an MP3, WAV, or M4A file.')
-      event.target.value = ''
-      return
-    }
-
-    if (file.size > MAX_FILE_SIZE) {
-      alert('File is too large. Maximum size is 10MB.')
-      event.target.value = ''
-      return
-    }
-
-    setIsUploading(true)
-    try {
-      const reader = new FileReader()
-      reader.onload = (e) => {
-        try {
-          const blob = new Blob([e.target?.result as ArrayBuffer], { type: file.type })
-          setAudioBlob(blob)
-          setAudioFileName(file.name)
-        } catch (error) {
-          console.error('Error processing file:', error)
-          alert('Error processing the audio file. Please try again with a different file.')
-        } finally {
-          setIsUploading(false)
-        }
-      }
-
-      reader.onerror = () => {
-        console.error('Error reading file:', reader.error)
-        alert('Error reading the audio file. Please try again.')
-        event.target.value = ''
-        setIsUploading(false)
-      }
-
-      reader.readAsArrayBuffer(file)
-    } catch (error) {
-      console.error('Error during file upload:', error)
-      alert('An unexpected error occurred. Please try again.')
-      setIsUploading(false)
-      event.target.value = ''
-    }
-  }
-
   const handleConvert = async () => {
     if (!text && !audioBlob) {
       alert('Please enter text or provide audio first')
@@ -176,7 +121,7 @@ export default function ConvertPage() {
           type: audioBlob.type
         })
         
-        const { data: uploadData, error: uploadError } = await supabase.storage
+        const { error: uploadError } = await supabase.storage
           .from('voice-inputs')
           .upload(`${user?.id}/${Date.now()}-${audioFileName}`, audioFile)
 
