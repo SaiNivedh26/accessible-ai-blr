@@ -27,6 +27,8 @@ create table public.custom_signs (
   word text not null,
   region text not null,
   video_path text not null,
+  ipfs_hash text,
+  pinata_url text,
   is_active boolean default true
 );
 

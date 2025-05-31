@@ -7,6 +7,7 @@ import { VideoRecorder } from '@/components/ui/video-recorder'
 import { Button } from '@/components/ui/button'
 import { motion } from 'framer-motion'
 import { useRouter } from 'next/navigation'
+import { uploadToPinata } from '@/lib/pinata'
 
 export default function CommunityPage() {
   const { user, isLoading } = useAuth()
@@ -14,6 +15,8 @@ export default function CommunityPage() {
   const [isSubmitting, setIsSubmitting] = useState(false)
   const [recordedBlob, setRecordedBlob] = useState<Blob | null>(null)
   const [keyword, setKeyword] = useState('')
+  const [statusMessage, setStatusMessage] = useState('')
+  const [ipfsStatus, setIpfsStatus] = useState({ uploaded: false, hash: '', url: '' })
 
   if (isLoading) {
     return (
@@ -30,19 +33,71 @@ export default function CommunityPage() {
 
   const handleSubmit = async (e: React.FormEvent) => {
     e.preventDefault()
+    if (!user) {
+      router.push('/login')
+      return
+    }
+
     if (!recordedBlob || !keyword.trim()) {
-      alert('Please record a video and enter a keyword')
+      setStatusMessage('Please record a video and enter a keyword')
       return
     }
 
     setIsSubmitting(true)
+    setStatusMessage('Uploading your sign to IPFS...')
+    
     try {
-      const supabase = createClient()
+      // First upload to Pinata IPFS
+      const pinataMetadata = {
+        name: `Community Sign: ${keyword.trim()}`,
+        word: keyword.toLowerCase().trim(),
+        contributor: user.id,
+        createdAt: new Date().toISOString(),
+        type: 'community-sign'
+      }
       
-      // Upload video to Supabase Storage
-      const videoFile = new File([recordedBlob], 'sign-video.webm', {
+      const videoFile = new File([recordedBlob], `community-sign-${keyword}.webm`, {
         type: 'video/webm'
       })
+      
+      const pinataResult = await uploadToPinata(videoFile, pinataMetadata)
+      
+      if (!pinataResult.success) {
+        throw new Error(pinataResult.error || 'Failed to upload to Pinata IPFS')
+      }
+      
+      setIpfsStatus({
+        uploaded: true,
+        hash: pinataResult.ipfsHash || '',
+        url: pinataResult.url || ''
+      })
+      
+      setStatusMessage('Processing with AI model...')
+      
+      // Now send to Flask endpoint for community processing
+      const formData = new FormData()
+      formData.append('video', recordedBlob, 'sign-video.webm')
+      formData.append('keyword', keyword.trim())
+      formData.append('userId', user.id)
+      formData.append('type', 'community') // To differentiate from customizations
+      formData.append('ipfsHash', pinataResult.ipfsHash || '')
+      formData.append('ipfsUrl', pinataResult.url || '')
+
+      const flaskResponse = await fetch('http://localhost:5000/process-community-video', {
+        method: 'POST',
+        body: formData,
+      })
+
+      if (!flaskResponse.ok) {
+        throw new Error('Failed to process video')
+      }
+
+      const processedData = await flaskResponse.json()
+
+      const supabase = createClient()
+      
+      // Upload processed video to Supabase Storage as backup
+      // Note: videoFile is already declared above with IPFS upload
       
       const { data: uploadData, error: uploadError } = await supabase.storage
         .from('sign-videos')
@@ -50,24 +105,30 @@ export default function CommunityPage() {
 
       if (uploadError) throw uploadError
 
-      // Save video metadata to database
+      // Save video metadata to database with processed data and IPFS info
       const { error: dbError } = await supabase
         .from('sign_contributions')
         .insert({
           user_id: user.id,
           keyword: keyword.toLowerCase().trim(),
           video_path: uploadData.path,
-          status: 'pending' // Contributions might need approval
+          ipfs_hash: ipfsStatus.hash,
+          pinata_url: ipfsStatus.url,
+          status: 'pending',
+          processed_data: processedData, // Store the data from Flask processing
+          quality_score: processedData.qualityScore || 0, // Optional: store quality metrics
+          verification_status: processedData.verified ? 'verified' : 'pending'
         })
 
       if (dbError) throw dbError
 
-      alert('Thank you for your contribution!')
+      setStatusMessage('Thank you for your contribution! Your sign has been uploaded to IPFS.')
+      setTimeout(() => setStatusMessage(''), 5000)
       setKeyword('')
       setRecordedBlob(null)
     } catch (error) {
       console.error('Error submitting contribution:', error)
-      alert('There was an error submitting your contribution. Please try again.')
+      setStatusMessage(error instanceof Error ? error.message : 'Error submitting your contribution')
     } finally {
       setIsSubmitting(false)
     }
@@ -89,6 +150,27 @@ export default function CommunityPage() {
               <p className="text-lg text-gray-600 dark:text-gray-300">
                 Share your sign language knowledge by recording signs for words. Your contributions help make sign language more accessible to everyone.
               </p>
+              
+              {statusMessage && (
+                <div className="mt-4 p-3 rounded-lg bg-blue-100 dark:bg-blue-900 text-blue-800 dark:text-blue-200">
+                  {statusMessage}
+                </div>
+              )}
+              
+              {ipfsStatus.uploaded && (
+                <div className="mt-4 p-4 rounded-lg bg-green-50 dark:bg-green-900/30 text-green-800 dark:text-green-300 text-sm">
+                  <p className="font-semibold mb-1">Successfully uploaded to IPFS!</p>
+                  <p className="text-xs mb-1">IPFS Hash: {ipfsStatus.hash.substring(0, 20)}...</p>
+                  <a 
+                    href={ipfsStatus.url} 
+                    target="_blank" 
+                    rel="noopener noreferrer"
+                    className="text-blue-600 dark:text-blue-400 underline text-xs"
+                  >
+                    View on IPFS
+                  </a>
+                </div>
+              )}
             </div>
 
             <form onSubmit={handleSubmit} className="space-y-8">
@@ -109,7 +191,7 @@ export default function CommunityPage() {
                 </div>
 
                 <VideoRecorder
-                  onRecordingComplete={(blob) => setRecordedBlob(blob)}
+                  onRecordingComplete={(blob: Blob) => setRecordedBlob(blob)}
                 />
 
                 <div className="mt-8">

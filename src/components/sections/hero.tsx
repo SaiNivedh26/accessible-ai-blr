@@ -53,11 +53,13 @@ export function Hero() {
                   </Button>
                 </Link>
               )}
-              <Button 
-                variant="outline" 
+              <Button
+                variant="primary"
                 size="lg"
+                className="hover:bg-transparent hover:underline hover:text-green-600 bg-green-700 text-white"
+                onClick={() => window.open('https://marketplace.visualstudio.com/items?itemName=SignLanguageExtension', '_blank')}
               >
-                Watch Demo
+                Download Extension
               </Button>
             </div>
           </motion.div>

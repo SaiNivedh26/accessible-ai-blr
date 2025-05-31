@@ -17,6 +17,8 @@ create table public.sign_contributions (
   user_id uuid references auth.users(id) not null,
   keyword text not null,
   video_path text not null,
+  ipfs_hash text,
+  pinata_url text,
   status text not null default 'pending',
   votes integer default 0,
   constraint sign_contributions_status_check 
