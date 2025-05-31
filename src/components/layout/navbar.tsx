@@ -57,10 +57,10 @@ export function Navbar() {
       <div className="container mx-auto px-4">
         <nav className="flex justify-between items-center">
           {/* Logo */}
-          <a href="#" className="text-xl md:text-2xl font-bold text-gray-900 dark:text-white flex items-center gap-2">
+          <h1 className="text-xl md:text-2xl font-bold text-gray-900 dark:text-white">
             <span className="text-blue-600 dark:text-blue-400">SL</span>
-            Extension
-          </a>
+            <span>Extension</span>
+          </h1>
 
           {/* Desktop Navigation */}
           <div className="hidden md:flex items-center gap-8">
@@ -125,6 +125,14 @@ export function Navbar() {
                 ))}
               </ul>
               <div className="mt-4 pt-4 border-t border-gray-200 dark:border-gray-800">
+                <Button
+                  variant="primary"
+                  size="lg"
+                  className="w-full bg-green-600 hover:bg-green-700 text-white mb-4"
+                  onClick={() => window.open('https://marketplace.visualstudio.com/items?itemName=SignLanguageExtension', '_blank')}
+                >
+                  Download Extension
+                </Button>
                 <div className="flex items-center justify-between mb-4">
                   <span className="text-gray-700 dark:text-gray-300">Toggle theme</span>
                   <ThemeToggle />
