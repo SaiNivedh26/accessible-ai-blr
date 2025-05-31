@@ -2,6 +2,20 @@
 
 ### Demo
 
+# Sign Language Extension Landing Page
+
+This is the landing page and web application for the Sign Language Extension project, which converts digital content into sign language videos.
+
+## Features
+
+- User authentication with Supabase
+- Profile management
+- Content conversion to sign language
+- History tracking
+- Saved translations
+- Dark mode support
+- Responsive design
+
 ## 🔎Project Overview
 The Digital Content to Sign Language Converter is a comprehensive tool that converts various forms of Digital media (YouTube videos, local videos, audio files, and text) into sign language videos. This project leverages several libraries and APIs to process and translate spoken or written content into Indian Sign Language (ISL) syntax, creating videos that can aid in communication for the deaf and hard-of-hearing community.
 
