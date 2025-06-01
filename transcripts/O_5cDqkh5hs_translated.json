@@ -1,0 +1,4888 @@
+[
+  {
+    "start": 2.48,
+    "duration": 5.2,
+    "text": "Kurava Sarvalokanam Pavarokhinam Sri",
+    "original_text": "குரவே சர்வலோகானாம் பவரோகினாம் ஸ்ரீ",
+    "detected_language": "ta"
+  },
+  {
+    "start": 5.64,
+    "duration": 3.4,
+    "text": "Gurudevatabhayo Namah Sami, this Guru",
+    "original_text": "குருதேவதாபயோ நமஹ சாமி இந்த குரு",
+    "detected_language": "ta"
+  },
+  {
+    "start": 7.68,
+    "duration": 3.919,
+    "text": "How is the transition going for my son?",
+    "original_text": "பெயர்ச்சி என் பையனுக்கு எப்படி இருக்கு",
+    "detected_language": "ta"
+  },
+  {
+    "start": 9.04,
+    "duration": 4.16,
+    "text": "The star Thiruvon is now Capricorn.",
+    "original_text": "திருவோண நட்சத்திரம் மகர ராசி தானே இனிமே",
+    "detected_language": "ta"
+  },
+  {
+    "start": 11.599,
+    "duration": 3.281,
+    "text": "Total Change is the only one so far.",
+    "original_text": "டோட்டல் சேஞ்ச் தான் இதுவரைக்கும்",
+    "detected_language": "ta"
+  },
+  {
+    "start": 13.2,
+    "duration": 3.36,
+    "text": "He was walking, but now he will fly.",
+    "original_text": "நடந்துகிட்டு இருந்தான் இனிமே பறப்பான்",
+    "detected_language": "ta"
+  },
+  {
+    "start": 14.88,
+    "duration": 4.0,
+    "text": "The Guru came and sat in the ninth place.",
+    "original_text": "குரு ஒன்பதாம் இடத்துல வந்து உட்கார்ந்து",
+    "detected_language": "ta"
+  },
+  {
+    "start": 16.56,
+    "duration": 4.96,
+    "text": "If you are still here, hug me, my friend.",
+    "original_text": "இருக்கார் இனி நண்பன்னா கட்டிப்பிடிச்சு",
+    "detected_language": "ta"
+  },
+  {
+    "start": 18.88,
+    "duration": 5.2,
+    "text": "He who joins hands binds his enemies.",
+    "original_text": "கை குழுக்குவான் எதிரிகளை கட்டி வச்சு",
+    "detected_language": "ta"
+  },
+  {
+    "start": 21.52,
+    "duration": 4.88,
+    "text": "The courage to kick the enemy and the ball",
+    "original_text": "உதைப்பான் பகைவனை பந்தாடுற வீரமும்",
+    "detected_language": "ta"
+  },
+  {
+    "start": 24.08,
+    "duration": 4.72,
+    "text": "The speed has increased so much now.",
+    "original_text": "வேகமும் எக்கச்சக்கமா வந்திருக்கு இனிமே",
+    "detected_language": "ta"
+  },
+  {
+    "start": 26.4,
+    "duration": 3.84,
+    "text": "He will be awesome, my dear child.",
+    "original_text": "அமோகமா இருப்பான் ஆமா பிள்ளையாண்டா எங்க",
+    "detected_language": "ta"
+  },
+  {
+    "start": 28.8,
+    "duration": 4.24,
+    "text": "He works at the Arphai station.",
+    "original_text": "வேலை செய்றான் ஆர்ப்பை ஸ்டேஷன்",
+    "detected_language": "ta"
+  },
+  {
+    "start": 30.24,
+    "duration": 4.159,
+    "text": "Hey, is there an inspector?",
+    "original_text": "இன்ஸ்பெக்டரா இருக்கான் ஏய் என்",
+    "detected_language": "ta"
+  },
+  {
+    "start": 33.04,
+    "duration": 2.56,
+    "text": "How do you know they are party members?",
+    "original_text": "கட்சிக்காரங்கன்னு தெரிஞ்சு எப்படி",
+    "detected_language": "ta"
+  },
+  {
+    "start": 34.399,
+    "duration": 2.721,
+    "text": "You can get arrested.",
+    "original_text": "அரெஸ்ட் பண்ணலாம் நீங்க உன்",
+    "detected_language": "ta"
+  },
+  {
+    "start": 35.6,
+    "duration": 2.88,
+    "text": "What would a party member have done?",
+    "original_text": "கட்சிக்காரன்னா என்ன பண்ணிருக்கான்",
+    "detected_language": "ta"
+  },
+  {
+    "start": 37.12,
+    "duration": 2.56,
+    "text": "You know, duplicate goods.",
+    "original_text": "தெரியுமாவே டூப்ளிகேட் சரக்கு",
+    "detected_language": "ta"
+  },
+  {
+    "start": 38.48,
+    "duration": 2.72,
+    "text": "He drank it and was afraid.",
+    "original_text": "வச்சிருக்கான் அதை குடிச்சிட்டு அஞ்சு",
+    "detected_language": "ta"
+  },
+  {
+    "start": 39.68,
+    "duration": 3.039,
+    "text": "50 people died in the hospital.",
+    "original_text": "பேர் செத்திருக்கான் ஆஸ்பத்திரில 50 பேர்",
+    "detected_language": "ta"
+  },
+  {
+    "start": 41.2,
+    "duration": 2.64,
+    "text": "What is life swinging around?",
+    "original_text": "உயிர் ஊசராடிட்டு இருக்கு எதுவா",
+    "detected_language": "ta"
+  },
+  {
+    "start": 42.719,
+    "duration": 2.561,
+    "text": "Even so, our inspector will come.",
+    "original_text": "இருந்தாலும் எங்க இன்ஸ்பெக்டர் வருவாரு",
+    "detected_language": "ta"
+  },
+  {
+    "start": 43.84,
+    "duration": 3.199,
+    "text": "This is my constituency to talk to him.",
+    "original_text": "அவர்கிட்ட பேசிக்க இது என் தொகுதியில",
+    "detected_language": "ta"
+  },
+  {
+    "start": 45.28,
+    "duration": 3.36,
+    "text": "I don&#39;t know the station, that ordinary one.",
+    "original_text": "இருக்கிற ஸ்டேஷன் தெரியும்ல அந்த சாதாரண",
+    "detected_language": "ta"
+  },
+  {
+    "start": 47.039,
+    "duration": 3.761,
+    "text": "Should I wait for the inspector?",
+    "original_text": "இன்ஸ்பெக்டருக்காக நான் வெயிட் பண்ணனுமா",
+    "detected_language": "ta"
+  },
+  {
+    "start": 48.64,
+    "duration": 5.36,
+    "text": "Hey, lock it and lift it.",
+    "original_text": "ஏய் லாக்கப் அடிச்சு வச்சு தூக்குறானுங்க",
+    "detected_language": "ta"
+  },
+  {
+    "start": 50.8,
+    "duration": 4.96,
+    "text": "Hey, baby, what&#39;s the sound?",
+    "original_text": "பசங்கள ஏய் மக்கா சவுண்டு கேக்கா உன்",
+    "detected_language": "ta"
+  },
+  {
+    "start": 54.0,
+    "duration": 4.79,
+    "text": "Is it possible to create a bone spur?",
+    "original_text": "சொட்டை எலும்பை உருவா சூரா வழியா",
+    "detected_language": "ta"
+  },
+  {
+    "start": 55.76,
+    "duration": 6.16,
+    "text": "Our inspector has arrived.",
+    "original_text": "வந்துகிட்டு இருக்காருல எங்க இன்ஸ்பெக்டர்",
+    "detected_language": "ta"
+  },
+  {
+    "start": 58.79,
+    "duration": 3.13,
+    "text": "[Applause]",
+    "original_text": "[கரகோஷம்]",
+    "detected_language": "ta"
+  },
+  {
+    "start": 69.57,
+    "duration": 15.19,
+    "text": "[Applause]",
+    "original_text": "[கரகோஷம்]",
+    "detected_language": "ta"
+  },
+  {
+    "start": 72.64,
+    "duration": 12.12,
+    "text": "[Music]",
+    "original_text": "[இசை]",
+    "detected_language": "ta"
+  },
+  {
+    "start": 85.439,
+    "duration": 3.0,
+    "text": "oh",
+    "original_text": "oh",
+    "detected_language": "ta"
+  },
+  {
+    "start": 90.84,
+    "duration": 19.88,
+    "text": "[Music]",
+    "original_text": "[இசை]",
+    "detected_language": "ta"
+  },
+  {
+    "start": 108.72,
+    "duration": 3.92,
+    "text": "Hey Inspector, hit me in the face.",
+    "original_text": "டேய் இன்ஸ்பெக்டர் முன்னாடி அடிச்சு",
+    "detected_language": "ta"
+  },
+  {
+    "start": 110.72,
+    "duration": 4.719,
+    "text": "Don&#39;t lift it, we&#39;ll know.",
+    "original_text": "தூக்குங்கடா அப்ப தெரியும்டா நம்ம",
+    "detected_language": "ta"
+  },
+  {
+    "start": 112.64,
+    "duration": 2.799,
+    "text": "Party power",
+    "original_text": "கட்சியோட பவர்",
+    "detected_language": "ta"
+  },
+  {
+    "start": 117.399,
+    "duration": 5.561,
+    "text": "Hello sir, what is your business?",
+    "original_text": "என்னன்னு வணக்கம் சார் வணிகம் சார்",
+    "detected_language": "ta"
+  },
+  {
+    "start": 120.079,
+    "duration": 2.881,
+    "text": "I don&#39;t know anything about that.",
+    "original_text": "அதெல்லாம் ஒன்னும் தெரியாது",
+    "detected_language": "ta"
+  },
+  {
+    "start": 125.0,
+    "duration": 5.56,
+    "text": "Sir, what is this, some kind of party?",
+    "original_text": "சார் என்னடா ஏதோ கட்சி கிச்சுன்னு",
+    "detected_language": "ta"
+  },
+  {
+    "start": 127.759,
+    "duration": 2.801,
+    "text": "Hey, can you speak?",
+    "original_text": "பேசுனியாமே ஏய்",
+    "detected_language": "ta"
+  },
+  {
+    "start": 133.08,
+    "duration": 3.879,
+    "text": "Who put this piece of cloth on like this?",
+    "original_text": "யாரு இப்படி இந்த துண்டை போட்டுக்கிட்டா",
+    "detected_language": "ta"
+  },
+  {
+    "start": 135.44,
+    "duration": 4.64,
+    "text": "I am also your party member, but my",
+    "original_text": "நானும் உன் கட்சிக்காரன்டா ஆனா என்",
+    "detected_language": "ta"
+  },
+  {
+    "start": 136.959,
+    "duration": 4.721,
+    "text": "You are the one who has the upper hand over the garment.",
+    "original_text": "உடுப்பு மேல கைய வச்ச நீ உள்ள இருப்ப",
+    "detected_language": "ta"
+  },
+  {
+    "start": 140.08,
+    "duration": 3.68,
+    "text": "Press Passing into a Government Office",
+    "original_text": "பிரஸ் பாஸிங் இன்டு எ கவர்மெண்ட் ஆபீஸ்",
+    "detected_language": "ta"
+  },
+  {
+    "start": 141.68,
+    "duration": 4.12,
+    "text": "With Intent to Commit a Crime IPC",
+    "original_text": "வித் இன்டென்ட் டு கமிட் எ கிரைம் ஐபிசி",
+    "detected_language": "ta"
+  },
+  {
+    "start": 143.76,
+    "duration": 4.72,
+    "text": "Section 441 and",
+    "original_text": "செக்ஷன் 441 அண்ட்",
+    "detected_language": "ta"
+  },
+  {
+    "start": 145.8,
+    "duration": 3.88,
+    "text": "442 Poondu inside the Puriyala station",
+    "original_text": "442 புரியல ஸ்டேஷனுக்குள்ள பூந்து",
+    "detected_language": "ta"
+  },
+  {
+    "start": 148.48,
+    "duration": 2.8,
+    "text": "The story of the trespassing investigation",
+    "original_text": "அத்திமீறி நுழைஞ்சு விசாரணை கதையை",
+    "detected_language": "ta"
+  },
+  {
+    "start": 149.68,
+    "duration": 2.8,
+    "text": "I tried to escape for six months.",
+    "original_text": "தப்பிக்க முயற்சி செஞ்சேன்னா ஆறு மாசம்",
+    "detected_language": "ta"
+  },
+  {
+    "start": 151.28,
+    "duration": 3.12,
+    "text": "Will you come to Kalli Tinga?",
+    "original_text": "கள்ளி திங்க வச்சிருவேன்டா டேய்",
+    "detected_language": "ta"
+  },
+  {
+    "start": 152.48,
+    "duration": 3.6,
+    "text": "Inspector, I have a section.",
+    "original_text": "இன்ஸ்பெக்டர் என்கிட்டயே செக்ஷன பத்தி",
+    "detected_language": "ta"
+  },
+  {
+    "start": 154.4,
+    "duration": 3.36,
+    "text": "You don&#39;t know who I am, are you talking?",
+    "original_text": "பேசுறியா நான் யாருன்னு தெரியும்ல",
+    "detected_language": "ta"
+  },
+  {
+    "start": 156.08,
+    "duration": 2.799,
+    "text": "You know, five years ago.",
+    "original_text": "தெரியும்டா அஞ்சு வருஷத்துக்கு முன்னாடி",
+    "detected_language": "ta"
+  },
+  {
+    "start": 157.76,
+    "duration": 2.96,
+    "text": "The person who was on this board is now",
+    "original_text": "இந்த போர்டுல இருந்தவன் இப்ப",
+    "detected_language": "ta"
+  },
+  {
+    "start": 158.879,
+    "duration": 3.841,
+    "text": "This is the father of illicit liquor, seed education.",
+    "original_text": "கள்ளச்சாராயம் வித்து கல்வி தந்தை இதுல",
+    "detected_language": "ta"
+  },
+  {
+    "start": 160.72,
+    "duration": 3.2,
+    "text": "Leather Industry Other Dolls Leather All",
+    "original_text": "லெதர் இண்டஸ்ட்ரி வேற பொம்பளை லெதர் ஆல்",
+    "detected_language": "ta"
+  },
+  {
+    "start": 162.72,
+    "duration": 2.68,
+    "text": "Status Available Kadanja",
+    "original_text": "ஸ்டேட்ஸ் அவைலபிள் கடஞ்ச எடுத்த",
+    "detected_language": "ta"
+  },
+  {
+    "start": 163.92,
+    "duration": 4.08,
+    "text": "Wickedness is a bad habit.",
+    "original_text": "அயோக்கியம் கேடுகெட்ட பொறுக்கி",
+    "detected_language": "ta"
+  },
+  {
+    "start": 165.4,
+    "duration": 5.32,
+    "text": "What is your resume?",
+    "original_text": "கம்முனாட்டி என்னடா உன் பயோடேட்டா எல்லாம்",
+    "detected_language": "ta"
+  },
+  {
+    "start": 168.0,
+    "duration": 4.4,
+    "text": "Is it correct, or not?",
+    "original_text": "கரெக்டா இருக்குதா டேய் வேணாம் வேணுமா",
+    "detected_language": "ta"
+  },
+  {
+    "start": 170.72,
+    "duration": 3.28,
+    "text": "You decide whether you want it or not.",
+    "original_text": "வேணாமாங்குறத நீ முடிவு பண்ணு ஏன்னா உன்",
+    "detected_language": "ta"
+  },
+  {
+    "start": 172.4,
+    "duration": 3.76,
+    "text": "Melt the dhoti and now sit with the Jatti.",
+    "original_text": "வேட்டியை உருவிட்டு இப்ப ஜட்டியோட உட்கார",
+    "detected_language": "ta"
+  },
+  {
+    "start": 174.0,
+    "duration": 4.16,
+    "text": "What are you going to do to make me sit with you?",
+    "original_text": "வைக்க போற என்ன நீ ஜட்டியோட உட்கார வைக்க",
+    "detected_language": "ta"
+  },
+  {
+    "start": 176.16,
+    "duration": 3.6,
+    "text": "Oh my gosh, is it awkward to sit here?",
+    "original_text": "போற அம்மனமா உட்கார வச்சா அசிங்கமா",
+    "detected_language": "ta"
+  },
+  {
+    "start": 178.16,
+    "duration": 3.48,
+    "text": "There won&#39;t be any puppet police.",
+    "original_text": "இருக்காது பொம்பள போலீஸ்லாம் இருக்காங்க",
+    "detected_language": "ta"
+  },
+  {
+    "start": 179.76,
+    "duration": 4.44,
+    "text": "No",
+    "original_text": "இல்ல",
+    "detected_language": "ta"
+  },
+  {
+    "start": 181.64,
+    "duration": 4.4,
+    "text": "Constables",
+    "original_text": "கான்ஸ்டபிள்ஸ்",
+    "detected_language": "ta"
+  },
+  {
+    "start": 184.2,
+    "duration": 6.52,
+    "text": "Constables",
+    "original_text": "கான்ஸ்டபிள்ஸ்",
+    "detected_language": "ta"
+  },
+  {
+    "start": 186.04,
+    "duration": 4.68,
+    "text": "Constable Oi Mathi",
+    "original_text": "கான்ஸ்டபிள் ஓய் மதி",
+    "detected_language": "ta"
+  },
+  {
+    "start": 192.45,
+    "duration": 8.469,
+    "text": "[Music]",
+    "original_text": "[இசை]",
+    "detected_language": "ta"
+  },
+  {
+    "start": 202.36,
+    "duration": 3.73,
+    "text": "Madhi Castable Brother Always",
+    "original_text": "மதி காஸ்டபிள் தம்பி எப்பவுமே",
+    "detected_language": "ta"
+  },
+  {
+    "start": 204.56,
+    "duration": 3.64,
+    "text": "This is what a dream is like.",
+    "original_text": "இப்படித்தான் கனவுதான்",
+    "detected_language": "ta"
+  },
+  {
+    "start": 206.09,
+    "duration": 5.39,
+    "text": "[Music]",
+    "original_text": "[இசை]",
+    "detected_language": "ta"
+  },
+  {
+    "start": 208.2,
+    "duration": 5.88,
+    "text": "Is there or not?",
+    "original_text": "இருக்கு இல்லையா",
+    "detected_language": "ta"
+  },
+  {
+    "start": 211.48,
+    "duration": 5.16,
+    "text": "How many times have you said you shouldn&#39;t come in a uniform?",
+    "original_text": "கனவா யூனிஃபார்மோட வரக்கூடாதுன்னு எத்தனை",
+    "detected_language": "ta"
+  },
+  {
+    "start": 214.08,
+    "duration": 5.239,
+    "text": "What is your duty to tell me again?",
+    "original_text": "தடவை சொல்றது ம் உனக்கு என்ன டியூட்டி",
+    "detected_language": "ta"
+  },
+  {
+    "start": 216.64,
+    "duration": 7.04,
+    "text": "Go and see if you can give it to me.",
+    "original_text": "கொடுத்திருக்க போய் பார்த்துட்டு வா",
+    "detected_language": "ta"
+  },
+  {
+    "start": 219.319,
+    "duration": 6.041,
+    "text": "Go, S sir, you have the right person, my dear.",
+    "original_text": "போயா எஸ் சார் சரியான ஆள் இருக்கு கண்ணே",
+    "detected_language": "ta"
+  },
+  {
+    "start": 223.68,
+    "duration": 5.199,
+    "text": "What do you give to your constable boy?",
+    "original_text": "உன் கான்ஸ்டபிள் பையனுக்கு நீ கொடுக்கிற",
+    "detected_language": "ta"
+  },
+  {
+    "start": 225.36,
+    "duration": 4.959,
+    "text": "The buildup is too much for me.",
+    "original_text": "பில்டப் ரொம்ப ஓவர் என்னடி ஓவர் என்னைக்கு",
+    "detected_language": "ta"
+  },
+  {
+    "start": 228.879,
+    "duration": 2.801,
+    "text": "However, one day my son",
+    "original_text": "இருந்தாலும் ஒரு நாள் என் பையன் ஒரு",
+    "detected_language": "ta"
+  },
+  {
+    "start": 230.319,
+    "duration": 3.601,
+    "text": "Like Alex Pandian,",
+    "original_text": "அலெக்ஸ் பாண்டியன் மாதிரியோ ஒரு",
+    "detected_language": "ta"
+  },
+  {
+    "start": 231.68,
+    "duration": 4.0,
+    "text": "He&#39;s going to come like Duraisingam.",
+    "original_text": "துரைசிங்கம் மாதிரியோ வரத்தான் போறான்",
+    "detected_language": "ta"
+  },
+  {
+    "start": 233.92,
+    "duration": 5.48,
+    "text": "How about his intelligence and beauty?",
+    "original_text": "அவன் அறிவுக்கும் அழகுக்கும் எப்படி",
+    "detected_language": "ta"
+  },
+  {
+    "start": 235.68,
+    "duration": 3.72,
+    "text": "Do you know who should be there?",
+    "original_text": "இருக்க வேண்டியவன் தெரியுமா",
+    "detected_language": "ta"
+  },
+  {
+    "start": 241.28,
+    "duration": 3.819,
+    "text": "[Music]",
+    "original_text": "[இசை]",
+    "detected_language": "ta"
+  },
+  {
+    "start": 245.519,
+    "duration": 5.761,
+    "text": "Hey, are you on the spot, Harry?",
+    "original_text": "டேய் ஸ்பாட்ல இருக்கியா ஓவர் ஓவர் ஹரி",
+    "detected_language": "ta"
+  },
+  {
+    "start": 248.799,
+    "duration": 3.44,
+    "text": "Mother, sir, you are a thief.",
+    "original_text": "தாயே ஐயா ஏட்டையா உங்களுக்கு திருடனை",
+    "detected_language": "ta"
+  },
+  {
+    "start": 251.28,
+    "duration": 2.8,
+    "text": "I like it, but DDR is bad.",
+    "original_text": "பிடிக்கிறதுக்கு டிடிஆர் கெட்டப்",
+    "detected_language": "ta"
+  },
+  {
+    "start": 252.239,
+    "duration": 4.481,
+    "text": "Porter, nothing bad is available.",
+    "original_text": "போர்ட்டர் கெட்டப் எதுவும் கிடைக்கலையா",
+    "detected_language": "ta"
+  },
+  {
+    "start": 254.08,
+    "duration": 6.559,
+    "text": "Oh king, what a shame, you thief!",
+    "original_text": "ராஜா டேய் கேவலமா இருக்கியா திருடன்",
+    "detected_language": "ta"
+  },
+  {
+    "start": 256.72,
+    "duration": 5.44,
+    "text": "He&#39;ll come back sometime, he&#39;s new to the business.",
+    "original_text": "எப்பயாவது வருவான் டேய் தொழிலுக்கு புதுசா",
+    "detected_language": "ta"
+  },
+  {
+    "start": 260.639,
+    "duration": 2.801,
+    "text": "Mom and Dad, don&#39;t be shy.",
+    "original_text": "அம்மா அப்பான்னு கூனாதான்டா துட்டு",
+    "detected_language": "ta"
+  },
+  {
+    "start": 262.16,
+    "duration": 3.36,
+    "text": "If only you would keep quiet, everything would be fine.",
+    "original_text": "போடுவானுங்க மௌனமா இருந்தா எல்லாம்",
+    "detected_language": "ta"
+  },
+  {
+    "start": 263.44,
+    "duration": 4.0,
+    "text": "You can&#39;t do it, don&#39;t talk.",
+    "original_text": "போடமாட்டானுங்க டேய் பேசாம இருடா பண்ணி",
+    "detected_language": "ta"
+  },
+  {
+    "start": 265.52,
+    "duration": 3.44,
+    "text": "Moonji, I am in the thicket.",
+    "original_text": "மூஞ்சி வாயா நானே கடுப்புல இருக்கேன் டேய்",
+    "detected_language": "ta"
+  },
+  {
+    "start": 267.44,
+    "duration": 2.56,
+    "text": "Are you shy about begging?",
+    "original_text": "பிச்சை எடுக்குறதுக்கு கூச்சமா இருக்கா",
+    "detected_language": "ta"
+  },
+  {
+    "start": 268.96,
+    "duration": 3.12,
+    "text": "Is that the first attempt?",
+    "original_text": "ஃபர்ஸ்ட் அட்டெம்ட் அப்படிதான்டா",
+    "detected_language": "ta"
+  },
+  {
+    "start": 270.0,
+    "duration": 3.759,
+    "text": "It will be fun, yes.",
+    "original_text": "இருக்கும் போக போக ஜாலியா இருக்கும் ஆமா",
+    "detected_language": "ta"
+  },
+  {
+    "start": 272.08,
+    "duration": 3.76,
+    "text": "Did your father touch you?",
+    "original_text": "உங்க அப்பன் தொத்திட்டானா இல்ல உன்",
+    "detected_language": "ta"
+  },
+  {
+    "start": 273.759,
+    "duration": 4.961,
+    "text": "If the bride runs away, tell me.",
+    "original_text": "பொண்டாட்டி ஓடிப்போச்சா தலை சொல்லு",
+    "detected_language": "ta"
+  },
+  {
+    "start": 275.84,
+    "duration": 5.12,
+    "text": "Be quiet, I need Vince.",
+    "original_text": "அமைதியா இருடா ஐயோ வின்ஸ் தேவையா எனக்கு",
+    "detected_language": "ta"
+  },
+  {
+    "start": 278.72,
+    "duration": 4.0,
+    "text": "Do you understand all this, Insundravan?",
+    "original_text": "இதெல்லாம் புரிஞ்சு போச்சுடா இன்சுன்றவன்",
+    "detected_language": "ta"
+  },
+  {
+    "start": 280.96,
+    "duration": 3.12,
+    "text": "Your business partner is with you.",
+    "original_text": "உன் பிசினஸ் பார்ட்னர் உன்கிட்ட இருக்குற",
+    "detected_language": "ta"
+  },
+  {
+    "start": 282.72,
+    "duration": 2.8,
+    "text": "I&#39;ll clean all the dishes for you.",
+    "original_text": "எல்லா துட்டையும் சுத்திக்கிட்டு உனக்கு",
+    "detected_language": "ta"
+  },
+  {
+    "start": 284.08,
+    "duration": 2.88,
+    "text": "I gave you sour candy.",
+    "original_text": "புளிப்பு மிட்டாய் கொடுத்துட்டான் இந்த",
+    "detected_language": "ta"
+  },
+  {
+    "start": 285.52,
+    "duration": 3.04,
+    "text": "We shouldn&#39;t trust anyone in this world.",
+    "original_text": "லோகத்துல நம்ம யாரையும் நம்பக்கூடாதுடா",
+    "detected_language": "ta"
+  },
+  {
+    "start": 286.96,
+    "duration": 3.44,
+    "text": "Hey, who&#39;s the groom?",
+    "original_text": "மாப்பிள்ளை டேய் யாருடா மாப்பிள்ளைன்ற",
+    "detected_language": "ta"
+  },
+  {
+    "start": 288.56,
+    "duration": 3.12,
+    "text": "Beggar girl, yes, I am a beggar.",
+    "original_text": "பிச்சைக்கார பையல ஆமா நான் பிச்சைக்காரன்",
+    "detected_language": "ta"
+  },
+  {
+    "start": 290.4,
+    "duration": 2.88,
+    "text": "Look at the train he bought.",
+    "original_text": "இவரு வாங்கிவிட்ட ட்ரெயின பாக்க",
+    "detected_language": "ta"
+  },
+  {
+    "start": 291.68,
+    "duration": 2.799,
+    "text": "Hey, you&#39;ve come, you only have one job.",
+    "original_text": "வந்திருக்கிறாரு டேய் ஒரே ஒரு வேலை தான்டா",
+    "detected_language": "ta"
+  },
+  {
+    "start": 293.28,
+    "duration": 2.8,
+    "text": "That green one is begging, isn&#39;t he?",
+    "original_text": "பிச்சை எடுத்துக்கிறான் வேணா அந்த பச்சை",
+    "detected_language": "ta"
+  },
+  {
+    "start": 294.479,
+    "duration": 4.401,
+    "text": "Ask the right person who I am.",
+    "original_text": "சொக்கான கிட்ட கேட்டு டேய் நான் யாருன்னு",
+    "detected_language": "ta"
+  },
+  {
+    "start": 296.08,
+    "duration": 4.32,
+    "text": "You are talking without knowing, who are you? Change your mind.",
+    "original_text": "தெரியாம நீ பேசு யாரு டேய் மதி மாறு",
+    "detected_language": "ta"
+  },
+  {
+    "start": 298.88,
+    "duration": 3.12,
+    "text": "When in disguise, which",
+    "original_text": "வேஷத்துல இருக்கும்போது எந்த",
+    "detected_language": "ta"
+  },
+  {
+    "start": 300.4,
+    "duration": 3.359,
+    "text": "You are a policeman in any situation.",
+    "original_text": "சூழ்நிலையிலும் நீ போலீஸ்காரங்க",
+    "detected_language": "ta"
+  },
+  {
+    "start": 302.0,
+    "duration": 4.479,
+    "text": "No one should know what and how much.",
+    "original_text": "யாருக்கும் தெரியக்கூடாது என்ன எவ்வளவு",
+    "detected_language": "ta"
+  },
+  {
+    "start": 303.759,
+    "duration": 5.72,
+    "text": "Big hole, your mind voice.",
+    "original_text": "பெரிய ஓட்டை டேய் உன் மைண்ட் வாய்ஸ்",
+    "detected_language": "ta"
+  },
+  {
+    "start": 306.479,
+    "duration": 5.681,
+    "text": "How can I ask, okay, Uncle Sharing?",
+    "original_text": "எனக்கு எப்படிடா கேட்கும் சரி மாமா ஷேரிங்",
+    "detected_language": "ta"
+  },
+  {
+    "start": 309.479,
+    "duration": 4.121,
+    "text": "Sharing is something we do every day.",
+    "original_text": "போட்டுக்குவோமா ஷேரிங் என்பது நாம் அன்றாட",
+    "detected_language": "ta"
+  },
+  {
+    "start": 312.16,
+    "duration": 3.599,
+    "text": "Everyone comes together in life.",
+    "original_text": "வாழ்க்கையில் அனைவரும் ஒன்று கூடி",
+    "detected_language": "ta"
+  },
+  {
+    "start": 313.6,
+    "duration": 4.72,
+    "text": "Divide the alms you receive equally.",
+    "original_text": "எடுக்கும் பிச்சையை சரிசமமாக பிரித்துக்",
+    "detected_language": "ta"
+  },
+  {
+    "start": 315.759,
+    "duration": 4.081,
+    "text": "Sharing is the only way to get something, but I am also sharing.",
+    "original_text": "கொள்வதே ஷேரிங் பட் நான் யாரு கூட ஷேர்",
+    "detected_language": "ta"
+  },
+  {
+    "start": 318.32,
+    "duration": 5.12,
+    "text": "I don&#39;t like your dad very much.",
+    "original_text": "பண்றது இல்ல உன் டாடி எனக்கு ரொம்ப",
+    "detected_language": "ta"
+  },
+  {
+    "start": 319.84,
+    "duration": 6.16,
+    "text": "I like it, but I don&#39;t like it.",
+    "original_text": "பிடிச்சிருக்குடா டீலா நோ டீலா ஐயோ அப்ப",
+    "detected_language": "ta"
+  },
+  {
+    "start": 323.44,
+    "duration": 3.52,
+    "text": "Mahaprabhu, buy the deal, all of you.",
+    "original_text": "டீல் தான் வாங்க மகாபிரபு உங்கள எல்லாம்",
+    "detected_language": "ta"
+  },
+  {
+    "start": 326.0,
+    "duration": 2.08,
+    "text": "It looks like you&#39;re begging.",
+    "original_text": "பார்த்தா பிச்சை எடுக்குற மாதிரி",
+    "detected_language": "ta"
+  },
+  {
+    "start": 326.96,
+    "duration": 2.88,
+    "text": "I don&#39;t know where I saw everything after that.",
+    "original_text": "தெரியலையே பின்ன எங்க எல்லாம் பார்த்தா",
+    "detected_language": "ta"
+  },
+  {
+    "start": 328.08,
+    "duration": 3.679,
+    "text": "Does this guy look like he&#39;s taking the IPL for a poor guy?",
+    "original_text": "ஐபிஎல் ஏழை எடுக்குற மாதிரி தெரியுதா இவரு",
+    "detected_language": "ta"
+  },
+  {
+    "start": 329.84,
+    "duration": 3.76,
+    "text": "Shahrukh Khan sings, but Preity Zinta sings",
+    "original_text": "ஷாருக்கான் பாடுனாரு அவரு பிரீத்தி ஜிந்தா",
+    "detected_language": "ta"
+  },
+  {
+    "start": 331.759,
+    "duration": 3.44,
+    "text": "Who sang it, uncle? I put it on, brother.",
+    "original_text": "பாடுனாரு நம்ம யாருடா மாமா போட்டேன் அண்ணா",
+    "detected_language": "ta"
+  },
+  {
+    "start": 333.6,
+    "duration": 3.599,
+    "text": "I&#39;m tired of the same thing.",
+    "original_text": "அதே காண்டுதான்டா எனக்கு ஆகுது துட்டு",
+    "detected_language": "ta"
+  },
+  {
+    "start": 335.199,
+    "duration": 5.28,
+    "text": "Okay, bro, don&#39;t fight.",
+    "original_text": "போட்டு போடா சரிங்க ப்ரோ சண்டை போடாம",
+    "detected_language": "ta"
+  },
+  {
+    "start": 337.199,
+    "duration": 6.881,
+    "text": "Bro, break it into two 50 rupee notes and eat them.",
+    "original_text": "பிரிச்சு ரெண்டு 50 நோட்டா குடுங்க ப்ரோ",
+    "detected_language": "ta"
+  },
+  {
+    "start": 340.479,
+    "duration": 6.081,
+    "text": "Hey, 50 cents, 50 cents for half a day.",
+    "original_text": "டேய் 50 காசு 50 காசுல பாதி நாள் எல்லாம்",
+    "detected_language": "ta"
+  },
+  {
+    "start": 344.08,
+    "duration": 5.119,
+    "text": "The same government has made an idli disappear.",
+    "original_text": "அதே கவர்மெண்ட் காணாம ஆக்கிச்சு ஒரு இட்லி",
+    "detected_language": "ta"
+  },
+  {
+    "start": 346.56,
+    "duration": 3.68,
+    "text": "If you want to sell it for ₹1, you can sell it for ₹10.",
+    "original_text": "₹1 விக்கணும்னா தண்ணி ₹10 இத",
+    "detected_language": "ta"
+  },
+  {
+    "start": 349.199,
+    "duration": 2.401,
+    "text": "Is it just one thing?",
+    "original_text": "வச்சுக்கிட்டு ஒன்னே ஒன்னு தான்டா",
+    "detected_language": "ta"
+  },
+  {
+    "start": 350.24,
+    "duration": 3.519,
+    "text": "I&#39;ll stab him if I get it.",
+    "original_text": "கிடைக்கும் அவன்கிட்ட குத்தேன்னு",
+    "detected_language": "ta"
+  },
+  {
+    "start": 351.6,
+    "duration": 3.599,
+    "text": "Just think, you&#39;ll get hit, right?",
+    "original_text": "நினைச்சுக்கோ அடி கிடைக்கும் போடா மூஞ்ச",
+    "detected_language": "ta"
+  },
+  {
+    "start": 353.759,
+    "duration": 3.361,
+    "text": "The bed is like a bulb that has sprouted.",
+    "original_text": "பாத்தியா புடுங்கி விட்ட பல்பு மாதிரி",
+    "detected_language": "ta"
+  },
+  {
+    "start": 355.199,
+    "duration": 3.44,
+    "text": "Don&#39;t be sadistic, this is all a train.",
+    "original_text": "போடா சேடிஸ்ட் இதெல்லாம் ட்ரெயின்ல",
+    "detected_language": "ta"
+  },
+  {
+    "start": 357.12,
+    "duration": 3.28,
+    "text": "Death from beatings is more common than ours.",
+    "original_text": "அடிபட்டு தான் சாவு நம்மள விட ரொம்ப",
+    "detected_language": "ta"
+  },
+  {
+    "start": 358.639,
+    "duration": 5.361,
+    "text": "They are acting badly.",
+    "original_text": "கேவலமா சுத்துறாங்க",
+    "detected_language": "ta"
+  },
+  {
+    "start": 360.4,
+    "duration": 6.4,
+    "text": "Aha Dharma Devtay Boys Kaman Sound",
+    "original_text": "ஆஹா தர்ம தேவதை பாய்ஸ் கமான் சவுண்ட்",
+    "detected_language": "ta"
+  },
+  {
+    "start": 364.0,
+    "duration": 7.199,
+    "text": "Effect action mom mom hurry up",
+    "original_text": "எபெக்ட் ஆக்ஷன் அம்மா அம்மா சீக்கிரம்",
+    "detected_language": "ta"
+  },
+  {
+    "start": 366.8,
+    "duration": 4.399,
+    "text": "Oh, I&#39;m hungry, mother, mother, tower.",
+    "original_text": "வாமா பசிக்குதுமா அம்மா தாயே கோபுரம்",
+    "detected_language": "ta"
+  },
+  {
+    "start": 373.639,
+    "duration": 6.25,
+    "text": "Oh Goddess, come back soon, mother.",
+    "original_text": "தேவியே அம்மா சீக்கிரம் வாமா",
+    "detected_language": "ta"
+  },
+  {
+    "start": 376.74,
+    "duration": 3.149,
+    "text": "[Music]",
+    "original_text": "[இசை]",
+    "detected_language": "ta"
+  },
+  {
+    "start": 383.0,
+    "duration": 7.4,
+    "text": "Mom, mom, mom, is that enough, mom?",
+    "original_text": "அம்மா அம்மா அம்மா போதும்மா அம்மா",
+    "detected_language": "ta"
+  },
+  {
+    "start": 387.4,
+    "duration": 4.6,
+    "text": "Mom, mom, uncle, he ate it.",
+    "original_text": "அம்மா அம்மா மாமா சாப்பிட்டு அவர்தான்",
+    "detected_language": "ta"
+  },
+  {
+    "start": 390.4,
+    "duration": 3.76,
+    "text": "At least one pair of pants is enough to make digestion easier.",
+    "original_text": "ஆகுது ஜீரண ஆகுறதுக்கு ஒரு பேண்ட்டாவது",
+    "detected_language": "ta"
+  },
+  {
+    "start": 392.0,
+    "duration": 4.08,
+    "text": "Buy it, uncle, put it, uncle, put it.",
+    "original_text": "வாங்கி குடுமா மாமா போடு மாமா மாமா போடு",
+    "detected_language": "ta"
+  },
+  {
+    "start": 394.16,
+    "duration": 3.92,
+    "text": "Uncle, what&#39;s wrong with the police?",
+    "original_text": "மாமா என்னமா போலீஸ்கா மாலை எடுக்குற",
+    "detected_language": "ta"
+  },
+  {
+    "start": 396.08,
+    "duration": 4.52,
+    "text": "Look at him like that, uncle, uncle.",
+    "original_text": "அப்படி பாக்குற போடு மாமா மாமா இவரை",
+    "detected_language": "ta"
+  },
+  {
+    "start": 398.08,
+    "duration": 4.559,
+    "text": "It&#39;s a shame you didn&#39;t come.",
+    "original_text": "பார்த்தாதான்டி பாவமா இருக்கு நீ வராமலே",
+    "detected_language": "ta"
+  },
+  {
+    "start": 400.6,
+    "duration": 3.8,
+    "text": "It&#39;s okay to stay until the fifth.",
+    "original_text": "இருந்துக்கலாமே அஞ்சாவது வரைக்கும் ரெண்டு",
+    "detected_language": "ta"
+  },
+  {
+    "start": 402.639,
+    "duration": 3.761,
+    "text": "We all read the same thing, that&#39;s it.",
+    "original_text": "பேரும் ஒன்னாதான் படிச்சோம் அப்பவே அவ",
+    "detected_language": "ta"
+  },
+  {
+    "start": 404.4,
+    "duration": 3.68,
+    "text": "A beautiful woman with a rose on her head",
+    "original_text": "தலையில ஒருத்தன் ரோசா வச்சுக்கிட்டு அழகா",
+    "detected_language": "ta"
+  },
+  {
+    "start": 406.4,
+    "duration": 3.639,
+    "text": "I got caught in a purple ribbon.",
+    "original_text": "ஊதா கலர்ல ரிப்பன் மாட்டிக்கிட்டு என்னை",
+    "detected_language": "ta"
+  },
+  {
+    "start": 408.08,
+    "duration": 4.76,
+    "text": "Look at the dengue fever.",
+    "original_text": "பார்த்து கியூட்டா டெங்குன்னு",
+    "detected_language": "ta"
+  },
+  {
+    "start": 410.039,
+    "duration": 4.841,
+    "text": "This is a mirror.",
+    "original_text": "கண்ணடிப்பா இந்த",
+    "detected_language": "ta"
+  },
+  {
+    "start": 412.84,
+    "duration": 3.32,
+    "text": "Isn&#39;t it a model? You too are afraid.",
+    "original_text": "மாதிரியா இல்ல உன் கூட அஞ்சாவது",
+    "detected_language": "ta"
+  },
+  {
+    "start": 414.88,
+    "duration": 2.48,
+    "text": "How long has it been since you said you studied?",
+    "original_text": "படிச்சான்னு சொல்றியே நேரம் எத்தனை",
+    "detected_language": "ta"
+  },
+  {
+    "start": 416.16,
+    "duration": 3.84,
+    "text": "If the child has a mother, you will be fine.",
+    "original_text": "பிள்ளைக்கு அம்மையா இருப்பாளோ உனக்கு",
+    "detected_language": "ta"
+  },
+  {
+    "start": 417.36,
+    "duration": 4.48,
+    "text": "How do you know, brother, that there are so many people there?",
+    "original_text": "எப்படி தெரியும் அண்ணே அங்க அவ்வளவு பேர்",
+    "detected_language": "ta"
+  },
+  {
+    "start": 420.0,
+    "duration": 3.36,
+    "text": "But he gave me money.",
+    "original_text": "இருந்தும் எனக்கு மட்டும் காசு போட்டான்னா",
+    "detected_language": "ta"
+  },
+  {
+    "start": 421.84,
+    "duration": 2.799,
+    "text": "What does it mean?",
+    "original_text": "என்ன அர்த்தம் தெரியலையாக்கும் அங்க",
+    "detected_language": "ta"
+  },
+  {
+    "start": 423.36,
+    "duration": 2.959,
+    "text": "Are you the worst of the beggars?",
+    "original_text": "இருந்த பிச்சைக்காரன்ல நீதான் கேவலமா",
+    "detected_language": "ta"
+  },
+  {
+    "start": 424.639,
+    "duration": 3.84,
+    "text": "It means that there was a compromise.",
+    "original_text": "இருந்துருக்கேன்னு அர்த்தம் சமரசம் ஒரு",
+    "detected_language": "ta"
+  },
+  {
+    "start": 426.319,
+    "duration": 4.0,
+    "text": "Girl, if you don&#39;t love me, tell me directly, why are there four?",
+    "original_text": "பொண்ண லவ் பண்ணா நேரடியா சொல்லு ஏன் நாலு",
+    "detected_language": "ta"
+  },
+  {
+    "start": 428.479,
+    "duration": 4.481,
+    "text": "Why don&#39;t you come and tell me a little bit?",
+    "original_text": "பேரு சுத்தி வந்து சொல்றியா ஏன் கொஞ்சம்",
+    "detected_language": "ta"
+  },
+  {
+    "start": 430.319,
+    "duration": 3.921,
+    "text": "Different, try to compromise, sir.",
+    "original_text": "டிஃபரெண்ட்டா ட்ரை யோ சமரசம் சார் ரெண்டு",
+    "detected_language": "ta"
+  },
+  {
+    "start": 432.96,
+    "duration": 3.12,
+    "text": "What are you all doing?",
+    "original_text": "பேரும் என்ன பண்ணிட்டு இருக்கீங்க இல்ல",
+    "detected_language": "ta"
+  },
+  {
+    "start": 434.24,
+    "duration": 2.799,
+    "text": "Cash sir, gas sir, house sir, there",
+    "original_text": "காசு சார் கேஸ் சார் இல்ல சார் உள்ள",
+    "detected_language": "ta"
+  },
+  {
+    "start": 436.08,
+    "duration": 1.92,
+    "text": "How is it true that there are accusations?",
+    "original_text": "இருக்கற அக்யூஸ் சேர்ந்து எப்படி உண்மையா",
+    "detected_language": "ta"
+  },
+  {
+    "start": 437.039,
+    "duration": 2.801,
+    "text": "The two of them discussed work.",
+    "original_text": "வேலைன்னு ரெண்டு பேரும் டிஸ்கஸ் பண்ணிட்டு",
+    "detected_language": "ta"
+  },
+  {
+    "start": 438.0,
+    "duration": 4.919,
+    "text": "I am here, sir. You both are welcome.",
+    "original_text": "இருக்கேன் சார் நீங்க ரெண்டு பேரும் ஆமா",
+    "detected_language": "ta"
+  },
+  {
+    "start": 439.84,
+    "duration": 6.079,
+    "text": "Sir, I believe this.",
+    "original_text": "சார் இத நான் நம்பனும் நம்பிக்கை",
+    "detected_language": "ta"
+  },
+  {
+    "start": 442.919,
+    "duration": 5.161,
+    "text": "So why do you talk like that? Casey type.",
+    "original_text": "அதால ஏன் அவர மாதிரி பேசுறியா கேஸ டைப்",
+    "detected_language": "ta"
+  },
+  {
+    "start": 445.919,
+    "duration": 3.68,
+    "text": "I told you to do this, sir.",
+    "original_text": "பண்ண சொன்னேன்ல போ யோவ் சார் இந்த",
+    "detected_language": "ta"
+  },
+  {
+    "start": 448.08,
+    "duration": 6.08,
+    "text": "Buy tea for Aqus, sir.",
+    "original_text": "அக்யூஸ்க்கு டீ வாங்கி குடு சார் சார்",
+    "detected_language": "ta"
+  },
+  {
+    "start": 449.599,
+    "duration": 4.561,
+    "text": "Sir, this Nazriya is in a hurry to get married.",
+    "original_text": "சார் இந்த நஸ்ரியா அவசரப்பட்டு கல்யாணம்",
+    "detected_language": "ta"
+  },
+  {
+    "start": 456.919,
+    "duration": 4.521,
+    "text": "Why don&#39;t you eat chips that you haven&#39;t made?",
+    "original_text": "பண்ணிருச்சு கொண்டாத ஏன் சிப்ஸ் திங்காம",
+    "detected_language": "ta"
+  },
+  {
+    "start": 459.36,
+    "duration": 4.0,
+    "text": "If you can&#39;t stay, I&#39;ll leave you alone.",
+    "original_text": "இருக்க மாட்டியா வெளுத்து விட்டுறேன் இரு",
+    "detected_language": "ta"
+  },
+  {
+    "start": 461.44,
+    "duration": 5.12,
+    "text": "I&#39;ll tell you your SI chart, sir.",
+    "original_text": "உன் எஸ்ஐ சார்ட்டைய சொல்லிவிடுறேன் சார்",
+    "detected_language": "ta"
+  },
+  {
+    "start": 463.36,
+    "duration": 5.2,
+    "text": "Ask for whatever chips you want.",
+    "original_text": "என்ன வேணும் சிப்ஸ் எதை வேணா கேளு நீ",
+    "detected_language": "ta"
+  },
+  {
+    "start": 466.56,
+    "duration": 5.6,
+    "text": "Autograph copycat model today",
+    "original_text": "ஆட்டோகிராப் கோபிகா மாதிரியே இன்னைக்கு",
+    "detected_language": "ta"
+  },
+  {
+    "start": 468.56,
+    "duration": 5.68,
+    "text": "What&#39;s going on here, Inspector?",
+    "original_text": "இன்ஸ்பெக்டர் ஆகி என்னென்ன நடக்குது இங்க",
+    "detected_language": "ta"
+  },
+  {
+    "start": 472.16,
+    "duration": 4.159,
+    "text": "Who gives jewelry to whom?",
+    "original_text": "யார் நகை யாருக்கு கொடுக்கிறது உருப்படியா",
+    "detected_language": "ta"
+  },
+  {
+    "start": 474.24,
+    "duration": 5.04,
+    "text": "If it were, I would know that it would melt.",
+    "original_text": "இருந்தா தெரியும் அதான் உருக்கியாச்சுல",
+    "detected_language": "ta"
+  },
+  {
+    "start": 476.319,
+    "duration": 4.72,
+    "text": "Who knows who, divided it among 42 people.",
+    "original_text": "யார் நகைனே தெரியாதே 42 பேருக்கு பிரிச்சு",
+    "detected_language": "ta"
+  },
+  {
+    "start": 479.28,
+    "duration": 2.96,
+    "text": "He is the jewel that deserves to be given.",
+    "original_text": "கொடுக்க வேண்டிய நகை அண்ணே அவன் அவன்",
+    "detected_language": "ta"
+  },
+  {
+    "start": 481.039,
+    "duration": 2.801,
+    "text": "Five years, ten years, sparrow",
+    "original_text": "அஞ்சு வருஷம் பத்து வருஷம் குருவி",
+    "detected_language": "ta"
+  },
+  {
+    "start": 482.24,
+    "duration": 2.88,
+    "text": "It added up like adding up.",
+    "original_text": "சேர்க்கிற மாதிரி சேர்த்து பறி கொடுத்தது",
+    "detected_language": "ta"
+  },
+  {
+    "start": 483.84,
+    "duration": 2.88,
+    "text": "Come to the station and complain.",
+    "original_text": "ஸ்டேஷனுக்கு வந்து கம்ப்ளைன்ட் பண்ற",
+    "detected_language": "ta"
+  },
+  {
+    "start": 485.12,
+    "duration": 3.919,
+    "text": "We watch with our eyes as everyone cries.",
+    "original_text": "ஒவ்வொருத்தனும் கதறுறத கண்ணால பாக்குறோம்",
+    "detected_language": "ta"
+  },
+  {
+    "start": 486.72,
+    "duration": 3.52,
+    "text": "No, brother, how can you do all this?",
+    "original_text": "இல்ல அண்ணே இதெல்லாம் பண்றதுக்கு எப்படி",
+    "detected_language": "ta"
+  },
+  {
+    "start": 489.039,
+    "duration": 2.72,
+    "text": "Why is my heart beating like this?",
+    "original_text": "மனசு வருது எதுக்கு இப்படி",
+    "detected_language": "ta"
+  },
+  {
+    "start": 490.24,
+    "duration": 3.519,
+    "text": "Do you know another thing that makes me sad?",
+    "original_text": "வருத்தப்படுறியே இன்னொரு விஷயம் தெரியுமா",
+    "detected_language": "ta"
+  },
+  {
+    "start": 491.759,
+    "duration": 3.481,
+    "text": "You will get 100 shaving jewels from this jewel.",
+    "original_text": "உனக்கு இந்த நகையில இருந்து 100 சவர நகையை",
+    "detected_language": "ta"
+  },
+  {
+    "start": 493.759,
+    "duration": 4.961,
+    "text": "He has set aside a share, hey hey",
+    "original_text": "அவர் பங்குக்கு ஒதுக்கிட்டாரு டேய் டேய்",
+    "detected_language": "ta"
+  },
+  {
+    "start": 495.24,
+    "duration": 4.76,
+    "text": "I won&#39;t compromise, sir, spread all the jewels.",
+    "original_text": "சமரசம் வரேன் சார் ஏலா நகையெல்லாம் பரப்பி",
+    "detected_language": "ta"
+  },
+  {
+    "start": 498.72,
+    "duration": 2.56,
+    "text": "Is this a line without taking a picture?",
+    "original_text": "போட்டு படம் எடுக்காம வரியா இந்த",
+    "detected_language": "ta"
+  },
+  {
+    "start": 500.0,
+    "duration": 2.479,
+    "text": "Can anyone take a photo?",
+    "original_text": "போட்டோக்கு எல்லாம் எவனாவது நிப்பானா",
+    "detected_language": "ta"
+  },
+  {
+    "start": 501.28,
+    "duration": 2.639,
+    "text": "You go yourself, I&#39;ll go first.",
+    "original_text": "நீங்களே போங்க நான் போய் முன்னால",
+    "detected_language": "ta"
+  },
+  {
+    "start": 502.479,
+    "duration": 3.28,
+    "text": "I&#39;m going to Jammu in the morning.",
+    "original_text": "ஜம்முன்னு நிக்க போறேன் காலையில அதை",
+    "detected_language": "ta"
+  },
+  {
+    "start": 503.919,
+    "duration": 4.56,
+    "text": "Your stomach is going to burn just looking at it.",
+    "original_text": "பார்த்துட்டு உனக்கு வயிறு எரிய போகுது",
+    "detected_language": "ta"
+  },
+  {
+    "start": 505.759,
+    "duration": 5.12,
+    "text": "Take it, my brother, reconciliation is in my head.",
+    "original_text": "எடுப்பா டடைன் அண்ணா சமரசம் என் தலையில",
+    "detected_language": "ta"
+  },
+  {
+    "start": 508.479,
+    "duration": 5.601,
+    "text": "Come on, okay, give him space.",
+    "original_text": "வந்து சரி சரி அவனுக்கு இடம் கொடுங்க",
+    "detected_language": "ta"
+  },
+  {
+    "start": 510.879,
+    "duration": 3.201,
+    "text": "Everyone is very advanced with us.",
+    "original_text": "எல்லாரும் நம்மளோட ரொம்ப வளர்ச்சியா",
+    "detected_language": "ta"
+  },
+  {
+    "start": 518.839,
+    "duration": 6.841,
+    "text": "What is there, where is our moon?",
+    "original_text": "இருக்காளே எங்க நம்ம மூஞ்சியே காணும் என்ன",
+    "detected_language": "ta"
+  },
+  {
+    "start": 522.8,
+    "duration": 4.32,
+    "text": "Brother, you are standing on one side of the photo.",
+    "original_text": "அண்ணே போட்டோல ஒரு ஓரமா நிக்கிறீங்க ஏல",
+    "detected_language": "ta"
+  },
+  {
+    "start": 525.68,
+    "duration": 2.719,
+    "text": "Don&#39;t you feel that way now?",
+    "original_text": "நேத்தே அவ்வளவு ஃபீல் பண்ணா இப்ப",
+    "detected_language": "ta"
+  },
+  {
+    "start": 527.12,
+    "duration": 3.04,
+    "text": "Inspector next to the inspector",
+    "original_text": "இன்ஸ்பெக்டர் பக்கத்துல இன்ஸ்பெக்டர்",
+    "detected_language": "ta"
+  },
+  {
+    "start": 528.399,
+    "duration": 3.44,
+    "text": "I found the pattern and finally...",
+    "original_text": "மாதிரியே நிக்க கண்டுபிடிச்சிட்டு கடைசி",
+    "detected_language": "ta"
+  },
+  {
+    "start": 530.16,
+    "duration": 2.88,
+    "text": "Can you tell me the roll number, Inspector?",
+    "original_text": "ரோல் நிக்க சொல்றீங்களா இன்ஸ்பெக்டர்",
+    "detected_language": "ta"
+  },
+  {
+    "start": 531.839,
+    "duration": 2.761,
+    "text": "What&#39;s happening next door?",
+    "original_text": "பக்கத்துல என்ன கூடிய சீக்கிரம்",
+    "detected_language": "ta"
+  },
+  {
+    "start": 533.04,
+    "duration": 4.799,
+    "text": "The inspector himself came.",
+    "original_text": "இன்ஸ்பெக்டராவே வந்து",
+    "detected_language": "ta"
+  },
+  {
+    "start": 534.6,
+    "duration": 5.72,
+    "text": "Nippene, brother, build a sparrow&#39;s nest.",
+    "original_text": "நிப்பேனே தம்பி குருவி கூடு கட்ட",
+    "detected_language": "ta"
+  },
+  {
+    "start": 537.839,
+    "duration": 3.921,
+    "text": "You may wish to build a tower, but you may not wish to.",
+    "original_text": "ஆசைப்படலாம் கோபுரம் கட்ட ஆசைப்படக்கூடாது",
+    "detected_language": "ta"
+  },
+  {
+    "start": 540.32,
+    "duration": 3.12,
+    "text": "How can you become an inspector?",
+    "original_text": "நீ எப்படி இன்ஸ்பெக்டர் ஆக முடியும்",
+    "detected_language": "ta"
+  },
+  {
+    "start": 541.76,
+    "duration": 3.44,
+    "text": "It&#39;s possible, brother, except for TV, our country.",
+    "original_text": "முடியும் அண்ணே டிவி தவிர நம்ம நாட்டு",
+    "detected_language": "ta"
+  },
+  {
+    "start": 543.44,
+    "duration": 3.519,
+    "text": "A bus conductor who became Prime Minister",
+    "original_text": "பிரைம் மினிஸ்டர் ஆன மாதிரி பஸ் கண்டக்டர்",
+    "detected_language": "ta"
+  },
+  {
+    "start": 545.2,
+    "duration": 3.4,
+    "text": "It&#39;s like we all became superstars.",
+    "original_text": "நமக்கெல்லாம் சூப்பர் ஸ்டார் ஆன மாதிரி",
+    "detected_language": "ta"
+  },
+  {
+    "start": 546.959,
+    "duration": 4.481,
+    "text": "Whoever believes it is possible, no matter what.",
+    "original_text": "முடியும்னு நம்புனா யார் வேணா என்ன வேணா",
+    "detected_language": "ta"
+  },
+  {
+    "start": 548.6,
+    "duration": 4.679,
+    "text": "Okay, sunglasses sir, sunglasses sir.",
+    "original_text": "ஆகலாம் சன் கிளாஸ் சார் சன் கிளாஸ் சார்",
+    "detected_language": "ta"
+  },
+  {
+    "start": 551.44,
+    "duration": 3.839,
+    "text": "Sir, if the time passes, we will not come either.",
+    "original_text": "சார் பொழுது போனா வராது சார் நாங்களும்",
+    "detected_language": "ta"
+  },
+  {
+    "start": 553.279,
+    "duration": 3.281,
+    "text": "We will not come back, sir, sir, this mirror.",
+    "original_text": "போனா வரமாட்டோம் சார் சார் இந்த கண்ணாடிய",
+    "detected_language": "ta"
+  },
+  {
+    "start": 555.279,
+    "duration": 2.641,
+    "text": "If you&#39;re going to leave, go to your grandmother.",
+    "original_text": "போட்டு போனீங்கன்னா உங்க பொண்டாட்டிக்கே",
+    "detected_language": "ta"
+  },
+  {
+    "start": 556.56,
+    "duration": 2.399,
+    "text": "I like you sir, good evening.",
+    "original_text": "உங்கள பிடிக்கும் சார் இல்ல சாயந்திரம்",
+    "detected_language": "ta"
+  },
+  {
+    "start": 557.92,
+    "duration": 2.32,
+    "text": "Shall we buy it for someone when we leave?",
+    "original_text": "போகும்போது ஆளுக்கு வாங்கிட்டு போவோமா",
+    "detected_language": "ta"
+  },
+  {
+    "start": 558.959,
+    "duration": 3.601,
+    "text": "Sir, everyone, it&#39;s only the month of Aadi.",
+    "original_text": "சார் எல்லாரும் ஆடி மாசம் மட்டும் தான்",
+    "detected_language": "ta"
+  },
+  {
+    "start": 560.24,
+    "duration": 5.2,
+    "text": "We offer 365 days a year.",
+    "original_text": "ஆபர் தருவாங்க நாங்க 365 நாளும் ஆஃபர்",
+    "detected_language": "ta"
+  },
+  {
+    "start": 562.56,
+    "duration": 4.88,
+    "text": "Let&#39;s give it to you, sir, who is the mirror?",
+    "original_text": "தர்றோம் சார் சார் யார் கண்ணாடிக்கு யார்",
+    "detected_language": "ta"
+  },
+  {
+    "start": 565.44,
+    "duration": 3.839,
+    "text": "The merchant is just like the offerer.",
+    "original_text": "ஆபர் குடுக்குறது அப்படியே வியாபாரி",
+    "detected_language": "ta"
+  },
+  {
+    "start": 567.44,
+    "duration": 3.76,
+    "text": "You&#39;re talking like that.",
+    "original_text": "மாதிரியே பேசுறீங்களே அதுக்குன்னு அந்த",
+    "detected_language": "ta"
+  },
+  {
+    "start": 569.279,
+    "duration": 2.801,
+    "text": "Why don&#39;t we change our character?",
+    "original_text": "கேரக்டராவே மாறிடாத நாம எதுக்கு",
+    "detected_language": "ta"
+  },
+  {
+    "start": 571.2,
+    "duration": 2.079,
+    "text": "Do you know why we have come?",
+    "original_text": "வந்திருக்கோம் தெரியுமா எதுக்கு",
+    "detected_language": "ta"
+  },
+  {
+    "start": 572.08,
+    "duration": 2.64,
+    "text": "To the ATM opposite",
+    "original_text": "எதிர்த்தாப்புல இருக்குற ஏடிஎம்க்கு",
+    "detected_language": "ta"
+  },
+  {
+    "start": 573.279,
+    "duration": 4.081,
+    "text": "We have come to catch the upcoming Sangya.",
+    "original_text": "வரப்போற சங்கிய பிடிக்க வந்திருக்கோம் அதை",
+    "detected_language": "ta"
+  },
+  {
+    "start": 574.72,
+    "duration": 5.04,
+    "text": "The unforgettable sunglasses",
+    "original_text": "மறந்துடாத சன் கிளாஸ்",
+    "detected_language": "ta"
+  },
+  {
+    "start": 577.36,
+    "duration": 5.2,
+    "text": "What if my mother comes on duty?",
+    "original_text": "டியூட்டி டைத்துல அம்மா வருவ என்னம்மா",
+    "detected_language": "ta"
+  },
+  {
+    "start": 579.76,
+    "duration": 3.639,
+    "text": "Is this how you do it, mother?",
+    "original_text": "நீங்க இப்படி பண்றீங்களா அம்மா சங்கி சார்",
+    "detected_language": "ta"
+  },
+  {
+    "start": 582.56,
+    "duration": 4.48,
+    "text": "Where",
+    "original_text": "எங்க",
+    "detected_language": "ta"
+  },
+  {
+    "start": 583.399,
+    "duration": 4.841,
+    "text": "Anyway, hello, what&#39;s up?",
+    "original_text": "இருந்தாலும் ஹலோ என்னங்க ஏதோ நல்ல",
+    "detected_language": "ta"
+  },
+  {
+    "start": 587.04,
+    "duration": 2.88,
+    "text": "I&#39;m trying to get a job.",
+    "original_text": "வேலைக்கு ட்ரை பண்ணிட்டு இருக்கேன்னு",
+    "detected_language": "ta"
+  },
+  {
+    "start": 588.24,
+    "duration": 3.12,
+    "text": "Why did you say this? What is the purpose of this job?",
+    "original_text": "சொன்னீங்க ஏன் இந்த வேலைக்கு என்னங்க",
+    "detected_language": "ta"
+  },
+  {
+    "start": 589.92,
+    "duration": 2.4,
+    "text": "What is the disadvantage of begging?",
+    "original_text": "குறைச்சல் என்ன பொறுத்தவரைக்கும் பிச்சை",
+    "detected_language": "ta"
+  },
+  {
+    "start": 591.36,
+    "duration": 3.52,
+    "text": "Don&#39;t take, don&#39;t lie.",
+    "original_text": "எடுக்கக்கூடாது பொய் சொல்லக்கூடாது",
+    "detected_language": "ta"
+  },
+  {
+    "start": 592.32,
+    "duration": 2.56,
+    "text": "Do not steal.",
+    "original_text": "திருடக்கூடாது",
+    "detected_language": "ta"
+  },
+  {
+    "start": 595.56,
+    "duration": 5.6,
+    "text": "That&#39;s all, begging once is okay, even lying is okay.",
+    "original_text": "அவ்வளவுதான் பிச்சை ஒரு தடவை ஓகே பொய் கூட",
+    "detected_language": "ta"
+  },
+  {
+    "start": 598.959,
+    "duration": 4.481,
+    "text": "So you can say, don&#39;t steal.",
+    "original_text": "அப்பப்ப சொல்லலாம் திருடக்கூடாது",
+    "detected_language": "ta"
+  },
+  {
+    "start": 601.16,
+    "duration": 3.96,
+    "text": "That&#39;s all, isn&#39;t it, a mirror?",
+    "original_text": "அவ்வளவுதான் அது இல்லைங்க ஒரு கண்ணாடியை",
+    "detected_language": "ta"
+  },
+  {
+    "start": 603.44,
+    "duration": 3.519,
+    "text": "I&#39;m afraid of how much money I&#39;m going to get.",
+    "original_text": "வித்தா எவ்வளவு கிடைச்சிட போகுது அஞ்சு",
+    "detected_language": "ta"
+  },
+  {
+    "start": 605.12,
+    "duration": 4.399,
+    "text": "Get the rupees this evening.",
+    "original_text": "ரூபாய் கிடைக்குங்க இன்னைக்கு ஈவினிங்",
+    "detected_language": "ta"
+  },
+  {
+    "start": 606.959,
+    "duration": 4.32,
+    "text": "I will make a small ₹100 turn over, okay?",
+    "original_text": "குள்ள ₹100 டர்ன் ஓவர் பண்ணிருவேன் சரி",
+    "detected_language": "ta"
+  },
+  {
+    "start": 609.519,
+    "duration": 3.921,
+    "text": "I will buy everything for myself.",
+    "original_text": "என் கூட வாங்க நான் எல்லாத்தையும் வித்து",
+    "detected_language": "ta"
+  },
+  {
+    "start": 611.279,
+    "duration": 3.361,
+    "text": "I&#39;ll give you a professional, I&#39;m struggling myself.",
+    "original_text": "தரேன் ஒரு ப்ரொபஷனல் நானே கஷ்டப்படுறேன்",
+    "detected_language": "ta"
+  },
+  {
+    "start": 613.44,
+    "duration": 2.72,
+    "text": "You are a child.",
+    "original_text": "நீங்க ஒரு இளைஞ்சிட்டு உங்களுக்கு",
+    "detected_language": "ta"
+  },
+  {
+    "start": 614.64,
+    "duration": 2.96,
+    "text": "Why bother? I&#39;ll go.",
+    "original_text": "எதுக்குங்க வீண் சிரமம் நீங்க போங்க நான்",
+    "detected_language": "ta"
+  },
+  {
+    "start": 616.16,
+    "duration": 2.799,
+    "text": "I&#39;m looking after my sister&#39;s daughter at home.",
+    "original_text": "பாத்துக்கிறேன் எங்க அக்கா பொண்ணை வீட்ல",
+    "detected_language": "ta"
+  },
+  {
+    "start": 617.6,
+    "duration": 3.2,
+    "text": "I brought it for you.",
+    "original_text": "கொண்டு வந்து விட்டுருக்கீங்க உங்களுக்காக",
+    "detected_language": "ta"
+  },
+  {
+    "start": 618.959,
+    "duration": 3.521,
+    "text": "I won&#39;t even do this, hello brother.",
+    "original_text": "நான் இதை கூட செய்ய மாட்டேனா ஹலோ தம்பி",
+    "detected_language": "ta"
+  },
+  {
+    "start": 620.8,
+    "duration": 5.039,
+    "text": "Come buy, stay in the car, no connection.",
+    "original_text": "வாங்க வந்து வண்டியில இருங்க இணைப்புல",
+    "detected_language": "ta"
+  },
+  {
+    "start": 622.48,
+    "duration": 5.359,
+    "text": "Are you okay? Brother, I am with you.",
+    "original_text": "இருக்கீங்களா இருங்க தம்பி நான் உங்க கூட",
+    "detected_language": "ta"
+  },
+  {
+    "start": 625.839,
+    "duration": 5.361,
+    "text": "Both of us are sitting in this car.",
+    "original_text": "இந்த வண்டியில உட்கார்ந்து ரெண்டு பேரும்",
+    "detected_language": "ta"
+  },
+  {
+    "start": 627.839,
+    "duration": 5.801,
+    "text": "Let&#39;s go together and buy this glass.",
+    "original_text": "சேர்ந்து போயி இந்த கண்ணாடி விக்க போறோம்",
+    "detected_language": "ta"
+  },
+  {
+    "start": 631.2,
+    "duration": 6.079,
+    "text": "Oh my god",
+    "original_text": "அட மடி",
+    "detected_language": "ta"
+  },
+  {
+    "start": 633.64,
+    "duration": 5.16,
+    "text": "Brother, what is duty? Duty is important.",
+    "original_text": "தம்பி என்ன கடமை முக்கியம்ல கடமை",
+    "detected_language": "ta"
+  },
+  {
+    "start": 637.279,
+    "duration": 3.281,
+    "text": "What matters is everyone who sees it here.",
+    "original_text": "முக்கியம் இங்க கண்டவங்க எல்லாம்",
+    "detected_language": "ta"
+  },
+  {
+    "start": 638.8,
+    "duration": 6.4,
+    "text": "They are disturbing us, let&#39;s go and do our duty.",
+    "original_text": "டிஸ்டர்ப் பண்றாங்க நாம போய் கடமையை",
+    "detected_language": "ta"
+  },
+  {
+    "start": 640.56,
+    "duration": 7.719,
+    "text": "What&#39;s the connection problem? Hey man.",
+    "original_text": "செய்வோமா என்ன இணைப்பு இடையூறு ஏய் மணி",
+    "detected_language": "ta"
+  },
+  {
+    "start": 645.2,
+    "duration": 5.6,
+    "text": "[Music]",
+    "original_text": "[இசை]",
+    "detected_language": "ta"
+  },
+  {
+    "start": 648.279,
+    "duration": 4.361,
+    "text": "Hey Uncle, it&#39;s cool to the eye.",
+    "original_text": "ஏய் அங்கிள் கண்ணுக்கு குளிர்ச்சியானது",
+    "detected_language": "ta"
+  },
+  {
+    "start": 650.8,
+    "duration": 3.76,
+    "text": "These sunglasses are comfortable in the sun.",
+    "original_text": "இந்த சன் கிளாஸ் வெயிலுக்கு இதமானது இந்த",
+    "detected_language": "ta"
+  },
+  {
+    "start": 652.64,
+    "duration": 3.6,
+    "text": "Sunglasses for both the young and the old",
+    "original_text": "சன் கிளாஸ் வயசானவங்களையும் யங்கா",
+    "detected_language": "ta"
+  },
+  {
+    "start": 654.56,
+    "duration": 2.64,
+    "text": "These sunglasses are showing, yes, uncle, yes.",
+    "original_text": "காட்டும் இந்த சன் கிளாஸ் ஆமா அங்கிள் ஆமா",
+    "detected_language": "ta"
+  },
+  {
+    "start": 656.24,
+    "duration": 1.92,
+    "text": "This mirror for a while",
+    "original_text": "இந்த கண்ணாடியை கொஞ்ச நேரம்",
+    "detected_language": "ta"
+  },
+  {
+    "start": 657.2,
+    "duration": 2.639,
+    "text": "If you had, who would you have?",
+    "original_text": "போட்டுருந்தீங்கன்னா நீங்க யாரை",
+    "detected_language": "ta"
+  },
+  {
+    "start": 658.16,
+    "duration": 3.16,
+    "text": "No one knows you&#39;re watching.",
+    "original_text": "பாக்குறீங்கன்னு யாருக்குமே தெரியாது",
+    "detected_language": "ta"
+  },
+  {
+    "start": 659.839,
+    "duration": 3.841,
+    "text": "It&#39;s been a long time, you&#39;re the one who&#39;s been waiting.",
+    "original_text": "ரொம்ப நேரம் போட்டுருந்தா உங்களுக்கே",
+    "detected_language": "ta"
+  },
+  {
+    "start": 661.32,
+    "duration": 3.959,
+    "text": "I don&#39;t know, sir. Please, sir, look here.",
+    "original_text": "தெரியாது சார் ப்ளீஸ் சார் இங்க பாருங்க",
+    "detected_language": "ta"
+  },
+  {
+    "start": 663.68,
+    "duration": 3.159,
+    "text": "Sir, good quality sir, foreign sir.",
+    "original_text": "சார் நல்ல குவாலிட்டி சார் ஃபாரின் சார்",
+    "detected_language": "ta"
+  },
+  {
+    "start": 665.279,
+    "duration": 5.441,
+    "text": "Sir, please take one by one.",
+    "original_text": "சார் ஒன்னே ஒன்னு எடுத்துக்கோங்க சார்",
+    "detected_language": "ta"
+  },
+  {
+    "start": 666.839,
+    "duration": 5.801,
+    "text": "Sir, sir, please sir, I have a big belly.",
+    "original_text": "சார் சார் ப்ளீஸ் சார் மூஞ்சில தொப்பை",
+    "detected_language": "ta"
+  },
+  {
+    "start": 670.72,
+    "duration": 5.119,
+    "text": "Uncle, all these things are left behind.",
+    "original_text": "வச்சிருக்க அங்கிள் இந்த மூஞ்ச எல்லாம்",
+    "detected_language": "ta"
+  },
+  {
+    "start": 672.64,
+    "duration": 3.199,
+    "text": "It would be better if it was glass.",
+    "original_text": "கண்ணாடி போட்டாதான் நல்லா இருக்கும்",
+    "detected_language": "ta"
+  },
+  {
+    "start": 675.88,
+    "duration": 7.32,
+    "text": "You know, look, Uncle Uncle One.",
+    "original_text": "தெரியுமா பாரு ஆண்டி ஆண்டி ஒன்னு",
+    "detected_language": "ta"
+  },
+  {
+    "start": 679.279,
+    "duration": 5.481,
+    "text": "Buy it, Uncle, yes, Uncle, yes, Uncle.",
+    "original_text": "வாங்கிக்கோங்க ஆண்டி ஆமா ஆண்டி ஆமா ஆண்டி",
+    "detected_language": "ta"
+  },
+  {
+    "start": 683.2,
+    "duration": 3.92,
+    "text": "You are a little lazy.",
+    "original_text": "நீங்க கொஞ்சம் சும்மா",
+    "detected_language": "ta"
+  },
+  {
+    "start": 684.76,
+    "duration": 7.0,
+    "text": "Are you there? Buy one for me.",
+    "original_text": "இருக்கீங்களா எனக்காக ஒன்னு வாங்கிக்கோங்க",
+    "detected_language": "ta"
+  },
+  {
+    "start": 687.12,
+    "duration": 4.64,
+    "text": "Andy, okay, thank you Andy.",
+    "original_text": "ஆண்டி சரி குடுமா தேங்க்யூ ஆண்டி",
+    "detected_language": "ta"
+  },
+  {
+    "start": 692.18,
+    "duration": 21.659,
+    "text": "[Music]",
+    "original_text": "[இசை]",
+    "detected_language": "ta"
+  },
+  {
+    "start": 711.2,
+    "duration": 5.199,
+    "text": "What, you&#39;ve sold all the glasses?",
+    "original_text": "என்னாங்க எல்லா கண்ணாடியும் விட்டாச்சு",
+    "detected_language": "ta"
+  },
+  {
+    "start": 713.839,
+    "duration": 4.081,
+    "text": "There must be two more.",
+    "original_text": "இன்னும் ரெண்டு இருக்கே இருங்க வேற",
+    "detected_language": "ta"
+  },
+  {
+    "start": 716.399,
+    "duration": 3.961,
+    "text": "Is anyone buying and selling it?",
+    "original_text": "யாராவது இழிச்சு வாங்கி கிடைக்கிறாங்களா",
+    "detected_language": "ta"
+  },
+  {
+    "start": 717.92,
+    "duration": 4.88,
+    "text": "Let&#39;s see.",
+    "original_text": "பார்ப்போம்",
+    "detected_language": "ta"
+  },
+  {
+    "start": 720.36,
+    "duration": 3.719,
+    "text": "Is this Madam Indamma available?",
+    "original_text": "கிடைச்சுட்டாங்க யாரு மேடம் இந்தாம்மா",
+    "detected_language": "ta"
+  },
+  {
+    "start": 722.8,
+    "duration": 5.039,
+    "text": "The green sari lady is calling you.",
+    "original_text": "பச்சை புடவை மேடம் கூப்பிடுறாங்க நீ",
+    "detected_language": "ta"
+  },
+  {
+    "start": 724.079,
+    "duration": 5.121,
+    "text": "Keep going to the song, keep going.",
+    "original_text": "பாட்டுக்கு போயிட்டே இருக்க போயிட்டே இரு",
+    "detected_language": "ta"
+  },
+  {
+    "start": 727.839,
+    "duration": 4.881,
+    "text": "How can you say &quot;drunk, drunk, drunk&quot;?",
+    "original_text": "குடுங்க குடுங்க எப்படி விக்கிறான்னு",
+    "detected_language": "ta"
+  },
+  {
+    "start": 729.2,
+    "duration": 5.52,
+    "text": "Look, green mummy, madam, two more.",
+    "original_text": "பாருங்க பச்சை மம்மி மேடம் இன்னும் ரெண்டு",
+    "detected_language": "ta"
+  },
+  {
+    "start": 732.72,
+    "duration": 4.72,
+    "text": "Class is for this person.",
+    "original_text": "கிளாஸ் தான் இருக்கு இவருக்காக",
+    "detected_language": "ta"
+  },
+  {
+    "start": 734.72,
+    "duration": 4.52,
+    "text": "Buy it, madam, it&#39;s a pity.",
+    "original_text": "வாங்கிக்கோங்க மேடம் பாவம் இவங்க",
+    "detected_language": "ta"
+  },
+  {
+    "start": 737.44,
+    "duration": 6.6,
+    "text": "Mental development for mom",
+    "original_text": "அம்மாவுக்கு மனவளர்ச்சி",
+    "detected_language": "ta"
+  },
+  {
+    "start": 739.24,
+    "duration": 6.64,
+    "text": "No, my sister ran away, love.",
+    "original_text": "இல்ல அப்போ தங்கச்சி ஓடிப்போச்சு லவ்",
+    "detected_language": "ta"
+  },
+  {
+    "start": 744.04,
+    "duration": 4.599,
+    "text": "Marriage",
+    "original_text": "மேரேஜ்",
+    "detected_language": "ta"
+  },
+  {
+    "start": 745.88,
+    "duration": 6.639,
+    "text": "Oh, this is Vidha&#39;s mother.",
+    "original_text": "ம் இதை வித்தாதான் அவங்க அம்மாவை",
+    "detected_language": "ta"
+  },
+  {
+    "start": 748.639,
+    "duration": 6.32,
+    "text": "I can save you, Madam.",
+    "original_text": "காப்பாத்த முடியும் எடுத்துக்கோங்க மேடம்",
+    "detected_language": "ta"
+  },
+  {
+    "start": 752.519,
+    "duration": 4.201,
+    "text": "Please, is this his mother?",
+    "original_text": "ப்ளீஸ் சரி இது வித்தா அவன் அம்மாவை",
+    "detected_language": "ta"
+  },
+  {
+    "start": 754.959,
+    "duration": 5.611,
+    "text": "Please give me the money, thank you.",
+    "original_text": "காப்பாத்தட்டும் பணத்தை கொடு தேங்க்யூ",
+    "detected_language": "ta"
+  },
+  {
+    "start": 756.72,
+    "duration": 6.939,
+    "text": "Thank you very much, ma&#39;am. Is your son doing well?",
+    "original_text": "மேடம் ரொம்ப நன்றி அம்மா உங்க பையன் நல்லா",
+    "detected_language": "ta"
+  },
+  {
+    "start": 760.57,
+    "duration": 3.089,
+    "text": "[Music]",
+    "original_text": "[இசை]",
+    "detected_language": "ta"
+  },
+  {
+    "start": 766.2,
+    "duration": 5.16,
+    "text": "It&#39;s okay, Mom, just know that.",
+    "original_text": "இருப்பான் அம்மா அது சும்மா தெரிஞ்ச",
+    "detected_language": "ta"
+  },
+  {
+    "start": 769.279,
+    "duration": 3.921,
+    "text": "Girl, that&#39;s all, you&#39;re nothing.",
+    "original_text": "பொண்ணுமா அவ்வளவுதான் ஏண்டி நீ எதுவும்",
+    "detected_language": "ta"
+  },
+  {
+    "start": 771.36,
+    "duration": 3.76,
+    "text": "You&#39;re a liar, I&#39;m not a liar.",
+    "original_text": "உளறி வச்சியா நான் ஒன்னும் உளரலையே நீங்க",
+    "detected_language": "ta"
+  },
+  {
+    "start": 773.2,
+    "duration": 4.72,
+    "text": "I said you both love each other.",
+    "original_text": "ரெண்டு பேரும் லவ் பண்றீங்கன்னு சொன்னேன்",
+    "detected_language": "ta"
+  },
+  {
+    "start": 775.12,
+    "duration": 5.44,
+    "text": "But that girl is not afraid of anything.",
+    "original_text": "ஏண்டி பயப்படாத ஆனா அம்மாக்கு அந்த பொண்ணு",
+    "detected_language": "ta"
+  },
+  {
+    "start": 777.92,
+    "duration": 4.32,
+    "text": "Your lover is still mine.",
+    "original_text": "உன் லவ்வரும் டவுட் அது இன்னும் எனக்கே",
+    "detected_language": "ta"
+  },
+  {
+    "start": 780.56,
+    "duration": 3.719,
+    "text": "Where is that girl from?",
+    "original_text": "டவுட்டு எங்கடா அந்த பொண்ணை புடிச்ச",
+    "detected_language": "ta"
+  },
+  {
+    "start": 782.24,
+    "duration": 5.44,
+    "text": "Isn&#39;t that a physics book, Mom?",
+    "original_text": "பிசிக்ஸ் புக் இல்லையா அம்மா அது",
+    "detected_language": "ta"
+  },
+  {
+    "start": 784.279,
+    "duration": 5.081,
+    "text": "Facebook, you yourself agreed.",
+    "original_text": "facebookமா பாத்தியா நீயே ஒத்துக்கிட்ட",
+    "detected_language": "ta"
+  },
+  {
+    "start": 787.68,
+    "duration": 3.279,
+    "text": "I don&#39;t know how to explain it.",
+    "original_text": "எப்படி புரிய வைக்கிறதுன்னு தெரியலையே",
+    "detected_language": "ta"
+  },
+  {
+    "start": 789.36,
+    "duration": 3.599,
+    "text": "I&#39;m just trying something now.",
+    "original_text": "இப்பதான் ட்ரை பண்ணிட்டு இருக்கேன் ஏதாவது",
+    "detected_language": "ta"
+  },
+  {
+    "start": 790.959,
+    "duration": 4.32,
+    "text": "If there is development, I will tell you, okay?",
+    "original_text": "டெவலப்மென்ட் இருந்தா சொல்றேன் சரிப்பா",
+    "detected_language": "ta"
+  },
+  {
+    "start": 792.959,
+    "duration": 5.241,
+    "text": "Someone to help your love",
+    "original_text": "உன் லவ்வுக்கு ஹெல்ப் பண்றதுக்கு எவனாவது",
+    "detected_language": "ta"
+  },
+  {
+    "start": 795.279,
+    "duration": 5.761,
+    "text": "Someone like Suri Satish",
+    "original_text": "சூரி சதீஷ் மாதிரி ஒருத்தன்",
+    "detected_language": "ta"
+  },
+  {
+    "start": 798.2,
+    "duration": 5.72,
+    "text": "This Sankara called Cyber Sanki is coming.",
+    "original_text": "வருவான் சைபர் சங்கி என்கிற இந்த சங்கர",
+    "detected_language": "ta"
+  },
+  {
+    "start": 801.04,
+    "duration": 5.359,
+    "text": "Narayanan has made many friends on Facebook.",
+    "original_text": "நாராயணன் facebookல பல பேரை நண்பர்களாக்கி",
+    "detected_language": "ta"
+  },
+  {
+    "start": 803.92,
+    "duration": 4.719,
+    "text": "It&#39;s like playing pranks and making sheep.",
+    "original_text": "சேட்டைகள் செய்து ஆட்டைகள் போடுறதுல பலே",
+    "detected_language": "ta"
+  },
+  {
+    "start": 806.399,
+    "duration": 4.081,
+    "text": "This is the killer, my party member.",
+    "original_text": "கில்லாடி இவரானர் எனது கட்சிக்காரரிடம்",
+    "detected_language": "ta"
+  },
+  {
+    "start": 808.639,
+    "duration": 4.481,
+    "text": "He said he was a computer engineer.",
+    "original_text": "தான் ஒரு கம்ப்யூட்டர் இன்ஜினியர் என்றும்",
+    "detected_language": "ta"
+  },
+  {
+    "start": 810.48,
+    "duration": 4.799,
+    "text": "The prince cheated him out of millions of dollars.",
+    "original_text": "பல கோடிக்கு அதிபதி கூடாவிட்டு ஏமாற்றி",
+    "detected_language": "ta"
+  },
+  {
+    "start": 813.12,
+    "duration": 4.159,
+    "text": "There is this small correction madam.",
+    "original_text": "இருக்கிறார் இவரான ஸ்மால் கரெக்சன் மேடம்",
+    "detected_language": "ta"
+  },
+  {
+    "start": 815.279,
+    "duration": 3.36,
+    "text": "This is the first friend on Facebook.",
+    "original_text": "இவர்தான் முதல்ல facebookல பிரண்ட்ஸ்ன்னு",
+    "detected_language": "ta"
+  },
+  {
+    "start": 817.279,
+    "duration": 2.8,
+    "text": "I am upset because he gave me the request.",
+    "original_text": "ரிக்வெஸ்ட் கொடுத்தார் நான் அப்செட்",
+    "detected_language": "ta"
+  },
+  {
+    "start": 818.639,
+    "duration": 3.681,
+    "text": "I just did it to upset you.",
+    "original_text": "மட்டும் தான் பண்ணேன் அப்செட் பண்ணது",
+    "detected_language": "ta"
+  },
+  {
+    "start": 820.079,
+    "duration": 4.56,
+    "text": "Your Honor, don&#39;t talk too much.",
+    "original_text": "குற்றமா யுவர் ஆனர் அதிகமா பேசாதீங்க",
+    "detected_language": "ta"
+  },
+  {
+    "start": 822.32,
+    "duration": 4.04,
+    "text": "Just answer the question asked.",
+    "original_text": "கேட்ட கேள்விக்கு மட்டும் பதில் சொல்லுங்க",
+    "detected_language": "ta"
+  },
+  {
+    "start": 824.639,
+    "duration": 4.161,
+    "text": "You stole money and jewelry from their house.",
+    "original_text": "நீங்க அவங்க வீட்ல பணமும் நகையும்",
+    "detected_language": "ta"
+  },
+  {
+    "start": 826.36,
+    "duration": 4.2,
+    "text": "You stole, but this crime is true.",
+    "original_text": "திருடுனீங்களா ட்ரூ ஆனா இந்த குற்றத்தை",
+    "detected_language": "ta"
+  },
+  {
+    "start": 828.8,
+    "duration": 3.839,
+    "text": "I don&#39;t do it alone, I do it with this person.",
+    "original_text": "நான் தனியா செய்யல இவரோட சேர்ந்து தான்",
+    "detected_language": "ta"
+  },
+  {
+    "start": 830.56,
+    "duration": 4.399,
+    "text": "I did, this is my partner.",
+    "original_text": "செஞ்சேன் இவர் எனக்கு பார்ட்னர் ஐ அம்",
+    "detected_language": "ta"
+  },
+  {
+    "start": 832.639,
+    "duration": 4.32,
+    "text": "It seems like you understand the correct understanding.",
+    "original_text": "கரெக்ட் புரியலையே புரியுற மாதிரி",
+    "detected_language": "ta"
+  },
+  {
+    "start": 834.959,
+    "duration": 3.921,
+    "text": "I&#39;m telling you, I became a friend on Facebook.",
+    "original_text": "சொல்றேன் ஒரு ஆனர் facebookல பிரண்ட் ஆன",
+    "detected_language": "ta"
+  },
+  {
+    "start": 836.959,
+    "duration": 4.401,
+    "text": "This is my family in the first week",
+    "original_text": "முதல் வாரத்துலயே திஸ் இஸ் மை ஃபேமிலி",
+    "detected_language": "ta"
+  },
+  {
+    "start": 838.88,
+    "duration": 4.319,
+    "text": "This is my full address.",
+    "original_text": "திஸ் இஸ் மை அப்படின்னு ஃபுல் அட்ரஸோட",
+    "detected_language": "ta"
+  },
+  {
+    "start": 841.36,
+    "duration": 3.12,
+    "text": "Take a photo and sleep inside me.",
+    "original_text": "போட்டோ போட்டுவிட்டு எனக்குள்ள தூங்கிட்டு",
+    "detected_language": "ta"
+  },
+  {
+    "start": 843.199,
+    "duration": 3.121,
+    "text": "He is the one who crushed the greed that existed.",
+    "original_text": "இருந்த பேராசையை இவர்தான் கிள்ளி",
+    "detected_language": "ta"
+  },
+  {
+    "start": 844.48,
+    "duration": 3.84,
+    "text": "He sent it away, and then one day",
+    "original_text": "அனுப்பிவிட்டாரு அதுக்கப்புறம் ஒரு நாள்",
+    "detected_language": "ta"
+  },
+  {
+    "start": 846.32,
+    "duration": 3.519,
+    "text": "I am going to Goa with my family and will be back.",
+    "original_text": "நான் குடும்பத்தோட கோவா போறேன் திரும்பி",
+    "detected_language": "ta"
+  },
+  {
+    "start": 848.32,
+    "duration": 3.6,
+    "text": "It will take three days to arrive.",
+    "original_text": "வர்றதுக்கு மூணு நாள் ஆகும் ஐ அம்",
+    "detected_language": "ta"
+  },
+  {
+    "start": 849.839,
+    "duration": 3.44,
+    "text": "Madam, I am also missing my home.",
+    "original_text": "மிஸ்ஸிங் மை ஹோம்னு போட்டாரு மேடம் நானும்",
+    "detected_language": "ta"
+  },
+  {
+    "start": 851.92,
+    "duration": 3.44,
+    "text": "Don&#39;t miss it at home.",
+    "original_text": "மிஸ் பண்ண கூடாதுன்னு வீட்டுக்குள்ள",
+    "detected_language": "ta"
+  },
+  {
+    "start": 853.279,
+    "duration": 3.68,
+    "text": "I&#39;m going to go and do all the work, madam.",
+    "original_text": "போனேன் போய் நெட் ஆல் பண்ணா மேடம்",
+    "detected_language": "ta"
+  },
+  {
+    "start": 855.36,
+    "duration": 3.039,
+    "text": "Hitting the beach with the family",
+    "original_text": "குடும்பத்தோட பீச்ல கும்மி அடிச்சிட்டு",
+    "detected_language": "ta"
+  },
+  {
+    "start": 856.959,
+    "duration": 2.56,
+    "text": "Yes, I am enjoying it too.",
+    "original_text": "இருக்காங்க நானும் நல்லா என்ஜாய்",
+    "detected_language": "ta"
+  },
+  {
+    "start": 858.399,
+    "duration": 2.401,
+    "text": "I commented saying &quot;Do it.&quot;",
+    "original_text": "பண்ணுங்கன்னு கமெண்ட் போட்டேன்",
+    "detected_language": "ta"
+  },
+  {
+    "start": 859.519,
+    "duration": 2.721,
+    "text": "He had bought it, then.",
+    "original_text": "அதுக்கப்புறம் அவர் வாங்கி வச்சிருந்த",
+    "detected_language": "ta"
+  },
+  {
+    "start": 860.8,
+    "duration": 2.8,
+    "text": "I drank brandy and enjoyed it too.",
+    "original_text": "பிராந்தி குடிச்சு நானும் நல்லா என்ஜாய்",
+    "detected_language": "ta"
+  },
+  {
+    "start": 862.24,
+    "duration": 3.2,
+    "text": "I did it, madam, three days later.",
+    "original_text": "பண்ணேன் மேடம் மூணு நாளுக்கு அப்புறம்",
+    "detected_language": "ta"
+  },
+  {
+    "start": 863.6,
+    "duration": 3.039,
+    "text": "I also posted &quot;Back to Chennai&quot;.",
+    "original_text": "பேக் டு சென்னைன்னு போட்டாரு நானும்",
+    "detected_language": "ta"
+  },
+  {
+    "start": 865.44,
+    "duration": 3.199,
+    "text": "I packed everything I have.",
+    "original_text": "இருக்கிறதெல்லாம் பேக் பண்ணிட்டேன்",
+    "detected_language": "ta"
+  },
+  {
+    "start": 866.639,
+    "duration": 3.841,
+    "text": "Oh my god, he said &quot;Oh my god&quot; and I vomited too.",
+    "original_text": "ஆந்திவே ஓம்னு சொன்னாரு நானும் வாந்தி",
+    "detected_language": "ta"
+  },
+  {
+    "start": 868.639,
+    "duration": 3.681,
+    "text": "I escaped by touching everything I took.",
+    "original_text": "எடுத்ததெல்லாம் தொடச்சி எஸ்கேப் ஆயிட்டேன்",
+    "detected_language": "ta"
+  },
+  {
+    "start": 870.48,
+    "duration": 3.359,
+    "text": "Now tell me, Your Honor, what did I do?",
+    "original_text": "இப்ப சொல்லுங்க யுவர் ஆனர் நான் பண்ணது",
+    "detected_language": "ta"
+  },
+  {
+    "start": 872.32,
+    "duration": 4.16,
+    "text": "If it&#39;s a mistake, this company gave it to me.",
+    "original_text": "தப்புன்னா இவரு கம்பெனி கொடுத்தது",
+    "detected_language": "ta"
+  },
+  {
+    "start": 873.839,
+    "duration": 4.8,
+    "text": "It&#39;s wrong, madam. What&#39;s that about?",
+    "original_text": "தப்புதானே மேடம் ஆமா அது என்ன முகத்துல",
+    "detected_language": "ta"
+  },
+  {
+    "start": 876.48,
+    "duration": 3.76,
+    "text": "Did you fall into the path of injury?",
+    "original_text": "காயம் வழிக்கு விழுந்துட்டீங்களா ஆமா",
+    "detected_language": "ta"
+  },
+  {
+    "start": 878.639,
+    "duration": 3.361,
+    "text": "Madam, who told you to say that?",
+    "original_text": "மேடம் அப்படின்னு சொல்ல சொன்னாங்க யார்",
+    "detected_language": "ta"
+  },
+  {
+    "start": 880.24,
+    "duration": 3.279,
+    "text": "They told me to tell you, here is this book.",
+    "original_text": "சொல்ல சொன்னாங்க இதோ இந்த ஏட்டையாதான்",
+    "detected_language": "ta"
+  },
+  {
+    "start": 882.0,
+    "duration": 3.16,
+    "text": "Whatever the problem is with his family.",
+    "original_text": "அவர் குடும்பத்துல என்ன பிரச்சனையோ சும்மா",
+    "detected_language": "ta"
+  },
+  {
+    "start": 883.519,
+    "duration": 4.641,
+    "text": "You bought the left and right, little brother.",
+    "original_text": "லெப்ட் ரைட் வாங்கிட்டாரு பேத்த குட்டி",
+    "detected_language": "ta"
+  },
+  {
+    "start": 885.16,
+    "duration": 4.919,
+    "text": "You&#39;ve already put it down, what did you do?",
+    "original_text": "போட்டுவிட்டானே என்ன அடிச்சீங்களா இல்ல",
+    "detected_language": "ta"
+  },
+  {
+    "start": 888.16,
+    "duration": 5.039,
+    "text": "When Madam recovers her jewelry",
+    "original_text": "மேடம் நகையை ரெக்கவர் பண்ணும்போது",
+    "detected_language": "ta"
+  },
+  {
+    "start": 890.079,
+    "duration": 6.241,
+    "text": "Don&#39;t talk, tell me, it&#39;s not funny, Rekavar.",
+    "original_text": "பேசாதீங்க சொல்லுங்க இல்ல நகைய ரெக்கவர்",
+    "detected_language": "ta"
+  },
+  {
+    "start": 893.199,
+    "duration": 4.32,
+    "text": "Don&#39;t talk, tell me, I killed a buffalo.",
+    "original_text": "பேசாதீங்க சொல்லுங்க எருமை மாட்டை அடிச்ச",
+    "detected_language": "ta"
+  },
+  {
+    "start": 896.32,
+    "duration": 5.36,
+    "text": "You&#39;ve been hitting me like that.",
+    "original_text": "மாதிரி அடிச்சிருக்கீங்க அடிச்சிட்டு",
+    "detected_language": "ta"
+  },
+  {
+    "start": 897.519,
+    "duration": 4.161,
+    "text": "They said something else, buffalo, madam.",
+    "original_text": "எருமை மாடுன்னு வேற சொன்னாங்க மேடம்",
+    "detected_language": "ta"
+  },
+  {
+    "start": 901.76,
+    "duration": 3.6,
+    "text": "Chances are he will quit his job at the auction.",
+    "original_text": "ஏல வேலையை விட்டு தூக்குறாளோ வாய்ப்பு",
+    "detected_language": "ta"
+  },
+  {
+    "start": 903.839,
+    "duration": 2.881,
+    "text": "Hey, what else is there to do on TV?",
+    "original_text": "இருக்கு ஏய் வேற என்ன செய்ய டிவில",
+    "detected_language": "ta"
+  },
+  {
+    "start": 905.36,
+    "duration": 2.96,
+    "text": "You can compare many things.",
+    "original_text": "கம்பேரிங் பண்ணிக்கோங்க உங்களுக்கு பல",
+    "detected_language": "ta"
+  },
+  {
+    "start": 906.72,
+    "duration": 4.0,
+    "text": "I&#39;ve watched it once, and this is the last one.",
+    "original_text": "தடவை பார்ன் பண்ணிருக்கேன் இதான் கடைசி",
+    "detected_language": "ta"
+  },
+  {
+    "start": 908.32,
+    "duration": 3.759,
+    "text": "Okay, Madam, first time, it&#39;s not a good hospital.",
+    "original_text": "தடவை ஓகே மேடம் முதல்ல நல்லா ஹாஸ்பிடல்ல",
+    "detected_language": "ta"
+  },
+  {
+    "start": 910.72,
+    "duration": 4.76,
+    "text": "Take him and get him treated, okay?",
+    "original_text": "கொண்டு போய் ட்ரீட்மென்ட் பண்ணுங்க ஓகே",
+    "detected_language": "ta"
+  },
+  {
+    "start": 912.079,
+    "duration": 7.281,
+    "text": "Madam, Madam, this is all your own compromise.",
+    "original_text": "மேடம் மேடம் சமரசம் இதெல்லாம் உங்க சொந்த",
+    "detected_language": "ta"
+  },
+  {
+    "start": 915.48,
+    "duration": 5.4,
+    "text": "The cost is okay, madam. What&#39;s the big deal?",
+    "original_text": "செலவுல ஓகே மேடம் என்ன மதி நேத்து பெரிய",
+    "detected_language": "ta"
+  },
+  {
+    "start": 919.36,
+    "duration": 3.039,
+    "text": "Did you think about scolding the officer?",
+    "original_text": "அதிகாரி திட்டுனதே நினைச்சுட்டு இருக்கியா",
+    "detected_language": "ta"
+  },
+  {
+    "start": 920.88,
+    "duration": 2.56,
+    "text": "Is it because of a big official?",
+    "original_text": "பெரிய அதிகாரினாலே அப்படிதான்ப்பா",
+    "detected_language": "ta"
+  },
+  {
+    "start": 922.399,
+    "duration": 2.56,
+    "text": "What a lot of scolding!",
+    "original_text": "என்னெல்லாம் எவ்வளவு திட்டு",
+    "detected_language": "ta"
+  },
+  {
+    "start": 923.44,
+    "duration": 3.36,
+    "text": "Do you know who scolded him?",
+    "original_text": "திட்டிருப்பாரு தெரியுமா அவரு திட்டுனா",
+    "detected_language": "ta"
+  },
+  {
+    "start": 924.959,
+    "duration": 3.041,
+    "text": "Why is it that people are being accused of going and coming?",
+    "original_text": "பரவால்லப்பா ஏன் அக்யூஸ்டு போறவன் வரவன்",
+    "detected_language": "ta"
+  },
+  {
+    "start": 926.8,
+    "duration": 2.399,
+    "text": "How many lives did the three-wheeler car take?",
+    "original_text": "எவ்வளவு உயிரை மூஞ்சில கார் துப்பி",
+    "detected_language": "ta"
+  },
+  {
+    "start": 928.0,
+    "duration": 2.279,
+    "text": "Did you know that it would be possible?",
+    "original_text": "இருப்பான் தெரியுமா அதெல்லாம் தொடச்சி",
+    "detected_language": "ta"
+  },
+  {
+    "start": 929.199,
+    "duration": 3.601,
+    "text": "Let&#39;s put it on and see our work.",
+    "original_text": "போட்டுட்டு நம்ம வேலையை பார்க்க",
+    "detected_language": "ta"
+  },
+  {
+    "start": 930.279,
+    "duration": 4.521,
+    "text": "You have to, don&#39;t you? Look, brother, one.",
+    "original_text": "வேண்டியதுதானேப்பா நீ வேணா பாரு அண்ணே ஒரு",
+    "detected_language": "ta"
+  },
+  {
+    "start": 932.8,
+    "duration": 3.12,
+    "text": "I&#39;ll catch a big one today.",
+    "original_text": "நாள் நான் பெரிய கேஸா பிடிப்பேனே நானும்",
+    "detected_language": "ta"
+  },
+  {
+    "start": 934.8,
+    "duration": 2.56,
+    "text": "I&#39;ve been saying this for years.",
+    "original_text": "இப்படித்தான் பல வருஷமா சொல்லிட்டு",
+    "detected_language": "ta"
+  },
+  {
+    "start": 935.92,
+    "duration": 3.039,
+    "text": "I am here, but I know about you.",
+    "original_text": "இருக்கேன் ஆனா உன்ன பத்தி எனக்கு தெரியுமே",
+    "detected_language": "ta"
+  },
+  {
+    "start": 937.36,
+    "duration": 2.8,
+    "text": "You are a big problem for me.",
+    "original_text": "நீ என்னைக்காவது ஒரு பெரிய கேஸ பிடிப்ப",
+    "detected_language": "ta"
+  },
+  {
+    "start": 938.959,
+    "duration": 2.801,
+    "text": "Then this great officer is you.",
+    "original_text": "அப்ப இந்த பெரிய அதிகாரி உன்னைய",
+    "detected_language": "ta"
+  },
+  {
+    "start": 940.16,
+    "duration": 3.039,
+    "text": "Why don&#39;t you just call and praise me?",
+    "original_text": "கூப்பிட்டு பாராட்டுவாரு அவ்வளவுதான் ஏன்",
+    "detected_language": "ta"
+  },
+  {
+    "start": 941.76,
+    "duration": 3.48,
+    "text": "A way for your love",
+    "original_text": "உன் காதலுக்கு ஒரு வழியை",
+    "detected_language": "ta"
+  },
+  {
+    "start": 943.199,
+    "duration": 5.76,
+    "text": "I think I found a name for it.",
+    "original_text": "கண்டுபிடிச்சிருக்கேன்பா அதுக்கு பேர்தான்",
+    "detected_language": "ta"
+  },
+  {
+    "start": 945.24,
+    "duration": 5.64,
+    "text": "Two days for your love that has become possessive.",
+    "original_text": "பொசாசிவ் போன உன் காதலுக்காக ரெண்டு நாள்",
+    "detected_language": "ta"
+  },
+  {
+    "start": 948.959,
+    "duration": 4.521,
+    "text": "Sit down and think about it.",
+    "original_text": "உட்கார்ந்து மண்டைய உடைச்சு யோசனை மண்டைய",
+    "detected_language": "ta"
+  },
+  {
+    "start": 950.88,
+    "duration": 5.44,
+    "text": "They broke it.",
+    "original_text": "உடைச்சிட்டாங்க",
+    "detected_language": "ta"
+  },
+  {
+    "start": 953.48,
+    "duration": 4.44,
+    "text": "When Sir squeezes his brain and makes it ionized",
+    "original_text": "சார் மூளையை கசக்கி அயன் பண்ணும்போது",
+    "detected_language": "ta"
+  },
+  {
+    "start": 956.32,
+    "duration": 2.959,
+    "text": "I got this possessiveness.",
+    "original_text": "கிடைத்தது தான் இந்த பொசசிவ்னஸ் இந்த",
+    "detected_language": "ta"
+  },
+  {
+    "start": 957.92,
+    "duration": 3.12,
+    "text": "What does possessiveness have to do with my love?",
+    "original_text": "பொசசிவ்னஸ்க்கும் என் லவ்வுக்கும் என்ன",
+    "detected_language": "ta"
+  },
+  {
+    "start": 959.279,
+    "duration": 3.441,
+    "text": "Hey, you love a girl.",
+    "original_text": "சம்பந்தம் ஏய் நீ ஒரு பொண்ணை லவ்",
+    "detected_language": "ta"
+  },
+  {
+    "start": 961.04,
+    "duration": 4.88,
+    "text": "You are another girl in front of her, Panralappa.",
+    "original_text": "பண்றாளப்பா அவ முன்னாடி நீ இன்னொரு பொண்ணை",
+    "detected_language": "ta"
+  },
+  {
+    "start": 962.72,
+    "duration": 3.2,
+    "text": "Come sit with me.",
+    "original_text": "கூட்டிக்கொண்டு உட்கார வச்சு நீ",
+    "detected_language": "ta"
+  },
+  {
+    "start": 966.36,
+    "duration": 5.159,
+    "text": "I showed my teeth to her like that.",
+    "original_text": "அவகிட்ட அப்படின்னு பல்லை காட்டுனேன்னா",
+    "detected_language": "ta"
+  },
+  {
+    "start": 968.56,
+    "duration": 2.959,
+    "text": "Then you will have a problem.",
+    "original_text": "அப்ப ஏத்தாப்பு இருக்கும் உன்",
+    "detected_language": "ta"
+  },
+  {
+    "start": 971.8,
+    "duration": 4.039,
+    "text": "Is it like that for everyone?",
+    "original_text": "ஆளுக்கு அப்படின்னு ஏறு பாத்தியா அப்படி",
+    "detected_language": "ta"
+  },
+  {
+    "start": 974.24,
+    "duration": 3.599,
+    "text": "If I climb, you&#39;ll be on her mind.",
+    "original_text": "ஏறுச்சுன்னா அவ மனசுல நீ இருக்கான்னு",
+    "detected_language": "ta"
+  },
+  {
+    "start": 975.839,
+    "duration": 3.281,
+    "text": "I understand the meaning of this one.",
+    "original_text": "அர்த்தம் எனக்கு தெரிஞ்சதே இந்த ஒரு",
+    "detected_language": "ta"
+  },
+  {
+    "start": 977.839,
+    "duration": 2.56,
+    "text": "Even a girl should speak properly.",
+    "original_text": "பொண்ணுதான் அதுவும் ஒழுங்கா பேச",
+    "detected_language": "ta"
+  },
+  {
+    "start": 979.12,
+    "duration": 2.959,
+    "text": "Where is the other girl from?",
+    "original_text": "மாட்டேங்குது இதுல இன்னொரு பொண்ணுக்கு",
+    "detected_language": "ta"
+  },
+  {
+    "start": 980.399,
+    "duration": 2.961,
+    "text": "Where am I going? It&#39;s not Law and Order.",
+    "original_text": "நான் எங்க போறது நேத்து லா அண்ட் ஆர்டர்ல",
+    "detected_language": "ta"
+  },
+  {
+    "start": 982.079,
+    "duration": 2.32,
+    "text": "They must have gone for a ride from 11",
+    "original_text": "இருந்து ரைடு போயிருக்காங்களே ஒரு 11",
+    "detected_language": "ta"
+  },
+  {
+    "start": 983.36,
+    "duration": 2.32,
+    "text": "They have been pressuring the children.",
+    "original_text": "பிள்ளைகளை அழுத்திட்டு வந்திருக்காங்க",
+    "detected_language": "ta"
+  },
+  {
+    "start": 984.399,
+    "duration": 3.201,
+    "text": "Gather ten people and take them to court.",
+    "original_text": "பத்து பேர கூட்டிட்டு அவங்க கோர்ட்டுக்கு",
+    "detected_language": "ta"
+  },
+  {
+    "start": 985.68,
+    "duration": 3.76,
+    "text": "I&#39;ll borrow one of those and give it to you.",
+    "original_text": "போட்டும் அதுல ஒன்னு கடன் வாங்கி தரேன் அத",
+    "detected_language": "ta"
+  },
+  {
+    "start": 987.6,
+    "duration": 2.64,
+    "text": "Go and see your own idea.",
+    "original_text": "கூட்டிட்டு நீ உன் ஆள பாக்க போ ஐடியா",
+    "detected_language": "ta"
+  },
+  {
+    "start": 989.44,
+    "duration": 3.759,
+    "text": "How",
+    "original_text": "எப்படி",
+    "detected_language": "ta"
+  },
+  {
+    "start": 990.24,
+    "duration": 5.959,
+    "text": "Look at this, there&#39;s a man standing there.",
+    "original_text": "இத பாரும்மா அங்க நிக்கிறாரே ஒரு சார்",
+    "detected_language": "ta"
+  },
+  {
+    "start": 993.199,
+    "duration": 5.361,
+    "text": "He has a problem.",
+    "original_text": "அவருக்கு ஒரு பிரச்சனை",
+    "detected_language": "ta"
+  },
+  {
+    "start": 996.199,
+    "duration": 4.44,
+    "text": "It&#39;s like you took on the super problem yourself.",
+    "original_text": "சூப்பர் பிரச்சனையை நீயே எடுத்துருவா போல",
+    "detected_language": "ta"
+  },
+  {
+    "start": 998.56,
+    "duration": 4.88,
+    "text": "He has a crush on her, what are you doing?",
+    "original_text": "இருக்கே அவருக்கு ஒரு டவுட் நீ என்ன பண்ற",
+    "detected_language": "ta"
+  },
+  {
+    "start": 1000.639,
+    "duration": 5.681,
+    "text": "He also went and asked his mother to come and go.",
+    "original_text": "அவரு கூட போயி ஏங்க வா அம்மா போக சொன்னா",
+    "detected_language": "ta"
+  },
+  {
+    "start": 1003.44,
+    "duration": 4.8,
+    "text": "You went immediately, he went too.",
+    "original_text": "உடனே போயிருவியா நீ அவரு கூட போயி அவர்",
+    "detected_language": "ta"
+  },
+  {
+    "start": 1006.32,
+    "duration": 3.879,
+    "text": "Just clear it all up.",
+    "original_text": "டவுட்ட கிளியர் பண்ணிட்டு அப்படியே",
+    "detected_language": "ta"
+  },
+  {
+    "start": 1008.24,
+    "duration": 5.519,
+    "text": "To the court",
+    "original_text": "கோர்ட்டுக்கு",
+    "detected_language": "ta"
+  },
+  {
+    "start": 1010.199,
+    "duration": 3.56,
+    "text": "Go away, Sipa.",
+    "original_text": "போயிரும் சீப்பா",
+    "detected_language": "ta"
+  },
+  {
+    "start": 1015.32,
+    "duration": 6.28,
+    "text": "Hey there.",
+    "original_text": "வாங்க ஏய் அங்க",
+    "detected_language": "ta"
+  },
+  {
+    "start": 1017.8,
+    "duration": 3.8,
+    "text": "Parudi is two.",
+    "original_text": "பாருடி ஆனா ரெண்டு",
+    "detected_language": "ta"
+  },
+  {
+    "start": 1024.39,
+    "duration": 6.49,
+    "text": "[Music]",
+    "original_text": "[இசை]",
+    "detected_language": "ta"
+  },
+  {
+    "start": 1029.12,
+    "duration": 4.0,
+    "text": "Now, all the girls and boys are real.",
+    "original_text": "இப்ப எல்லாம் பொண்ணுங்க பசங்களோட உண்மையான",
+    "detected_language": "ta"
+  },
+  {
+    "start": 1030.88,
+    "duration": 4.159,
+    "text": "You don&#39;t understand love at all, but mine.",
+    "original_text": "காதலை புரிஞ்சுக்கிறதே இல்லை பட் என்னோட",
+    "detected_language": "ta"
+  },
+  {
+    "start": 1033.12,
+    "duration": 4.16,
+    "text": "Luck is what you see as soon as you see it.",
+    "original_text": "அதிர்ஷ்டம் நீ பார்த்த உடனேயே மனச",
+    "detected_language": "ta"
+  },
+  {
+    "start": 1035.039,
+    "duration": 4.081,
+    "text": "Okay, sir, go ahead.",
+    "original_text": "புரிஞ்சுகிட்ட அட போங்க சார் முதல்ல",
+    "detected_language": "ta"
+  },
+  {
+    "start": 1037.28,
+    "duration": 3.48,
+    "text": "It&#39;s like you don&#39;t understand what the heart is.",
+    "original_text": "இருந்து மனசு நெஞ்சுன்னு புரியாத மாதிரியே",
+    "detected_language": "ta"
+  },
+  {
+    "start": 1039.12,
+    "duration": 5.079,
+    "text": "Are you talking to me?",
+    "original_text": "பேசிட்டு இருக்கீங்க எனக்கு",
+    "detected_language": "ta"
+  },
+  {
+    "start": 1040.76,
+    "duration": 6.039,
+    "text": "All I understood was one thing.",
+    "original_text": "புரிஞ்சதெல்லாம் ஒன்னே",
+    "detected_language": "ta"
+  },
+  {
+    "start": 1044.199,
+    "duration": 5.081,
+    "text": "Is it true that you only drink one thing for the money?",
+    "original_text": "ஒன்னுதான் குடுக்குற காசுக்கு உண்மையா",
+    "detected_language": "ta"
+  },
+  {
+    "start": 1046.799,
+    "duration": 5.841,
+    "text": "I want to talk to you about the bill, sir.",
+    "original_text": "இருக்கணும் சார் பில் காச பத்தி பேசணும்",
+    "detected_language": "ta"
+  },
+  {
+    "start": 1049.28,
+    "duration": 4.8,
+    "text": "The bill has arrived. What&#39;s this for later?",
+    "original_text": "பில் வந்துருச்சு என்னடி இது அப்புறம்",
+    "detected_language": "ta"
+  },
+  {
+    "start": 1052.64,
+    "duration": 3.12,
+    "text": "Don&#39;t leave it unheard, the next one is the same.",
+    "original_text": "கேட்காம விடக்கூடாது அடுத்தது அப்படியே",
+    "detected_language": "ta"
+  },
+  {
+    "start": 1054.08,
+    "duration": 3.36,
+    "text": "Is it enough for a park? Is it all for a park?",
+    "original_text": "பார்க்குக்கு போலாமா பார்க் எல்லாம்",
+    "detected_language": "ta"
+  },
+  {
+    "start": 1055.76,
+    "duration": 6.08,
+    "text": "No sir, there will be a crowd.",
+    "original_text": "வேணாம் சார் கிரவுட் ஜாஸ்தியா இருக்கும்",
+    "detected_language": "ta"
+  },
+  {
+    "start": 1057.44,
+    "duration": 7.72,
+    "text": "Hey, let&#39;s go to the hotel.",
+    "original_text": "நாம வேணா ஹோட்டலுக்கு போலாமா ம் ம் ம் ஏய்",
+    "detected_language": "ta"
+  },
+  {
+    "start": 1061.84,
+    "duration": 5.52,
+    "text": "Come together and tell me.",
+    "original_text": "கூடி போய் சொல்றி நானா",
+    "detected_language": "ta"
+  },
+  {
+    "start": 1065.16,
+    "duration": 3.56,
+    "text": "Yes, possessiveness is working.",
+    "original_text": "ஆமா பொசசிவ்னஸ் ஒர்க் ஆகுது",
+    "detected_language": "ta"
+  },
+  {
+    "start": 1067.36,
+    "duration": 3.199,
+    "text": "Don&#39;t you all have any knowledge? Stop.",
+    "original_text": "உங்களுக்கெல்லாம் அறிவே கிடையாதா ஸ்டாப்",
+    "detected_language": "ta"
+  },
+  {
+    "start": 1068.72,
+    "duration": 3.839,
+    "text": "The Nonsense My Love To You",
+    "original_text": "தி நான்சென்ஸ் என் லவ் கிட்ட உங்களுக்கு",
+    "detected_language": "ta"
+  },
+  {
+    "start": 1070.559,
+    "duration": 3.601,
+    "text": "What kind of talk is that?",
+    "original_text": "என்ன பேச்சு அப்படியே பதறி அடிச்சிட்டு",
+    "detected_language": "ta"
+  },
+  {
+    "start": 1072.559,
+    "duration": 2.721,
+    "text": "Has this industry said anything?",
+    "original_text": "ஏதாவது சொல்லிவிட்டாங்களா இந்த தொழில்",
+    "detected_language": "ta"
+  },
+  {
+    "start": 1074.16,
+    "duration": 2.32,
+    "text": "How far is it from here to there?",
+    "original_text": "விட்டுரு விட்டுருன்னு எவ்வளவு தூரம்",
+    "detected_language": "ta"
+  },
+  {
+    "start": 1075.28,
+    "duration": 3.04,
+    "text": "We have told you, if you know, customer.",
+    "original_text": "சொல்லி இருக்கோம் தெரிஞ்சு போச்சா கஸ்டமர்",
+    "detected_language": "ta"
+  },
+  {
+    "start": 1076.48,
+    "duration": 3.36,
+    "text": "Will you come to the hospital together, Divya?",
+    "original_text": "கூட்டிட்டு ஆஸ்பத்திரிக்கே வருவியா திவ்யா",
+    "detected_language": "ta"
+  },
+  {
+    "start": 1078.32,
+    "duration": 2.96,
+    "text": "Divya is being scolded for finding her sister.",
+    "original_text": "சிஸ்டர் கண்டுபிடிக்கு திட்டுறாங்க திவ்யா",
+    "detected_language": "ta"
+  },
+  {
+    "start": 1079.84,
+    "duration": 4.24,
+    "text": "Divya is scolding Sister Kamini.",
+    "original_text": "சிஸ்டர் கமினிக்கு திட்டுறாங்க திவ்யா",
+    "detected_language": "ta"
+  },
+  {
+    "start": 1081.28,
+    "duration": 2.8,
+    "text": "Sister Kannume",
+    "original_text": "சிஸ்டர் கண்ணுமே",
+    "detected_language": "ta"
+  },
+  {
+    "start": 1084.919,
+    "duration": 4.441,
+    "text": "They are scolding and doing the same thing.",
+    "original_text": "திட்டுறாங்க செய்யறதையும் செஞ்சுபுட்டு",
+    "detected_language": "ta"
+  },
+  {
+    "start": 1087.2,
+    "duration": 5.92,
+    "text": "The one who disappeared during the Budikiratha Baru festival",
+    "original_text": "புடிக்கிறத பாரு திருவிழாவுல காணாம போன",
+    "detected_language": "ta"
+  },
+  {
+    "start": 1089.36,
+    "duration": 5.92,
+    "text": "Hey brother, always be ours, like a little bird.",
+    "original_text": "புள்ள மாதிரி ஏய் தம்பி எப்பவுமே நம்ம",
+    "detected_language": "ta"
+  },
+  {
+    "start": 1093.12,
+    "duration": 4.24,
+    "text": "Girls shouldn&#39;t chase after girls.",
+    "original_text": "பொண்ணு பின்னாடி போகக்கூடாது பொண்ணுங்களை",
+    "detected_language": "ta"
+  },
+  {
+    "start": 1095.28,
+    "duration": 4.12,
+    "text": "I want to make him come after us.",
+    "original_text": "தான் நம்ம பின்னாடி வர வைக்கணும் அதுக்கு",
+    "detected_language": "ta"
+  },
+  {
+    "start": 1097.36,
+    "duration": 4.559,
+    "text": "I just checked your bag.",
+    "original_text": "நான் உங்க பேக்கை புடுங்கிட்டு தான்",
+    "detected_language": "ta"
+  },
+  {
+    "start": 1099.4,
+    "duration": 5.72,
+    "text": "I want to run, look at this, my idea is very good.",
+    "original_text": "ஓடணும் இத பாரு என்னோட ஐடியா ரொம்ப",
+    "detected_language": "ta"
+  },
+  {
+    "start": 1101.919,
+    "duration": 6.561,
+    "text": "It&#39;s fruit, but mom, what I&#39;m saying is new.",
+    "original_text": "பழசுதான் ஆனா அம்மா நான் சொல்றது புதுசு",
+    "detected_language": "ta"
+  },
+  {
+    "start": 1105.12,
+    "duration": 6.48,
+    "text": "Just do this, that girl is you.",
+    "original_text": "இத மட்டும் நீ பண்ணு அந்த பொண்ணே உன்னை",
+    "detected_language": "ta"
+  },
+  {
+    "start": 1108.48,
+    "duration": 3.12,
+    "text": "Looking for you",
+    "original_text": "தேடி வரும் ம்",
+    "detected_language": "ta"
+  },
+  {
+    "start": 1113.08,
+    "duration": 5.64,
+    "text": "Oh, it&#39;s not here, ask Crime.",
+    "original_text": "ம் அது இங்க இல்லம்மா கிரைம்ல கேளுங்க",
+    "detected_language": "ta"
+  },
+  {
+    "start": 1116.0,
+    "duration": 4.88,
+    "text": "Hello sir, yes inspector.",
+    "original_text": "உள்ளையா சார் ஆமா இன்ஸ்பெக்டர்",
+    "detected_language": "ta"
+  },
+  {
+    "start": 1118.72,
+    "duration": 3.52,
+    "text": "Finish it before it arrives, sir, it&#39;s important.",
+    "original_text": "வரதுக்குள்ள அதை முடிங்க சார் முக்கியமான",
+    "detected_language": "ta"
+  },
+  {
+    "start": 1120.88,
+    "duration": 3.76,
+    "text": "My brother will take care of all the cases.",
+    "original_text": "கேஸ் எல்லாம் தம்பி சார் தான் பார்ப்பாரு",
+    "detected_language": "ta"
+  },
+  {
+    "start": 1122.24,
+    "duration": 2.4,
+    "text": "He went.",
+    "original_text": "அவர போய்",
+    "detected_language": "ta"
+  },
+  {
+    "start": 1125.22,
+    "duration": 3.109,
+    "text": "[Music]",
+    "original_text": "[இசை]",
+    "detected_language": "ta"
+  },
+  {
+    "start": 1129.88,
+    "duration": 3.84,
+    "text": "Look, tell me the car number, DN 10.",
+    "original_text": "பாருங்க வண்டி நம்பர் சொல்லுங்க டிஎன் 10",
+    "detected_language": "ta"
+  },
+  {
+    "start": 1132.559,
+    "duration": 3.441,
+    "text": "AK",
+    "original_text": "ஏகே",
+    "detected_language": "ta"
+  },
+  {
+    "start": 1133.72,
+    "duration": 3.72,
+    "text": "125 How do you know that?",
+    "original_text": "125 உங்களுக்கு எப்படி தெரியும் அவங்க",
+    "detected_language": "ta"
+  },
+  {
+    "start": 1136.0,
+    "duration": 2.96,
+    "text": "Mom must have told them, hey, they&#39;re",
+    "original_text": "அம்மா சொல்லி இருப்பாங்க ஏய் அவங்க",
+    "detected_language": "ta"
+  },
+  {
+    "start": 1137.44,
+    "duration": 3.04,
+    "text": "A one-year-old girl, perhaps a grandfather.",
+    "original_text": "தாத்தாவா இருக்குமோ ஒரு வயசு பொண்ணு",
+    "detected_language": "ta"
+  },
+  {
+    "start": 1138.96,
+    "duration": 3.12,
+    "text": "If you are nervous and come to the police station",
+    "original_text": "பதட்டப்பட்டு போலீஸ் ஸ்டேஷன் வருதுன்னா",
+    "detected_language": "ta"
+  },
+  {
+    "start": 1140.48,
+    "duration": 3.12,
+    "text": "I don&#39;t want to be distracted, Vandia.",
+    "original_text": "ஒன்னு மனச தொலைச்சிருக்கணும் இல்ல வண்டிய",
+    "detected_language": "ta"
+  },
+  {
+    "start": 1142.08,
+    "duration": 4.32,
+    "text": "I want to stay away, but I still see you.",
+    "original_text": "தொலைச்சிருக்கணும் உங்கள பார்த்தா இன்னும்",
+    "detected_language": "ta"
+  },
+  {
+    "start": 1143.6,
+    "duration": 6.319,
+    "text": "It seems like the mind is lost there.",
+    "original_text": "மனசை தொலைச்ச மாதிரியே தெரியல அங்க",
+    "detected_language": "ta"
+  },
+  {
+    "start": 1146.4,
+    "duration": 5.6,
+    "text": "Tell me the signs, everyone in the car.",
+    "original_text": "அடையாளங்களை சொல்லுங்க வண்டிக்குங்க எல்லோ",
+    "detected_language": "ta"
+  },
+  {
+    "start": 1149.919,
+    "duration": 4.241,
+    "text": "Yellow Color Vespa Side Mirror Side Mirror",
+    "original_text": "எல்லோ கலர் வெஸ்பா சைடு மிரர் சைடு மிரர்",
+    "detected_language": "ta"
+  },
+  {
+    "start": 1152.0,
+    "duration": 2.16,
+    "text": "Even",
+    "original_text": "கூட",
+    "detected_language": "ta"
+  },
+  {
+    "start": 1154.6,
+    "duration": 3.959,
+    "text": "What are you doing, even though you&#39;re naked?",
+    "original_text": "உடைஞ்சிருக்குமே என்ன பண்றதுங்க",
+    "detected_language": "ta"
+  },
+  {
+    "start": 1156.88,
+    "duration": 2.88,
+    "text": "Follow the girls while they&#39;re at it.",
+    "original_text": "பொண்ணுங்கள ஃபாலோ பண்ற நேரத்துல புக்க",
+    "detected_language": "ta"
+  },
+  {
+    "start": 1158.559,
+    "duration": 3.041,
+    "text": "If we had followed, we would all be IAS.",
+    "original_text": "ஃபாலோ பண்ணிருந்தா நாங்க எல்லாம் ஐஏஎஸ்",
+    "detected_language": "ta"
+  },
+  {
+    "start": 1159.76,
+    "duration": 4.08,
+    "text": "What American President is IPS?",
+    "original_text": "ஐபிஎஸ் என்ன அமெரிக்கன் பிரசிடெண்ட்டே",
+    "detected_language": "ta"
+  },
+  {
+    "start": 1161.6,
+    "duration": 4.16,
+    "text": "Let&#39;s get ready, leave it in your car.",
+    "original_text": "ஆயிருப்போம் அதை விடுங்க உங்க வண்டி",
+    "detected_language": "ta"
+  },
+  {
+    "start": 1163.84,
+    "duration": 4.24,
+    "text": "There&#39;s an indicator at the back, right?",
+    "original_text": "பின்னாடி இண்டிகேட்டர் இருக்குதானே",
+    "detected_language": "ta"
+  },
+  {
+    "start": 1165.76,
+    "duration": 4.96,
+    "text": "Is there a sign, brother, or is there a sign on the face?",
+    "original_text": "அடையாளம் அண்ணே அடையாளமா அதாமா முகத்தில்",
+    "detected_language": "ta"
+  },
+  {
+    "start": 1168.08,
+    "duration": 3.92,
+    "text": "Burn on the hip, mole on the other lip",
+    "original_text": "தீக்காயம் இடுப்பில் மறு உதட்டில் மச்சம்",
+    "detected_language": "ta"
+  },
+  {
+    "start": 1170.72,
+    "duration": 3.28,
+    "text": "The car with the mole on its lip.",
+    "original_text": "யோவ் உதட்டுல மச்சம் வச்சிருக்கிற வண்டி",
+    "detected_language": "ta"
+  },
+  {
+    "start": 1172.0,
+    "duration": 3.76,
+    "text": "What is Simrana, go ahead and untie the belt?",
+    "original_text": "என்ன சிம்ரனா போங்கண்ணே பெல்ட்ட உருவி",
+    "detected_language": "ta"
+  },
+  {
+    "start": 1174.0,
+    "duration": 3.36,
+    "text": "I&#39;m leaving you, your brother, to this man.",
+    "original_text": "விட்டுற போறேன் யோ உங்க அண்ணங்க இவனுக்கு",
+    "detected_language": "ta"
+  },
+  {
+    "start": 1175.76,
+    "duration": 2.56,
+    "text": "Who among us is not in the middle of the car?",
+    "original_text": "நம்ம யாரு மத்த வண்டிக்கு இல்லாம உங்க",
+    "detected_language": "ta"
+  },
+  {
+    "start": 1177.36,
+    "duration": 3.04,
+    "text": "Something special just for the cart",
+    "original_text": "வண்டிக்கு மட்டும் ஏதாவது ஸ்பெஷல்",
+    "detected_language": "ta"
+  },
+  {
+    "start": 1178.32,
+    "duration": 4.719,
+    "text": "You said it because there were signs.",
+    "original_text": "அடையாளங்கள் இருந்து அதை சொன்னீங்கன்னா",
+    "detected_language": "ta"
+  },
+  {
+    "start": 1180.4,
+    "duration": 4.56,
+    "text": "An archery that is easy to investigate",
+    "original_text": "இன்வெஸ்டிகேட் பண்ண ஈஸியா இருக்கும் கமான்",
+    "detected_language": "ta"
+  },
+  {
+    "start": 1183.039,
+    "duration": 3.76,
+    "text": "Love is a card on the back of my car.",
+    "original_text": "என் வண்டியோட பின்னாடி லவ் இஸ் கார்டுன்னு",
+    "detected_language": "ta"
+  },
+  {
+    "start": 1184.96,
+    "duration": 4.56,
+    "text": "We have written only on the bike.",
+    "original_text": "எழுதி இருக்கோம் பைக்ல மட்டும்தான்",
+    "detected_language": "ta"
+  },
+  {
+    "start": 1186.799,
+    "duration": 4.321,
+    "text": "Please write, kindness and love are blooming here.",
+    "original_text": "எழுதுவீங்களா இங்க லவ்ங்கிறது கருணை அன்பு",
+    "detected_language": "ta"
+  },
+  {
+    "start": 1189.52,
+    "duration": 6.08,
+    "text": "Somehow, I don&#39;t know about affection here.",
+    "original_text": "பாசம் அங்க எப்படியோ தெரியாதுங்க இங்க",
+    "detected_language": "ta"
+  },
+  {
+    "start": 1191.12,
+    "duration": 4.48,
+    "text": "Love is love only.",
+    "original_text": "லவ்னா லவ் மட்டும்தான்",
+    "detected_language": "ta"
+  },
+  {
+    "start": 1195.64,
+    "duration": 4.52,
+    "text": "When will I get my car?",
+    "original_text": "ம் என் வண்டி எப்ப கிடைக்கும் எப்ப",
+    "detected_language": "ta"
+  },
+  {
+    "start": 1199.12,
+    "duration": 2.96,
+    "text": "Let&#39;s drink.",
+    "original_text": "குடுக்கலாம்",
+    "detected_language": "ta"
+  },
+  {
+    "start": 1200.16,
+    "duration": 4.04,
+    "text": "All lovers meet in this Adyar.",
+    "original_text": "இந்த அடையார்ல லவ்வர்ஸ் எல்லாம் மீட்",
+    "detected_language": "ta"
+  },
+  {
+    "start": 1202.08,
+    "duration": 4.8,
+    "text": "They will build a park, it is a great place.",
+    "original_text": "பண்ணுவாங்களே ஒரு பார்க் அது பேரு ஜீவா",
+    "detected_language": "ta"
+  },
+  {
+    "start": 1204.2,
+    "duration": 4.359,
+    "text": "Look, how do you know?",
+    "original_text": "பார்க்கா உங்களுக்கு எப்படி தெரியும் என்",
+    "detected_language": "ta"
+  },
+  {
+    "start": 1206.88,
+    "duration": 2.799,
+    "text": "It&#39;s next to the house.",
+    "original_text": "வீட்டுக்கு பக்கத்துல இருக்கு அப்ப",
+    "detected_language": "ta"
+  },
+  {
+    "start": 1208.559,
+    "duration": 4.081,
+    "text": "Tomorrow at five o&#39;clock at Jeeva Park.",
+    "original_text": "நாளைக்கு அஞ்சு மணிக்கு ஜீவா பார்க்",
+    "detected_language": "ta"
+  },
+  {
+    "start": 1209.679,
+    "duration": 2.961,
+    "text": "I have come to meet both of you.",
+    "original_text": "வந்திருக்கேன் ரெண்டு பேரையும் மீட்",
+    "detected_language": "ta"
+  },
+  {
+    "start": 1214.28,
+    "duration": 3.96,
+    "text": "Let&#39;s do it, brother, what&#39;s up?",
+    "original_text": "பண்ணுவோம் கொசுஞ்ச அண்ணே என்னப்பா அண்ணன்",
+    "detected_language": "ta"
+  },
+  {
+    "start": 1216.88,
+    "duration": 3.76,
+    "text": "Brother, don&#39;t come like this today.",
+    "original_text": "அண்ணன் இப்படி வராரு தம்பி இன்னைக்கு",
+    "detected_language": "ta"
+  },
+  {
+    "start": 1218.24,
+    "duration": 5.28,
+    "text": "Monday, the east is the north.",
+    "original_text": "திங்க்கிழமை கிழக்குல சூளம் அதான் வடக்கு",
+    "detected_language": "ta"
+  },
+  {
+    "start": 1220.64,
+    "duration": 4.48,
+    "text": "Come closer, don&#39;t drag your feet.",
+    "original_text": "பக்கமா வராரு போயா காலை இழுத்துறாத அப்ப",
+    "detected_language": "ta"
+  },
+  {
+    "start": 1223.52,
+    "duration": 3.68,
+    "text": "There is a door in the north of the house, a door that is open.",
+    "original_text": "வீட்ல வடக்க ஒரு வாசல்ல வச்சு தொறைய",
+    "detected_language": "ta"
+  },
+  {
+    "start": 1225.12,
+    "duration": 4.0,
+    "text": "Doesn&#39;t your brother know that he has to?",
+    "original_text": "வேண்டியதுதானே அது அண்ணனுக்கு தெரியாதா",
+    "detected_language": "ta"
+  },
+  {
+    "start": 1227.2,
+    "duration": 4.08,
+    "text": "Vastu to place a door in the North according to the horoscope",
+    "original_text": "ஜாதகப்படி வடக்குல வாசல் வைக்க வாஸ்து",
+    "detected_language": "ta"
+  },
+  {
+    "start": 1229.12,
+    "duration": 3.84,
+    "text": "Not only that, but the North",
+    "original_text": "இடம் கொடுக்கல அதுமட்டுமில்லாம வடக்கு",
+    "detected_language": "ta"
+  },
+  {
+    "start": 1231.28,
+    "duration": 3.68,
+    "text": "The one who blows sideways is fierce.",
+    "original_text": "பக்கம் வாயுபவன் உக்கிரமா இருப்பாரு",
+    "detected_language": "ta"
+  },
+  {
+    "start": 1232.96,
+    "duration": 4.16,
+    "text": "My brother can&#39;t wait, he&#39;s flying away.",
+    "original_text": "காத்து அண்ணனுக்கு ஆகாது பறந்துருவாரு",
+    "detected_language": "ta"
+  },
+  {
+    "start": 1234.96,
+    "duration": 3.599,
+    "text": "Money wasted at home is like a nut.",
+    "original_text": "இல்ல சப்பி போட்ட பணம் கொட்டை மாதிரி",
+    "detected_language": "ta"
+  },
+  {
+    "start": 1237.12,
+    "duration": 2.64,
+    "text": "I got a job posting after being a boss.",
+    "original_text": "இருந்துச்சு தலை ஆனா போஸ்டிங் கிடைச்ச",
+    "detected_language": "ta"
+  },
+  {
+    "start": 1238.559,
+    "duration": 2.641,
+    "text": "Immediately like Titanic Jack",
+    "original_text": "உடனே டைட்டானிக் ஜாக் மாதிரி",
+    "detected_language": "ta"
+  },
+  {
+    "start": 1239.76,
+    "duration": 4.84,
+    "text": "Are you shining, my dear brother?",
+    "original_text": "ஜொலிக்கிறீங்களா அண்ணே இருந்த அண்ணே",
+    "detected_language": "ta"
+  },
+  {
+    "start": 1241.2,
+    "duration": 8.359,
+    "text": "Even if there are no girls",
+    "original_text": "கேர்ள்ஸ் இல்லையே இருந்துட்டாலும்",
+    "detected_language": "ta"
+  },
+  {
+    "start": 1244.6,
+    "duration": 7.319,
+    "text": "Who is this, brother?",
+    "original_text": "யாரு எவன் பிரஸ் பீஸா இருக்கா தம்பி நீ",
+    "detected_language": "ta"
+  },
+  {
+    "start": 1249.559,
+    "duration": 3.561,
+    "text": "Hey Madhimaran, Tamil Nadu Police.",
+    "original_text": "யாருப்பா ஹாய் மதிமாரன் தமிழ்நாடு போலீஸ்",
+    "detected_language": "ta"
+  },
+  {
+    "start": 1251.919,
+    "duration": 2.88,
+    "text": "Constable Batch 87 Batch Number",
+    "original_text": "கான்ஸ்டபிள் பேட்ச் 87 பேட்ச் நம்பர்",
+    "detected_language": "ta"
+  },
+  {
+    "start": 1253.12,
+    "duration": 2.88,
+    "text": "57827 Train Contingent Police",
+    "original_text": "57827 ட்ரெயின் கண்ட்மென்ட் போலீஸ்",
+    "detected_language": "ta"
+  },
+  {
+    "start": 1254.799,
+    "duration": 2.24,
+    "text": "Station Working or Police Station",
+    "original_text": "ஸ்டேஷன் வொர்க்கிங் ஆர் போலீஸ் ஸ்டேஷன்",
+    "detected_language": "ta"
+  },
+  {
+    "start": 1256.0,
+    "duration": 1.84,
+    "text": "We don&#39;t have any other arts.",
+    "original_text": "எங்களுக்கு வேற எவனும் கலைகள் கிடையாது",
+    "detected_language": "ta"
+  },
+  {
+    "start": 1257.039,
+    "duration": 1.76,
+    "text": "Sir, you are safe.",
+    "original_text": "சார் உங்களுக்கு பாதுகாப்பு",
+    "detected_language": "ta"
+  },
+  {
+    "start": 1257.84,
+    "duration": 4.319,
+    "text": "I have come to give, sir and",
+    "original_text": "கொடுக்கறதுக்காக வந்திருக்கேன் சார் அண்ட்",
+    "detected_language": "ta"
+  },
+  {
+    "start": 1258.799,
+    "duration": 3.36,
+    "text": "I am having our model.",
+    "original_text": "i am having நம்ம மாடல்",
+    "detected_language": "ta"
+  },
+  {
+    "start": 1264.039,
+    "duration": 4.601,
+    "text": "Systems brother sprinkled flowers",
+    "original_text": "சிஸ்டம்ஸ் தம்பி மூஞ்சில பூ தூவிட்டு",
+    "detected_language": "ta"
+  },
+  {
+    "start": 1267.28,
+    "duration": 3.44,
+    "text": "Let&#39;s put the plate on my head.",
+    "original_text": "தட்டையை என் தலையில போடுற போட்டுடுவோம்",
+    "detected_language": "ta"
+  },
+  {
+    "start": 1268.64,
+    "duration": 4.8,
+    "text": "Sir, I will come first with a latte and a languor.",
+    "original_text": "சார் லட்டும் லங்கோடும் முன்னா சார் வரும்",
+    "detected_language": "ta"
+  },
+  {
+    "start": 1270.72,
+    "duration": 4.8,
+    "text": "What is this proverb? This is not a proverb at all.",
+    "original_text": "என்னடா இது பழமொழி இது பழமொழியே இல்லைங்க",
+    "detected_language": "ta"
+  },
+  {
+    "start": 1273.44,
+    "duration": 3.52,
+    "text": "Brother, before this, there was a man named Mani.",
+    "original_text": "தம்பி இதுக்கு முன்னாடி மணின்னு ஒருத்தன்",
+    "detected_language": "ta"
+  },
+  {
+    "start": 1275.52,
+    "duration": 2.8,
+    "text": "What kind of work is he doing?",
+    "original_text": "வேலை பாத்தானே அவன் என்ன சார் ரெண்டாவது",
+    "detected_language": "ta"
+  },
+  {
+    "start": 1276.96,
+    "duration": 4.52,
+    "text": "The third press for the bridge is level four.",
+    "original_text": "பொண்டாட்டிக்கு மூணாவது பிரஸ் நாலு லீவ்ல",
+    "detected_language": "ta"
+  },
+  {
+    "start": 1278.32,
+    "duration": 6.4,
+    "text": "I am here, sir. What is your name?",
+    "original_text": "இருக்கேன் சார் உன் பேர் என்னன்னு சொன்ன",
+    "detected_language": "ta"
+  },
+  {
+    "start": 1281.48,
+    "duration": 5.88,
+    "text": "Sir, just tell me your brother&#39;s name, Madhimaran.",
+    "original_text": "சார் தம்பி பேரை மட்டும் சொல்லு மதிமாரன்",
+    "detected_language": "ta"
+  },
+  {
+    "start": 1284.72,
+    "duration": 4.88,
+    "text": "Sir, look at this, sir, this is all.",
+    "original_text": "சார் இத பாரு சாரு மோறு பீறு இதெல்லாம்",
+    "detected_language": "ta"
+  },
+  {
+    "start": 1287.36,
+    "duration": 3.92,
+    "text": "Just call me boss.",
+    "original_text": "வேணாம் பாஸ்ன்னு மட்டும் கூப்பிடு",
+    "detected_language": "ta"
+  },
+  {
+    "start": 1289.6,
+    "duration": 4.48,
+    "text": "You don&#39;t just like beer, either.",
+    "original_text": "உங்களுக்கு தான் பீர் பிடிக்கும்ல அதுவும்",
+    "detected_language": "ta"
+  },
+  {
+    "start": 1291.28,
+    "duration": 5.44,
+    "text": "Cool, let&#39;s leave it to a rhyme.",
+    "original_text": "கூலிங்கா ஒரு ரைமிங்க்கு சொல்றதுடா விட்டு",
+    "detected_language": "ta"
+  },
+  {
+    "start": 1294.08,
+    "duration": 4.079,
+    "text": "Pray brother, you are my friend from now on.",
+    "original_text": "தொழ தம்பி இனிமே நீங்க என் கூடயே",
+    "detected_language": "ta"
+  },
+  {
+    "start": 1296.72,
+    "duration": 2.88,
+    "text": "Maybe one day a week for you.",
+    "original_text": "இருக்கலாம் வாரம் ஒரு நாள் உங்களுக்கு",
+    "detected_language": "ta"
+  },
+  {
+    "start": 1298.159,
+    "duration": 2.721,
+    "text": "Leave it to me, boss.",
+    "original_text": "லீவ் இட்ஸ் மை டியூட்டி பாஸ் நீங்கள்",
+    "detected_language": "ta"
+  },
+  {
+    "start": 1299.6,
+    "duration": 3.04,
+    "text": "It also acts as a mat while sleeping.",
+    "original_text": "தூங்கும் பொழுது பாயாகவும் இயங்கும்",
+    "detected_language": "ta"
+  },
+  {
+    "start": 1300.88,
+    "duration": 3.44,
+    "text": "Let&#39;s be a mother, okay?",
+    "original_text": "பொழுது தாயாகவும் இருப்போம் பாஸ் என்னடா",
+    "detected_language": "ta"
+  },
+  {
+    "start": 1302.64,
+    "duration": 4.08,
+    "text": "This proverb is good, nothing is a proverb.",
+    "original_text": "இந்த பழமொழி நல்லா இருக்கு எதுவும் பழமொழி",
+    "detected_language": "ta"
+  },
+  {
+    "start": 1304.32,
+    "duration": 4.719,
+    "text": "No, tell me the program, brother.",
+    "original_text": "இல்ல ப்ரோக்ராம் சொல்லுங்க போலாம் தம்பி",
+    "detected_language": "ta"
+  },
+  {
+    "start": 1306.72,
+    "duration": 4.88,
+    "text": "Important Person Meeting once a week",
+    "original_text": "வாரம் ஒரு தடவை இம்பார்ட்டன்ட் பர்சன மீட்",
+    "detected_language": "ta"
+  },
+  {
+    "start": 1309.039,
+    "duration": 3.76,
+    "text": "Pannanum, his name is Durai, come to my place.",
+    "original_text": "பண்ணனும் அவர் பேரு துரை வா என் கூட அந்த",
+    "detected_language": "ta"
+  },
+  {
+    "start": 1311.6,
+    "duration": 3.24,
+    "text": "The dog is outside, not far away.",
+    "original_text": "பக்கம் துரை இல்ல நாய் புறத்தான் இருக்கு",
+    "detected_language": "ta"
+  },
+  {
+    "start": 1312.799,
+    "duration": 6.24,
+    "text": "The door is on this side.",
+    "original_text": "வாசல் இந்த பக்கம் இருக்கு",
+    "detected_language": "ta"
+  },
+  {
+    "start": 1314.84,
+    "duration": 5.8,
+    "text": "Hello, sir, what is Rich?",
+    "original_text": "வாங்க வணக்கம் தலைவரே ஐயப்பா என்னடா ரிச்",
+    "detected_language": "ta"
+  },
+  {
+    "start": 1319.039,
+    "duration": 2.64,
+    "text": "If you say girls, you will get hurt.",
+    "original_text": "கேர்ள்ஸ் சொன்னா நொச்சு கல்ச்சா",
+    "detected_language": "ta"
+  },
+  {
+    "start": 1320.64,
+    "duration": 3.279,
+    "text": "I have gathered all this.",
+    "original_text": "கூட்டிட்டு வந்திருக்கேன் இதெல்லாம்",
+    "detected_language": "ta"
+  },
+  {
+    "start": 1321.679,
+    "duration": 3.36,
+    "text": "You have no charm, you have taken away the drought.",
+    "original_text": "கவர்ச்சி இல்லடா வறட்சி நீ எடுத்த",
+    "detected_language": "ta"
+  },
+  {
+    "start": 1323.919,
+    "duration": 2.561,
+    "text": "For the roofers and the chicken biryani",
+    "original_text": "கூரைப்படைக்கும் கோழி பிரியாணிக்கும்",
+    "detected_language": "ta"
+  },
+  {
+    "start": 1325.039,
+    "duration": 2.801,
+    "text": "This is what you come for, what are you thinking?",
+    "original_text": "இதுக்கு தான் வரும் நீங்க என்ன தலைக்கு",
+    "detected_language": "ta"
+  },
+  {
+    "start": 1326.48,
+    "duration": 4.4,
+    "text": "You gave me ₹10000, you snake.",
+    "original_text": "₹10000 கொடுத்தீங்க பாம்பே கால்",
+    "detected_language": "ta"
+  },
+  {
+    "start": 1327.84,
+    "duration": 5.04,
+    "text": "Alas for the small wings, the idle roof-mounted chicken",
+    "original_text": "சிறகுறதுக்கு ஐயோ சும்மா கூரைப்படை கோழி",
+    "detected_language": "ta"
+  },
+  {
+    "start": 1330.88,
+    "duration": 3.2,
+    "text": "I&#39;ll buy you some biryani, I cheated.",
+    "original_text": "பிரியாணி வாங்கி தரேன் நான் ஏமாத்திட்டேன்",
+    "detected_language": "ta"
+  },
+  {
+    "start": 1332.88,
+    "duration": 2.56,
+    "text": "This type of Kundothiri house",
+    "original_text": "இந்த மாதிரி குண்டோதிரி வீட்ல",
+    "detected_language": "ta"
+  },
+  {
+    "start": 1334.08,
+    "duration": 2.959,
+    "text": "Keviru drinks cola while",
+    "original_text": "இருக்கும்போது கெவிறு கூலா குடிக்கிறது",
+    "detected_language": "ta"
+  },
+  {
+    "start": 1335.44,
+    "duration": 3.92,
+    "text": "It&#39;s a shame to come here and wander around for biryani.",
+    "original_text": "இங்க வந்து பிரியாணிக்கு அலையறது கோமா",
+    "detected_language": "ta"
+  },
+  {
+    "start": 1337.039,
+    "duration": 5.441,
+    "text": "Give me something, what is this guy like?",
+    "original_text": "தருவாங்க டேய் என்னடா இவன் இப்படி",
+    "detected_language": "ta"
+  },
+  {
+    "start": 1339.36,
+    "duration": 3.12,
+    "text": "He has arrived, Hara Hara.",
+    "original_text": "வந்திருக்கான் ஹர ஹர",
+    "detected_language": "ta"
+  },
+  {
+    "start": 1344.2,
+    "duration": 5.32,
+    "text": "Mahadevaki, what is this form?",
+    "original_text": "மகாதேவகி ஏப்பா என்னப்பா இது கோலம்",
+    "detected_language": "ta"
+  },
+  {
+    "start": 1347.28,
+    "duration": 3.84,
+    "text": "Like the arrival of Lord Murugan from Maruthamala in Mufti",
+    "original_text": "மருதமலை முருகன் மஃப்டில வந்த மாதிரி",
+    "detected_language": "ta"
+  },
+  {
+    "start": 1349.52,
+    "duration": 4.24,
+    "text": "I am fasting for Sangiji Swami.",
+    "original_text": "சங்கிஜி சுவாமிகளுக்கு விரதம் இருக்கேன்",
+    "detected_language": "ta"
+  },
+  {
+    "start": 1351.12,
+    "duration": 4.48,
+    "text": "Boss Sangeetji Swami, is there such a person?",
+    "original_text": "பாஸ் சங்கீஜி சுவாமிகளா அப்படி ஒரு பேரை",
+    "detected_language": "ta"
+  },
+  {
+    "start": 1353.76,
+    "duration": 4.88,
+    "text": "I&#39;ve never heard of anyone.",
+    "original_text": "நான் கேள்விப்பட்டதே இல்லையே யாருப்பா",
+    "detected_language": "ta"
+  },
+  {
+    "start": 1355.6,
+    "duration": 4.8,
+    "text": "Doesn&#39;t he know Sangeet Swami?",
+    "original_text": "அவரு சங்கீஜி சுவாமிகளை தெரியாதா அவரோட",
+    "detected_language": "ta"
+  },
+  {
+    "start": 1358.64,
+    "duration": 4.159,
+    "text": "If I tell you the glories, you will understand.",
+    "original_text": "மகிமைகளை சொன்னா உங்களுக்கு புரியும்னு",
+    "detected_language": "ta"
+  },
+  {
+    "start": 1360.4,
+    "duration": 5.04,
+    "text": "I think until I&#39;m 18.",
+    "original_text": "நினைக்கிறேன் என்னோட 18 வயசு வரைக்கும்",
+    "detected_language": "ta"
+  },
+  {
+    "start": 1362.799,
+    "duration": 6.081,
+    "text": "I can&#39;t walk or talk.",
+    "original_text": "என்னால நடக்கவும் முடியாது பேசவும்",
+    "detected_language": "ta"
+  },
+  {
+    "start": 1365.44,
+    "duration": 6.239,
+    "text": "You can&#39;t be like a video jockey.",
+    "original_text": "முடியாது உனக்கு வீடியோ ஜாக்கி மாதிரி",
+    "detected_language": "ta"
+  },
+  {
+    "start": 1368.88,
+    "duration": 4.679,
+    "text": "You are the one who talks to me with a hot tongue.",
+    "original_text": "வெளுத்து வாங்குற தம் கட்டி பேசுற உனக்கா",
+    "detected_language": "ta"
+  },
+  {
+    "start": 1371.679,
+    "duration": 4.88,
+    "text": "Speech",
+    "original_text": "பேச்சு",
+    "detected_language": "ta"
+  },
+  {
+    "start": 1373.559,
+    "duration": 6.681,
+    "text": "It won&#39;t come, it will have a flashback.",
+    "original_text": "வராது அதுக்கு ஒரு பிளாஷ் பேக் இருக்கும்",
+    "detected_language": "ta"
+  },
+  {
+    "start": 1376.559,
+    "duration": 7.36,
+    "text": "Let&#39;s go, it will be over in two minutes.",
+    "original_text": "போலாம் டூ மினிட்ஸ்ல முடிஞ்சிரும்",
+    "detected_language": "ta"
+  },
+  {
+    "start": 1380.24,
+    "duration": 5.28,
+    "text": "Our town is a beautiful mountain village.",
+    "original_text": "எங்க ஊரு ஒரு அழகான மலை கிராமம் அந்த ஊரோட",
+    "detected_language": "ta"
+  },
+  {
+    "start": 1383.919,
+    "duration": 3.681,
+    "text": "Is there a name? It&#39;s a little visual.",
+    "original_text": "பேரு இருப்பா கொஞ்சம் விஷுவல்",
+    "detected_language": "ta"
+  },
+  {
+    "start": 1385.52,
+    "duration": 3.0,
+    "text": "I&#39;ll do it, then tell that town.",
+    "original_text": "பண்ணிக்கிறேன் அப்புறம் சொல்லு அந்த ஊரோட",
+    "detected_language": "ta"
+  },
+  {
+    "start": 1387.6,
+    "duration": 3.36,
+    "text": "Name",
+    "original_text": "பேரு",
+    "detected_language": "ta"
+  },
+  {
+    "start": 1388.52,
+    "duration": 6.519,
+    "text": "Hrithik in our village, Papanayakampatti",
+    "original_text": "பாப்பநாயக்கம்பட்டி எங்க ஊர்ல ஹிருத்திக்",
+    "detected_language": "ta"
+  },
+  {
+    "start": 1390.96,
+    "duration": 4.079,
+    "text": "Roshan Hrithik Roshan is a smart high school student.",
+    "original_text": "ரோஷன் ஹிருத்திக் ரோஷன் ஒரு ஸ்மார்ட் ஹை",
+    "detected_language": "ta"
+  },
+  {
+    "start": 1397.64,
+    "duration": 4.12,
+    "text": "He was at the Papanayak bar.",
+    "original_text": "இருந்தான் பாப்பநாயக்கம் பட்டியில",
+    "detected_language": "ta"
+  },
+  {
+    "start": 1399.919,
+    "duration": 3.361,
+    "text": "How is Hrithik Roshan doing in the North?",
+    "original_text": "ஹிருத்திக் ரோஷன் எப்படி வடநாட்டுல",
+    "detected_language": "ta"
+  },
+  {
+    "start": 1401.76,
+    "duration": 3.039,
+    "text": "The evil boy who came to Panchamalai from",
+    "original_text": "இருந்து பஞ்சமலைக்கு வந்த சேட்டு பையன்",
+    "detected_language": "ta"
+  },
+  {
+    "start": 1403.28,
+    "duration": 3.04,
+    "text": "What&#39;s up with you and him, boss?",
+    "original_text": "பாஸ் அவனுக்கும் உனக்கும் என்னப்பா",
+    "detected_language": "ta"
+  },
+  {
+    "start": 1404.799,
+    "duration": 3.671,
+    "text": "Oh, we are both related.",
+    "original_text": "சம்பந்தம் ஐயோ நாங்க ரெண்டு பேரும் திக்",
+    "detected_language": "ta"
+  },
+  {
+    "start": 1406.32,
+    "duration": 11.52,
+    "text": "Friends",
+    "original_text": "பிரண்ட்ஸ்",
+    "detected_language": "ta"
+  },
+  {
+    "start": 1408.47,
+    "duration": 11.209,
+    "text": "[Music]",
+    "original_text": "[இசை]",
+    "detected_language": "ta"
+  },
+  {
+    "start": 1417.84,
+    "duration": 3.68,
+    "text": "Everyone followed behind the lady and cleaned her.",
+    "original_text": "செல்வி பின்னாடி எல்லாரும் சுத்திக்கிட்டு",
+    "detected_language": "ta"
+  },
+  {
+    "start": 1419.679,
+    "duration": 4.081,
+    "text": "We all lived in that time.",
+    "original_text": "இருந்த அந்த காலத்திலேயே நாங்க எல்லாம்",
+    "detected_language": "ta"
+  },
+  {
+    "start": 1421.52,
+    "duration": 4.32,
+    "text": "Did you take a selfie for both of us?",
+    "original_text": "செல்பி எடுத்தவா எங்க ரெண்டு பேருக்கும்",
+    "detected_language": "ta"
+  },
+  {
+    "start": 1423.76,
+    "duration": 4.88,
+    "text": "If a woman named Simran comes in the middle, hiss.",
+    "original_text": "நடுவுல சிம்ரன்னு ஒருத்தி வந்தா ஹிஸ்",
+    "detected_language": "ta"
+  },
+  {
+    "start": 1425.84,
+    "duration": 5.48,
+    "text": "Also North Indian",
+    "original_text": "ஆல்சோ நார்த் இந்தியன்",
+    "detected_language": "ta"
+  },
+  {
+    "start": 1428.64,
+    "duration": 5.519,
+    "text": "[Music]",
+    "original_text": "[இசை]",
+    "detected_language": "ta"
+  },
+  {
+    "start": 1431.32,
+    "duration": 5.52,
+    "text": "Of course, Simran for both of us.",
+    "original_text": "அப்கோர்ஸ் எங்க ரெண்டு பேருக்குமே சிம்ரன்",
+    "detected_language": "ta"
+  },
+  {
+    "start": 1434.159,
+    "duration": 5.52,
+    "text": "I love the city so much.",
+    "original_text": "தான் ரொம்ப பிடிக்கும் ஊருக்கே",
+    "detected_language": "ta"
+  },
+  {
+    "start": 1436.84,
+    "duration": 6.44,
+    "text": "Tell me if you like it or not.",
+    "original_text": "பிடிக்குமாப்பா சும்மா இருடா சொல்லுப்பா",
+    "detected_language": "ta"
+  },
+  {
+    "start": 1439.679,
+    "duration": 5.201,
+    "text": "I can&#39;t even walk, big brother.",
+    "original_text": "எனக்கு தான் நடக்கவும் வராது மேஜா பேஜா",
+    "detected_language": "ta"
+  },
+  {
+    "start": 1443.28,
+    "duration": 4.65,
+    "text": "But that Hrithik Roshan is not like that.",
+    "original_text": "ஆனா அந்த ஹிருத்திக் ரோஷன் அப்படி இல்ல",
+    "detected_language": "ta"
+  },
+  {
+    "start": 1444.88,
+    "duration": 5.56,
+    "text": "He sings superbly.",
+    "original_text": "சூப்பரா பாடுவான் செமையா",
+    "detected_language": "ta"
+  },
+  {
+    "start": 1447.93,
+    "duration": 4.869,
+    "text": "[Music]",
+    "original_text": "[இசை]",
+    "detected_language": "ta"
+  },
+  {
+    "start": 1450.44,
+    "duration": 4.76,
+    "text": "He will play that game and that song.",
+    "original_text": "ஆடுவான் அந்த ஆட்டத்தையும் பாட்டத்தையும்",
+    "detected_language": "ta"
+  },
+  {
+    "start": 1452.799,
+    "duration": 4.48,
+    "text": "Simran showed it and made it okay.",
+    "original_text": "காட்டி சிம்ரன் ஓகே பண்ணிட்டான் சிம்ரன்",
+    "detected_language": "ta"
+  },
+  {
+    "start": 1455.2,
+    "duration": 4.479,
+    "text": "What a joy it was to have a goat.",
+    "original_text": "ஆட்டையை போட்டதுல என்ன ஒரு ஆனந்தம் அந்த",
+    "detected_language": "ta"
+  },
+  {
+    "start": 1457.279,
+    "duration": 4.161,
+    "text": "The bear is a father to the moon, in front of me.",
+    "original_text": "கரடி மூஞ்சுக்கு தகதகன்னு என் முன்னால",
+    "detected_language": "ta"
+  },
+  {
+    "start": 1459.679,
+    "duration": 4.321,
+    "text": "Jump and run and do something like this.",
+    "original_text": "குதிச்சு ஓடி வந்து இந்த மாதிரி ஒன்னாவது",
+    "detected_language": "ta"
+  },
+  {
+    "start": 1461.44,
+    "duration": 5.04,
+    "text": "Can you do that?",
+    "original_text": "உன்னால பண்ண முடியுமாடா அப்படின்னு",
+    "detected_language": "ta"
+  },
+  {
+    "start": 1464.0,
+    "duration": 4.52,
+    "text": "He asked me what I did to insult him.",
+    "original_text": "கேட்டான் நீ என்ன செஞ்ச இன்சல்ட் ஆனா நான்",
+    "detected_language": "ta"
+  },
+  {
+    "start": 1466.48,
+    "duration": 4.079,
+    "text": "You reacted immediately.",
+    "original_text": "இம்மீடியட்டா ரியாக்ட் பண்ணிட்டேன் நீ",
+    "detected_language": "ta"
+  },
+  {
+    "start": 1468.52,
+    "duration": 5.48,
+    "text": "So far, Annamalai is my friend.",
+    "original_text": "இதுவரைக்கும் அண்ணாமலை நண்பரைத்தான்",
+    "detected_language": "ta"
+  },
+  {
+    "start": 1470.559,
+    "duration": 3.441,
+    "text": "Hey, I saw it.",
+    "original_text": "பார்த்திருக்கேன் ஏய்",
+    "detected_language": "ta"
+  },
+  {
+    "start": 1474.6,
+    "duration": 8.52,
+    "text": "What&#39;s wrong with you, I don&#39;t understand.",
+    "original_text": "என்னயா உன் டைல கூட்டி வை புரியல டெய் டை",
+    "detected_language": "ta"
+  },
+  {
+    "start": 1479.12,
+    "duration": 6.24,
+    "text": "I don&#39;t understand what&#39;s going on.",
+    "original_text": "புரியல என்ன டைல கூட்டி வச்சு என்ன",
+    "detected_language": "ta"
+  },
+  {
+    "start": 1483.12,
+    "duration": 5.12,
+    "text": "You and I are a little confused.",
+    "original_text": "உனக்கும் எனக்கும் கொஞ்சம் ஜாக் ஆயிடுச்சு",
+    "detected_language": "ta"
+  },
+  {
+    "start": 1485.36,
+    "duration": 6.0,
+    "text": "I&#39;m super careful and I&#39;m yours.",
+    "original_text": "நான் இதைவிட சூப்பர் உஷார் பண்ணி உன்",
+    "detected_language": "ta"
+  },
+  {
+    "start": 1488.24,
+    "duration": 4.319,
+    "text": "Come forward and stand and show me Annamalai.",
+    "original_text": "முன்னாடி வந்து நின்னு காட்டு அண்ணாமலை",
+    "detected_language": "ta"
+  },
+  {
+    "start": 1491.36,
+    "duration": 3.199,
+    "text": "He spoke in his superstar style.",
+    "original_text": "சூப்பர் ஸ்டார் அவர் ஸ்டைல்ல பேசுன",
+    "detected_language": "ta"
+  },
+  {
+    "start": 1492.559,
+    "duration": 3.681,
+    "text": "I&#39;ll speak in my own style to dial.",
+    "original_text": "டயலாக்க நான் என் ஸ்டைல்ல பேசிட்டு ஹை",
+    "detected_language": "ta"
+  },
+  {
+    "start": 1494.559,
+    "duration": 4.0,
+    "text": "I only realized it when I was returning to the speedway.",
+    "original_text": "ஸ்பீட்ல திரும்பும் போதுதான் தெரிஞ்சுச்சு",
+    "detected_language": "ta"
+  },
+  {
+    "start": 1496.24,
+    "duration": 4.08,
+    "text": "I can&#39;t do any of this.",
+    "original_text": "இது எதுவுமே என்னால பண்ண முடியாதுன்னு",
+    "detected_language": "ta"
+  },
+  {
+    "start": 1498.559,
+    "duration": 3.36,
+    "text": "If I am confused, I will leave Kapalamalai.",
+    "original_text": "கலங்கி போனேன்னா கபாலமலையில இருந்து",
+    "detected_language": "ta"
+  },
+  {
+    "start": 1500.32,
+    "duration": 4.12,
+    "text": "I&#39;m sorry for that suicide point.",
+    "original_text": "கவுந்துரலாம்னு அந்த சூசைட் பாயிண்ட்டோட",
+    "detected_language": "ta"
+  },
+  {
+    "start": 1501.919,
+    "duration": 7.24,
+    "text": "I went outside and just stood there.",
+    "original_text": "வெளிம்ல போய் அப்படியே நின்னேன்னா",
+    "detected_language": "ta"
+  },
+  {
+    "start": 1504.44,
+    "duration": 8.68,
+    "text": "Baby boy, baby girl",
+    "original_text": "குழந்தாய் ஆண் குழந்தாய் மேல",
+    "detected_language": "ta"
+  },
+  {
+    "start": 1509.159,
+    "duration": 6.041,
+    "text": "Upper Sankeji Swamigal Shantha Sorupiya",
+    "original_text": "மேல சங்கேஜி சுவாமிகள் சாந்த சொரூபியா",
+    "detected_language": "ta"
+  },
+  {
+    "start": 1513.12,
+    "duration": 4.96,
+    "text": "What was floating in the air?",
+    "original_text": "ஏர்ல மிதந்துகிட்டு இருந்தாரு என்ன",
+    "detected_language": "ta"
+  },
+  {
+    "start": 1515.2,
+    "duration": 5.8,
+    "text": "Can&#39;t you walk, Pakurai?",
+    "original_text": "பாக்குறாய் உன்னால் நடக்க முடியாதா பேச",
+    "detected_language": "ta"
+  },
+  {
+    "start": 1518.08,
+    "duration": 6.8,
+    "text": "Can&#39;t you just talk and let ten people know?",
+    "original_text": "முடியாதா நீ பேசினால் பத்து பேர் தெரிந்து",
+    "detected_language": "ta"
+  },
+  {
+    "start": 1521.0,
+    "duration": 6.36,
+    "text": "They will run away if you dance correctly.",
+    "original_text": "ஓடுவார்கள் கரெக்ட் நீ நாட்டியம் ஆடினால்",
+    "detected_language": "ta"
+  },
+  {
+    "start": 1524.88,
+    "duration": 5.039,
+    "text": "40 So much that the tongue of a bee hangs out",
+    "original_text": "40 பேத்துக்கு நாக்கு தொங்க போற அளவுக்கு",
+    "detected_language": "ta"
+  },
+  {
+    "start": 1527.36,
+    "duration": 4.88,
+    "text": "Hold on, hold on, hold on, hold on",
+    "original_text": "தாங்கட தகடமி தாங்கட தகடமி தாங்க",
+    "detected_language": "ta"
+  },
+  {
+    "start": 1529.919,
+    "duration": 4.561,
+    "text": "I dance differently, you dance as a stop.",
+    "original_text": "வித்தியாசமாக நான் ஸ்டாப்பாக நீ நாட்டியம்",
+    "detected_language": "ta"
+  },
+  {
+    "start": 1532.24,
+    "duration": 4.08,
+    "text": "Oh my god, this is also a trick to build.",
+    "original_text": "ஆடுவாய் ஐயோ இதுவும் கட்ட வித்தை",
+    "detected_language": "ta"
+  },
+  {
+    "start": 1534.48,
+    "duration": 4.24,
+    "text": "I offer you all this as Arunasai.",
+    "original_text": "அத்தனையும் அருணாசையாக நான் உனக்கு",
+    "detected_language": "ta"
+  },
+  {
+    "start": 1536.32,
+    "duration": 4.719,
+    "text": "I will give it to you, Ajimana.",
+    "original_text": "தருகிறேன் ஆஜிமானா",
+    "detected_language": "ta"
+  },
+  {
+    "start": 1538.72,
+    "duration": 4.959,
+    "text": "Yusuf, did you create that gift?",
+    "original_text": "யூசன் படைக்கா அப்படின்னு அந்த வரத்தை",
+    "detected_language": "ta"
+  },
+  {
+    "start": 1541.039,
+    "duration": 4.481,
+    "text": "He gave it to me, made me speak and sing.",
+    "original_text": "எனக்கு கொடுத்தாரு என்னை பேச வச்சு பாட",
+    "detected_language": "ta"
+  },
+  {
+    "start": 1543.679,
+    "duration": 3.521,
+    "text": "Come on, come",
+    "original_text": "வச்சு நடக்க வச்சு ஓட வச்சு உங்க",
+    "detected_language": "ta"
+  },
+  {
+    "start": 1545.52,
+    "duration": 3.519,
+    "text": "I came to fuck him earlier.",
+    "original_text": "முன்னாடியே வந்து நிக்க வச்சு அவரை",
+    "detected_language": "ta"
+  },
+  {
+    "start": 1547.2,
+    "duration": 3.52,
+    "text": "You&#39;re making me tired of talking about this.",
+    "original_text": "பத்தியே பேச வச்சு என்னை டயர்டாக",
+    "detected_language": "ta"
+  },
+  {
+    "start": 1549.039,
+    "duration": 4.161,
+    "text": "That Sangeetji is the one who created all this.",
+    "original_text": "வச்சிட்டாரு இதெல்லாம் அந்த சங்கீஜி",
+    "detected_language": "ta"
+  },
+  {
+    "start": 1550.72,
+    "duration": 4.959,
+    "text": "The glory of the Swamiji is somehow Sangeetji",
+    "original_text": "சுவாமிகளோட மகிமை எப்படியாவது சங்கீஜி",
+    "detected_language": "ta"
+  },
+  {
+    "start": 1553.2,
+    "duration": 4.64,
+    "text": "Dad, don&#39;t ask me to see the Samis.",
+    "original_text": "சாமிகளை பார்க்கணும்னு கேளுடாப்பா அப்பா",
+    "detected_language": "ta"
+  },
+  {
+    "start": 1555.679,
+    "duration": 3.921,
+    "text": "I will immediately call that Sangeetji Sami.",
+    "original_text": "அந்த சங்கீஜி சாமியை நான் உடனே",
+    "detected_language": "ta"
+  },
+  {
+    "start": 1557.84,
+    "duration": 4.56,
+    "text": "Should I wait until tomorrow?",
+    "original_text": "பாக்கணும்ப்பா நாளைக்கே பாத்துரலாமா",
+    "detected_language": "ta"
+  },
+  {
+    "start": 1559.6,
+    "duration": 4.559,
+    "text": "Not tomorrow, but today.",
+    "original_text": "நாளைக்கு இல்லப்பா இன்னைக்கு இப்பவே",
+    "detected_language": "ta"
+  },
+  {
+    "start": 1562.4,
+    "duration": 4.96,
+    "text": "Swami Madhi has arrived, alert.",
+    "original_text": "சுவாமி மதி வந்துவிட்டான் அலர்ட்டா",
+    "detected_language": "ta"
+  },
+  {
+    "start": 1564.159,
+    "duration": 5.601,
+    "text": "Stay, Hi Ji, like a flower, Wada Wada.",
+    "original_text": "இருங்கள் ஹாய் ஜி வாடா வாடா மலர் போல்",
+    "detected_language": "ta"
+  },
+  {
+    "start": 1567.36,
+    "duration": 4.08,
+    "text": "There is Sangiji&#39;s face, oh my god,",
+    "original_text": "இருக்கிறதே சங்கிஜி முகம் ஆமாண்ணே சாமியோட",
+    "detected_language": "ta"
+  },
+  {
+    "start": 1569.76,
+    "duration": 4.159,
+    "text": "Only the hair has aged.",
+    "original_text": "முடிக்கு மட்டும் தான் வயசாயிருக்கு ஆனா",
+    "detected_language": "ta"
+  },
+  {
+    "start": 1571.44,
+    "duration": 5.839,
+    "text": "What is the difference between a body and a soul?",
+    "original_text": "உடம்பும் மூஞ்சும் முப்பதை தாண்டல என்ன",
+    "detected_language": "ta"
+  },
+  {
+    "start": 1573.919,
+    "duration": 4.64,
+    "text": "Tejas Senior Bhakta Nee for the post of MLA",
+    "original_text": "தேஜஸ் சீனியர் பக்தா நீ எம்எல்ஏ பதவிக்காக",
+    "detected_language": "ta"
+  },
+  {
+    "start": 1577.279,
+    "duration": 2.721,
+    "text": "Follow someone, follow someone.",
+    "original_text": "ஒருத்தருக்கு பின்னால் மாங்கு மாங்கு",
+    "detected_language": "ta"
+  },
+  {
+    "start": 1578.559,
+    "duration": 3.201,
+    "text": "I know that sounds like that.",
+    "original_text": "என்று தெரிவது எனக்கு தெரியும் அந்த",
+    "detected_language": "ta"
+  },
+  {
+    "start": 1580.0,
+    "duration": 4.48,
+    "text": "You came to warn me for a reason.",
+    "original_text": "காரணமாகத்தானே என்னை உஷார் பண்ண வந்தாய்",
+    "detected_language": "ta"
+  },
+  {
+    "start": 1581.76,
+    "duration": 5.6,
+    "text": "Oh Lord, I have a small wish.",
+    "original_text": "ஆமா சாமி எனக்கு ஒரு சின்ன ஆசை இந்த",
+    "detected_language": "ta"
+  },
+  {
+    "start": 1584.48,
+    "duration": 4.24,
+    "text": "Go for a day in a pony cart.",
+    "original_text": "கொண்டை வச்ச வண்டியில ஒரு நாளாவது போனுங்க",
+    "detected_language": "ta"
+  },
+  {
+    "start": 1587.36,
+    "duration": 3.64,
+    "text": "Even if the police arrest you, that car",
+    "original_text": "போலீஸ் அரெஸ்ட் பண்ணாலும் அந்த வண்டில",
+    "detected_language": "ta"
+  },
+  {
+    "start": 1588.72,
+    "duration": 4.959,
+    "text": "I&#39;ll just hang myself, you mosquito.",
+    "original_text": "தான் தூக்கிட்டு போவாங்க டேய் கொசு",
+    "detected_language": "ta"
+  },
+  {
+    "start": 1591.0,
+    "duration": 3.96,
+    "text": "Beware of the chick, Monkeyji Swamigal.",
+    "original_text": "குஞ்சு ஜாக்கிரதை மங்கிஜி சுவாமிகள்",
+    "detected_language": "ta"
+  },
+  {
+    "start": 1593.679,
+    "duration": 4.161,
+    "text": "He will give you the offering.",
+    "original_text": "பிரசாதத்தை உங்ககிட்ட கொடுப்பாரு",
+    "detected_language": "ta"
+  },
+  {
+    "start": 1594.96,
+    "duration": 6.56,
+    "text": "Buy it, drink it, drink it.",
+    "original_text": "வாங்கிக்கோங்க குடுங்க குடுங்க இது",
+    "detected_language": "ta"
+  },
+  {
+    "start": 1597.84,
+    "duration": 6.8,
+    "text": "What is a camera, a camera, a camera?",
+    "original_text": "என்னங்க கேமரா கேமராவா கேமரானா கேமரா",
+    "detected_language": "ta"
+  },
+  {
+    "start": 1601.52,
+    "duration": 5.2,
+    "text": "Why are you shivering like this?",
+    "original_text": "மாதிரி ஏன் சிவரிங் ஆகுறாய் இந்தா இதையும்",
+    "detected_language": "ta"
+  },
+  {
+    "start": 1604.64,
+    "duration": 4.48,
+    "text": "Wait, what is this, Sami?",
+    "original_text": "வைத்துக்கொள் இது என்ன சாமி",
+    "detected_language": "ta"
+  },
+  {
+    "start": 1606.72,
+    "duration": 3.839,
+    "text": "What is this transmitter for? I mean you.",
+    "original_text": "ட்ரான்ஸ்மிட்டர் இது எதுக்கு அதாவது உன்னை",
+    "detected_language": "ta"
+  },
+  {
+    "start": 1609.12,
+    "duration": 3.52,
+    "text": "This is the hammer that will destroy the evil forces that exist.",
+    "original_text": "சுத்தி இருக்கும் தீய சக்திகளை இது",
+    "detected_language": "ta"
+  },
+  {
+    "start": 1610.559,
+    "duration": 4.161,
+    "text": "Look at the source and transform it into good energy.",
+    "original_text": "மூலியமாக பார்த்து நல்ல சக்தியாக மாற்றிக்",
+    "detected_language": "ta"
+  },
+  {
+    "start": 1612.64,
+    "duration": 4.399,
+    "text": "I will give you the item I gave you first.",
+    "original_text": "கொடுப்பேன் முதல்ல நான் கொடுத்த ஐட்டத்தை",
+    "detected_language": "ta"
+  },
+  {
+    "start": 1614.72,
+    "duration": 4.559,
+    "text": "You put this on your neck, Sami.",
+    "original_text": "நீ கழுத்துல போடு இதை போட்டுறேன் சாமி நீ",
+    "detected_language": "ta"
+  },
+  {
+    "start": 1617.039,
+    "duration": 3.76,
+    "text": "Let my power move around the house of the one who asks for help.",
+    "original_text": "உதவி கேட்பவர் வீட்டில் என் சக்தியை நடமாட",
+    "detected_language": "ta"
+  },
+  {
+    "start": 1619.279,
+    "duration": 2.721,
+    "text": "Leave me alone, that&#39;s when you thought of me.",
+    "original_text": "விடு அப்பொழுதுதான் நீ நினைத்தது நான்",
+    "detected_language": "ta"
+  },
+  {
+    "start": 1620.799,
+    "duration": 5.24,
+    "text": "What we all thought",
+    "original_text": "நினைத்தது நாம் எல்லாரும் நினைத்தது",
+    "detected_language": "ta"
+  },
+  {
+    "start": 1622.0,
+    "duration": 4.039,
+    "text": "Sink is understand.",
+    "original_text": "சிங்க் ஆகும் அண்டர்ஸ்டாண்ட்",
+    "detected_language": "ta"
+  }
+]

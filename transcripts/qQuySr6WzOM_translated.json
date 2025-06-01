@@ -1,0 +1,681 @@
+[
+  {
+    "start": 4.25,
+    "duration": 4.79,
+    "text": "[Music]",
+    "original_text": "[இசை]",
+    "detected_language": "ta"
+  },
+  {
+    "start": 6.6,
+    "duration": 4.36,
+    "text": "Machan Patala Security Everything",
+    "original_text": "மச்சான் பாத்தல செக்யூரிட்டி எல்லாம்",
+    "detected_language": "ta"
+  },
+  {
+    "start": 9.04,
+    "duration": 3.12,
+    "text": "Full tit. If you see him, eat him.",
+    "original_text": "ஃபுல் டைட். பார்த்தா அவனுக்கு புசிட்டு",
+    "detected_language": "ta"
+  },
+  {
+    "start": 10.96,
+    "duration": 2.799,
+    "text": "I don&#39;t know how to go about it, maybe in this way.",
+    "original_text": "போற மாதிரி தெரியலையே இந்த மாதிரில்லாம்",
+    "detected_language": "ta"
+  },
+  {
+    "start": 12.16,
+    "duration": 5.479,
+    "text": "I also know the bass. So many people",
+    "original_text": "எனக்கும் பேஸ் தெரியும். இவ்வளவு பேர்",
+    "detected_language": "ta"
+  },
+  {
+    "start": 13.759,
+    "duration": 3.88,
+    "text": "They are there. How are you getting in?",
+    "original_text": "இருக்காங்க. எப்படிடா உள்ள போறது?",
+    "detected_language": "ta"
+  },
+  {
+    "start": 23.519,
+    "duration": 5.201,
+    "text": "Hey, what are you going to do?",
+    "original_text": "டேய் என்ன பண்ண போற?",
+    "detected_language": "ta"
+  },
+  {
+    "start": 27.119,
+    "duration": 3.121,
+    "text": "Bye bye bye, put on your sweater too.",
+    "original_text": "பாய் பாய் பாய் உங்க ஜுப்பி கூட போட்டு",
+    "detected_language": "ta"
+  },
+  {
+    "start": 28.72,
+    "duration": 3.12,
+    "text": "Come on, boy. What&#39;s the problem with coming in?",
+    "original_text": "வரும் பாய். ஏதோ உள்ள வரது கஷ்டம் என்ன?",
+    "detected_language": "ta"
+  },
+  {
+    "start": 30.24,
+    "duration": 3.2,
+    "text": "How did you come together?",
+    "original_text": "எப்படி உன்ன உள்ள கூட்ட்டு வந்தியா? சீ",
+    "detected_language": "ta"
+  },
+  {
+    "start": 31.84,
+    "duration": 2.8,
+    "text": "Come on, Kamnu. We are the only ones who can eat mangoes.",
+    "original_text": "வாய வச்சு கம்னுடா. நாங்க மாங்காதான் பாய",
+    "detected_language": "ta"
+  },
+  {
+    "start": 33.44,
+    "duration": 2.24,
+    "text": "Come on. That bulb is on fire.",
+    "original_text": "வச்சோம். அந்த பல்பு மேல பட்டுச்சு பாய்.",
+    "detected_language": "ta"
+  },
+  {
+    "start": 34.64,
+    "duration": 2.4,
+    "text": "Please, bye bye bye bye us.",
+    "original_text": "ப்ளீஸ் பாய் பாய் பாய் பாய் எங்கள",
+    "detected_language": "ta"
+  },
+  {
+    "start": 35.68,
+    "duration": 3.44,
+    "text": "Leave it, boy. Die boy, die, don&#39;t stop.",
+    "original_text": "விட்டுருங்க பாய். டய் பாய் டேய் நில்டா",
+    "detected_language": "ta"
+  },
+  {
+    "start": 37.04,
+    "duration": 4.64,
+    "text": "He said, &quot;Go away, you fool!&quot;",
+    "original_text": "பாய டேய் நோஞ்சா மாதிரி அவன்ிட்ட போய்",
+    "detected_language": "ta"
+  },
+  {
+    "start": 39.12,
+    "duration": 8.56,
+    "text": "Who is begging? Am I begging?",
+    "original_text": "கெஞ்சுன்னு இருக்கற யாரு? நான் கெஞ்சனா?",
+    "detected_language": "ta"
+  },
+  {
+    "start": 41.68,
+    "duration": 7.6,
+    "text": "Don, don",
+    "original_text": "டான் டடான் டடான் டடான் டடான் டடான் டடான்",
+    "detected_language": "ta"
+  },
+  {
+    "start": 47.68,
+    "duration": 2.8,
+    "text": "Your sister&#39;s voice is Annamalai Music",
+    "original_text": "உன் அண்டா வாய வச்சு அண்ணாமலை மியூசிக்",
+    "detected_language": "ta"
+  },
+  {
+    "start": 49.28,
+    "duration": 2.24,
+    "text": "Enough is enough. What&#39;s the matter?",
+    "original_text": "போடுறதுல்லாம் போதும். என்ன மேட்டர்னு",
+    "detected_language": "ta"
+  },
+  {
+    "start": 50.48,
+    "duration": 3.04,
+    "text": "Tell me. Stay with security.",
+    "original_text": "சொல்லு. செக்யூரிட்டி கிட்ட இருந்து",
+    "detected_language": "ta"
+  },
+  {
+    "start": 51.52,
+    "duration": 4.32,
+    "text": "Oh my, how did I put the matchbox in?",
+    "original_text": "தீப்பெட்டி வச்சிட்டேன்டா எப்படி ஐயோ என்",
+    "detected_language": "ta"
+  },
+  {
+    "start": 53.52,
+    "duration": 3.6,
+    "text": "Abu Kurangu to appear in the movie Sweet Alauddin",
+    "original_text": "செல்லமே அலாவுதீன் படத்துல வர அபு குரங்கு",
+    "detected_language": "ta"
+  },
+  {
+    "start": 55.84,
+    "duration": 3.039,
+    "text": "Like, help me.",
+    "original_text": "மாதிரி அப்பப்ப நீ எனக்கு ஹெல்ப்",
+    "detected_language": "ta"
+  },
+  {
+    "start": 57.12,
+    "duration": 3.2,
+    "text": "Are you Aladdin, since you&#39;re still alive?",
+    "original_text": "பண்ணிதான் இருக்கற அப்ப நீ அலாவுதீனா?",
+    "detected_language": "ta"
+  },
+  {
+    "start": 58.879,
+    "duration": 3.36,
+    "text": "So you agree that I&#39;m a monkey?",
+    "original_text": "அப்ப நீ குரங்குன்னு ஒத்துக்குறியா?",
+    "detected_language": "ta"
+  },
+  {
+    "start": 60.32,
+    "duration": 2.96,
+    "text": "Is it okay to buy a fruit?",
+    "original_text": "ஒத்துக்குனா வாழப்பழம் வாங்கி தரியா? டேய்",
+    "detected_language": "ta"
+  },
+  {
+    "start": 62.239,
+    "duration": 2.32,
+    "text": "The matchbox is from him.",
+    "original_text": "அவன்கிட்ட இருந்து தீப்பெட்டி",
+    "detected_language": "ta"
+  },
+  {
+    "start": 63.28,
+    "duration": 3.04,
+    "text": "I&#39;m sorry, you can&#39;t appreciate it.",
+    "original_text": "வச்சுக்கறேன் பாராட்ட மாட்டியா நீ",
+    "detected_language": "ta"
+  },
+  {
+    "start": 64.559,
+    "duration": 3.6,
+    "text": "What do you do that is worthy of praise? That&#39;s it.",
+    "original_text": "பாராட்டுற அளவு நீ என்ன பண்ற? அதான்",
+    "detected_language": "ta"
+  },
+  {
+    "start": 66.32,
+    "duration": 3.36,
+    "text": "Why is he here when I have a light?",
+    "original_text": "என்கிட்ட லைட்டே இருக்கே எதுக்கு அவன்",
+    "detected_language": "ta"
+  },
+  {
+    "start": 68.159,
+    "duration": 4.561,
+    "text": "Matchbox porridge fell on my feet.",
+    "original_text": "கால்ல விழுந்து தீப்பெட்டி கஞ்சி",
+    "detected_language": "ta"
+  },
+  {
+    "start": 69.68,
+    "duration": 3.04,
+    "text": "This is a strange story.",
+    "original_text": "கேக்குறான இந்தா பத்த",
+    "detected_language": "ta"
+  },
+  {
+    "start": 77.479,
+    "duration": 6.881,
+    "text": "Someone is coming.",
+    "original_text": "வைட யாரோ வராங்க",
+    "detected_language": "ta"
+  },
+  {
+    "start": 80.43,
+    "duration": 6.65,
+    "text": "[Music]",
+    "original_text": "[இசை]",
+    "detected_language": "ta"
+  },
+  {
+    "start": 84.36,
+    "duration": 5.48,
+    "text": "Who is it?",
+    "original_text": "யார்டா யாரும்",
+    "detected_language": "ta"
+  },
+  {
+    "start": 87.08,
+    "duration": 4.999,
+    "text": "No, no",
+    "original_text": "இல்லவா டேய் டேய் டேய் டேய் போடாப்பா",
+    "detected_language": "ta"
+  },
+  {
+    "start": 89.84,
+    "duration": 5.239,
+    "text": "I heard a noise. Is someone coming?",
+    "original_text": "சத்தம் கேக்குது பாத்தேன்ல யாரோ வராங்கடா",
+    "detected_language": "ta"
+  },
+  {
+    "start": 92.079,
+    "duration": 3.0,
+    "text": "Yes",
+    "original_text": "ஆமா",
+    "detected_language": "ta"
+  },
+  {
+    "start": 96.02,
+    "duration": 9.58,
+    "text": "[Music]",
+    "original_text": "[இசை]",
+    "detected_language": "ta"
+  },
+  {
+    "start": 100.759,
+    "duration": 4.841,
+    "text": "No one is walking alone, are you?",
+    "original_text": "யாரும் நீ மட்டும் நட நானா",
+    "detected_language": "ta"
+  },
+  {
+    "start": 107.0,
+    "duration": 4.28,
+    "text": "Oh my God, walk away.",
+    "original_text": "நடைய டேய் ஐயோ",
+    "detected_language": "ta"
+  },
+  {
+    "start": 112.159,
+    "duration": 6.32,
+    "text": "Is it a cheap shoe? Who is it? Koyilla",
+    "original_text": "காசுலயான செருப்பா? யாருது? கொயில்ல",
+    "detected_language": "ta"
+  },
+  {
+    "start": 115.2,
+    "duration": 6.68,
+    "text": "It&#39;s okay. Should I put it on in the morning?",
+    "original_text": "வச்சது. அது காலைலதான் போட்டு வரணுமா?",
+    "detected_language": "ta"
+  },
+  {
+    "start": 118.479,
+    "duration": 6.0,
+    "text": "Where else can you put it?",
+    "original_text": "வேற எங்க போடுறது?",
+    "detected_language": "ta"
+  },
+  {
+    "start": 121.88,
+    "duration": 4.64,
+    "text": "[Music]",
+    "original_text": "[இசை]",
+    "detected_language": "ta"
+  },
+  {
+    "start": 124.479,
+    "duration": 6.321,
+    "text": "Oh, in that hand,",
+    "original_text": "டேய் அந்த கையில தான",
+    "detected_language": "ta"
+  },
+  {
+    "start": 126.52,
+    "duration": 4.28,
+    "text": "I&#39;m going. What&#39;s up, someone?",
+    "original_text": "போனுங்கறேன். என்னடா யாரோ",
+    "detected_language": "ta"
+  },
+  {
+    "start": 133.48,
+    "duration": 5.04,
+    "text": "Are you coming? I&#39;m not doing well, Dad.",
+    "original_text": "வராங்க? நல்லா மாட்டுனேன்டா டேய்.",
+    "detected_language": "ta"
+  },
+  {
+    "start": 140.4,
+    "duration": 5.24,
+    "text": "Hey, why are you making noise? Is the dish leaking?",
+    "original_text": "டேய் ஏன்டா சத்தம் போடுறா பாத்திர போறா",
+    "detected_language": "ta"
+  },
+  {
+    "start": 154.72,
+    "duration": 3.15,
+    "text": "[Music]",
+    "original_text": "[இசை]",
+    "detected_language": "ta"
+  },
+  {
+    "start": 158.16,
+    "duration": 6.0,
+    "text": "Hey Navara Buffalo",
+    "original_text": "டேய் நவரா எருமை",
+    "detected_language": "ta"
+  },
+  {
+    "start": 161.75,
+    "duration": 4.33,
+    "text": "[Music]",
+    "original_text": "[இசை]",
+    "detected_language": "ta"
+  },
+  {
+    "start": 164.16,
+    "duration": 4.159,
+    "text": "Security Allot Security Allot",
+    "original_text": "செக்யூரிட்டி அலாட் செக்யூரிட்டி அலாட்",
+    "detected_language": "ta"
+  },
+  {
+    "start": 166.08,
+    "duration": 3.28,
+    "text": "You came to say two things, Dad.",
+    "original_text": "ரெண்டு அக்யூ சொல்ல வந்துட்டாங்க டேய்",
+    "detected_language": "ta"
+  },
+  {
+    "start": 168.319,
+    "duration": 4.041,
+    "text": "I was the first to run. I was the first to run.",
+    "original_text": "நான்தான் முதல் ஓடிந்தேன் நான்தான்",
+    "detected_language": "ta"
+  },
+  {
+    "start": 169.36,
+    "duration": 3.0,
+    "text": "Nippon",
+    "original_text": "நிப்பேன்",
+    "detected_language": "ta"
+  },
+  {
+    "start": 172.48,
+    "duration": 4.32,
+    "text": "They both escaped.",
+    "original_text": "அவங்க ரெண்டு பேரும் வெளிய தப்பிச்சு",
+    "detected_language": "ta"
+  },
+  {
+    "start": 174.0,
+    "duration": 6.0,
+    "text": "They went over and over, no no no.",
+    "original_text": "போயிட்டாங்க ஓவர் ஓவர் நோ நோ அவங்க",
+    "detected_language": "ta"
+  },
+  {
+    "start": 176.8,
+    "duration": 4.88,
+    "text": "They are inside, not outside, big brother.",
+    "original_text": "உள்ளதான் இருக்காங்க ஓவர் இல்ல டேய் பெரிய",
+    "detected_language": "ta"
+  },
+  {
+    "start": 180.0,
+    "duration": 3.48,
+    "text": "Paruti was talking, that&#39;s why he escaped.",
+    "original_text": "பருதி பேசிட்டு இருக்கற அதான் தப்பிச்சு",
+    "detected_language": "ta"
+  },
+  {
+    "start": 181.68,
+    "duration": 7.16,
+    "text": "They say he&#39;s gone, so turn it off.",
+    "original_text": "போயிட்டான்னு சொல்றாங்கள ஆப் பண்ணிட்டு",
+    "detected_language": "ta"
+  },
+  {
+    "start": 183.48,
+    "duration": 9.31,
+    "text": "How to kill a bad guy and have good luck",
+    "original_text": "பாடாஐ வில் பயூ killயூ goodுட் லக் எப்படி",
+    "detected_language": "ta"
+  },
+  {
+    "start": 188.84,
+    "duration": 9.119,
+    "text": "Where is he going, my son?",
+    "original_text": "மச்சான் எங்க போறா அவன் டேய்",
+    "detected_language": "ta"
+  },
+  {
+    "start": 192.79,
+    "duration": 8.97,
+    "text": "[Music]",
+    "original_text": "[இசை]",
+    "detected_language": "ta"
+  },
+  {
+    "start": 197.959,
+    "duration": 3.801,
+    "text": "Hey, what&#39;s up?",
+    "original_text": "ஏய் என்னது எதுக்கு",
+    "detected_language": "ta"
+  },
+  {
+    "start": 205.319,
+    "duration": 5.081,
+    "text": "Why are you putting everything on us?",
+    "original_text": "என்ன எதுக்கு எல்லாம் போடுறீங்க நம்மகிட்ட",
+    "detected_language": "ta"
+  },
+  {
+    "start": 208.8,
+    "duration": 3.24,
+    "text": "The only asset I have is life, that&#39;s why I&#39;m here.",
+    "original_text": "இருக்கற ஒரே சொத்து உயிரு அது இவனால",
+    "detected_language": "ta"
+  },
+  {
+    "start": 210.4,
+    "duration": 4.0,
+    "text": "When leaving",
+    "original_text": "போயிடும் போது",
+    "detected_language": "ta"
+  },
+  {
+    "start": 212.04,
+    "duration": 4.04,
+    "text": "Oh my, you&#39;re the one who showed me that.",
+    "original_text": "ஐயயோ மச்சான் அப்படிய நீயே காட்டி",
+    "detected_language": "ta"
+  },
+  {
+    "start": 214.4,
+    "duration": 4.559,
+    "text": "Our security deposit that was not given",
+    "original_text": "கொடுத்துராத நம்ம செக்யூரிட்டி டிரஸ்ல",
+    "detected_language": "ta"
+  },
+  {
+    "start": 216.08,
+    "duration": 2.879,
+    "text": "We are here, do you dare?",
+    "original_text": "தான் இருக்கோம் தைரியமா",
+    "detected_language": "ta"
+  },
+  {
+    "start": 219.56,
+    "duration": 7.56,
+    "text": "When the king&#39;s room is empty,",
+    "original_text": "வாய் பாத்துடா சாம்ராட் ரூமா இருக்க போது",
+    "detected_language": "ta"
+  },
+  {
+    "start": 224.799,
+    "duration": 5.281,
+    "text": "Is it inside?",
+    "original_text": "உள்ளதான் இருக்கா",
+    "detected_language": "ta"
+  },
+  {
+    "start": 227.12,
+    "duration": 4.479,
+    "text": "Please, I&#39;m that kind of girl in the movies.",
+    "original_text": "ப்ளீஸ் நான் அந்த மாதிரி பொண்ணுல சினிமால",
+    "detected_language": "ta"
+  },
+  {
+    "start": 230.08,
+    "duration": 3.2,
+    "text": "Deceiving me into becoming a director",
+    "original_text": "டைரக்டர் ஆக்குறேன்னு ஏமாத்தி",
+    "detected_language": "ta"
+  },
+  {
+    "start": 231.599,
+    "duration": 4.241,
+    "text": "You brought a friend with you.",
+    "original_text": "ஒருஃிராடுதான் நீங்க கூட்டிட்டு வந்து",
+    "detected_language": "ta"
+  },
+  {
+    "start": 233.28,
+    "duration": 6.039,
+    "text": "He left. Look who that brat is.",
+    "original_text": "விட்டுட்டான். அந்த பிராடு இவனான்னு பாரு",
+    "detected_language": "ta"
+  },
+  {
+    "start": 235.84,
+    "duration": 3.479,
+    "text": "Show me the moon.",
+    "original_text": "மூஞ்ச காட்டுற",
+    "detected_language": "ta"
+  },
+  {
+    "start": 241.73,
+    "duration": 3.03,
+    "text": "[Music]",
+    "original_text": "[இசை]",
+    "detected_language": "ta"
+  },
+  {
+    "start": 245.72,
+    "duration": 5.96,
+    "text": "Hey Malli Malli Malli, why are you working here?",
+    "original_text": "ஏய் மல்லி மல்லி மல்லி ஏன்டா இங்க வேலை",
+    "detected_language": "ta"
+  },
+  {
+    "start": 249.76,
+    "duration": 2.96,
+    "text": "You are the one who does it. I am telling you, Malli.",
+    "original_text": "செய்றவன் தானடா நீ. மல்லி நான் சொல்றது",
+    "detected_language": "ta"
+  },
+  {
+    "start": 251.68,
+    "duration": 2.32,
+    "text": "Listen, I&#39;m just protecting you.",
+    "original_text": "கேளு நான் உன்ன காப்பாத்ததான்",
+    "detected_language": "ta"
+  },
+  {
+    "start": 252.72,
+    "duration": 2.719,
+    "text": "I have come. How many lies can I tell?",
+    "original_text": "வந்துருக்கேன். என்ன எவ்வளவு பொய் சொல்ல",
+    "detected_language": "ta"
+  },
+  {
+    "start": 254.0,
+    "duration": 3.919,
+    "text": "Hey, is it true that I lie?",
+    "original_text": "போற? ஏய் நான் பொய் சொல்ல உண்மையாதான்",
+    "detected_language": "ta"
+  },
+  {
+    "start": 255.439,
+    "duration": 4.48,
+    "text": "I&#39;ll tell you. How much do you trust me?",
+    "original_text": "சொல்றேன். உன்ன எவ்வளவு நம்புன உன்ன",
+    "detected_language": "ta"
+  },
+  {
+    "start": 257.919,
+    "duration": 3.84,
+    "text": "I came to Mumbai with confidence. Why did I come? What?",
+    "original_text": "நம்பிதான மும்பை வந்தேன். ஏன் வந்த? என்ன",
+    "detected_language": "ta"
+  },
+  {
+    "start": 259.919,
+    "duration": 4.321,
+    "text": "Why did you change? Hey, what&#39;s wrong? Oh",
+    "original_text": "ஏன் மாத்திட்ட? டேய் என்னடா தெரியலடா? அட",
+    "detected_language": "ta"
+  },
+  {
+    "start": 261.759,
+    "duration": 5.281,
+    "text": "Something is taking over your life, Malli.",
+    "original_text": "உன்ன அடிதான ஏதோ எடுத்துக்கறது டேய் மல்லி",
+    "detected_language": "ta"
+  },
+  {
+    "start": 264.24,
+    "duration": 7.08,
+    "text": "Malli, listen to what Malli says below.",
+    "original_text": "மல்லி கீழ என்ன சொல்றான்னு கேளா மல்லி",
+    "detected_language": "ta"
+  },
+  {
+    "start": 267.04,
+    "duration": 4.28,
+    "text": "My dear, my dear.",
+    "original_text": "மச்சான் மல்லி மச்சி",
+    "detected_language": "ta"
+  },
+  {
+    "start": 274.8,
+    "duration": 3.44,
+    "text": "Brother, why are you hitting me?",
+    "original_text": "மச்சான் எனக்கே நீ ஏன்டா அடி வாங்குற.",
+    "detected_language": "ta"
+  },
+  {
+    "start": 276.88,
+    "duration": 3.039,
+    "text": "Hey, where did I buy it? It&#39;s you.",
+    "original_text": "டேய் நான் எங்கடா வாங்குனேன் நீதானே",
+    "detected_language": "ta"
+  },
+  {
+    "start": 278.24,
+    "duration": 4.959,
+    "text": "Buy it and drink it. Hey, she&#39;s hanging down.",
+    "original_text": "வாங்கி குடுக்குற. டேய் அவ கீழ தூக்குறா",
+    "detected_language": "ta"
+  },
+  {
+    "start": 279.919,
+    "duration": 5.521,
+    "text": "Go ahead, go",
+    "original_text": "போறா போய் புடுடா சரியான பேடா டேய் டேய்",
+    "detected_language": "ta"
+  },
+  {
+    "start": 283.199,
+    "duration": 2.241,
+    "text": "Wada",
+    "original_text": "வாடா",
+    "detected_language": "ta"
+  },
+  {
+    "start": 285.56,
+    "duration": 7.92,
+    "text": "I&#39;m sorry, I built a tower.",
+    "original_text": "இரும அயயோ மச்சான் டவர் போட்டா",
+    "detected_language": "ta"
+  },
+  {
+    "start": 290.39,
+    "duration": 3.09,
+    "text": "[Music]",
+    "original_text": "[இசை]",
+    "detected_language": "ta"
+  }
+]
