@@ -1,0 +1,56 @@
+
+<sigml>
+  <hns_sign gloss="dance_finger_point">
+    <hamnosys_nonmanual>
+      <!--  Energetic facial expression (smile, wide eyes) -->
+      <!-- Example: <hnm_eyebrows_R/> (raised eyebrows) -->
+      <!--          <hnm_mouth_smile/> (smiling mouth) -->
+    </hamnosys_nonmanual>
+    <hamnosys_manual>
+      <hamsymmlr/>  <!-- Symmetrical movement (both hands do the same thing) -->
+
+      <!-- Right Hand (Description applies symmetrically to the left hand) -->
+      <hamright>
+        <!-- 1. Handshape: Pointing index finger -->
+        <hamfinger2/>        <!-- Index finger selected -->
+        <hamfingerstraight/> <!-- Index finger straight -->
+        <hamfingertouch/>  <!-- Only index finger is extended/touching-->
+        <hamthumboutmod/>   <!-- Thumb away from hand -->
+        <hamclosedhand/>     <!-- Close other fingers to make a fist.  This *might* conflict, so test! -->
+
+
+        <!-- 2. Initial Position: Down near the sides of the body -->
+        <hamside/>
+        <hamdown/>
+
+        <!-- 3. Movement Phase 1: Raise hands upwards -->
+        <hammoveu/> <!-- Move upwards -->
+
+        <!-- 4. Target Position: Above the head, pointing upwards -->
+        <hamabovehead/>
+
+        <!-- 5. Movement Phase 2: Slight up and down movement (pulsing) -->
+        <hammoveu/>
+        <hammoved/>
+
+        <!-- 6. Repetition: Repeat the up and down movement several times -->
+        <hamrepeatseveral/>
+
+        <!--  [OPTIONAL] Add slight wrist rotation for more dynamism.
+              This might be system-specific.  Example:
+              <hamrotatewrist/>
+         -->
+
+      </hamright>
+
+      <!-- Implicit Left Hand Behavior via hamsymmlr -->
+      <!--
+          The 'hamsymmlr' tag tells the system to mirror the right hand's movements
+          to the left hand.  If this tag doesn't produce the desired symmetrical
+          effect in your 3D environment, you'll need to define the left hand's
+          movements explicitly (similar to the right hand).
+      -->
+
+    </hamnosys_manual>
+  </hns_sign>
+</sigml>

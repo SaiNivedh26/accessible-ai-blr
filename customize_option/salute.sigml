@@ -1,0 +1,39 @@
+
+<sigml>
+  <hns_sign gloss="salute_final">
+    <hamnosys_nonmanual>
+      <!-- Non-manual features like a serious expression could be added here if supported -->
+      <!-- Example: <hnm_eyebrows_U/> <hnm_mouth_U/> (raised eyebrows, tight lips) -->
+      <!-- For now, we'll keep it empty for focus on manual articulation -->
+    </hamnosys_nonmanual>
+    <hamnosys_manual>
+      <!-- 1. Handshape: Flat hand (B-hand) -->
+      <hamflathand/>
+
+      <!-- 2. Extended Finger Direction: Fingers point upwards -->
+      <hamextfingeru/>
+      <!-- 3. Palm Orientation: Palm faces left (inwards towards the head for a right hand) -->
+      <hampalml/>
+
+      <!-- 4. Initial Location & Contact -->
+      <!-- Location: Forehead. Some might add <hamlrat/> (right side) for more precision,
+           but <hamforehead/> with a right hand setup often defaults correctly. -->
+      <hamforehead/>
+      <!-- Contact: Hand touches the forehead -->
+      <hamtouch/>
+
+      <!-- 5. Pause: Briefly hold the hand at the forehead -->
+      <hampause/>
+
+      <!-- 6. Movement Phase: Move hand away from forehead -->
+      <!-- Move Forward (away from the face) -->
+      <hammovef/>
+      <!-- Move Outward (away from the center line of the body/head, to the side) -->
+      <hammoveo/>
+      <!-- Optional: Add a slight downward movement as the hand moves away
+           if it looks more natural with your avatar.
+           <hammoved/>
+      -->
+    </hamnosys_manual>
+  </hns_sign>
+</sigml>
