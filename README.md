@@ -2,7 +2,6 @@
 
 ### Demo
 
-https://github.com/user-attachments/assets/acfc75e1-fb72-4354-88e4-cd8b125079b3
 
 
 ## 🔎Project Overview
