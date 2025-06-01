@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Sign Language Avatar</title>
+  <meta http-equiv="Access-Control-Allow-Origin" content="*">
+  <meta http-equiv="Access-Control-Allow-Methods" content="GET">
+  <style>
+    .divCtrlPanel { display: none !important; }
+    body { 
+      margin: 0; 
+      padding: 0; 
+      background: transparent;
+      overflow-x: scroll;
+    }
+    .container { 
+      padding: 0;
+      width: 100%;
+      height: 100%;
+    }
+    #loading-status {
+      position: absolute;
+      top: 50%;
+      left: 50%;
+      transform: translate(-50%, -50%);
+      color: white;
+      background: rgba(0,0,0,0.7);
+      padding: 10px;
+      border-radius: 5px;
+    }
+    #avatar-container {
+      width: 100%;
+      height: 100%;
+      display: none; /* Initially hidden */
+    }
+    .CWASAPanel.av0 {
+      width: 100% !important;
+      height: 100% !important;
+    }
+    .divAv.av0 {
+      width: 100% !important;
+      height: 100% !important;
+    }
+    .canvasAv.av0 {
+      width: 100% !important;
+      height: 100% !important;
+      visibility: visible !important;
+    }
+  </style>
+</head>
+<body>
+
+  <iframe src="http://localhost:8000/work/avatarnew.html" frameborder="0"></iframe>
+<!-- <webview id="myWebview" src="http://localhost:8000/avatarnew.html" style="width:100%; height:100%;"></webview> -->
+  <div class="container" id=  "avatar_wrapper">
+
+    <div class="row" id="avatar-container">
+      <div class="col-md-12">
+        <div class="CWASAPanel av0" align="center">
+          <div class="divAv av0">
+            <canvas class="canvasAv av0" ondragstart="return false" width="374" height="403"></canvas>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- Load scripts in correct order -->
+  <script src="jquery.min.js"></script>
+  <script src="config.js"></script>  <!-- Load config first -->
+  <script src="avatar_files/allcsa.js"></script>
+  <script src="js/avatar_init.js"></script>
+
+  <script>
+    // Additional check for avatar loaded state
+    const waitForAvatar = setInterval(function() {
+      if (typeof TUavatarLoaded !== 'undefined' && TUavatarLoaded) {
+        clearInterval(waitForAvatar);
+        document.getElementById('avatar-container').style.display = 'block';
+        document.getElementById('loading-status').style.display = 'none';
+        
+        // Force canvas redraw
+        const canvas = document.querySelector('.canvasAv.av0');
+        if (canvas) {
+          canvas.width = canvas.width; // Force redraw
+        }
+      }
+    }, 500);
+  </script>
+</body>
+</html>

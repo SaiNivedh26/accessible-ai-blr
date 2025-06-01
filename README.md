@@ -30,7 +30,7 @@ The primary objective of this project is to bridge the communication gap for ind
 - *Text Input Processing:* Translate text into sign language videos.
 - *Sign Language Translation:* Convert English sentences into ISL syntax.
 - *Video Compilation:* Combine video clips and GIFs to form coherent sign language videos.
-- *PINATA* A DECENTRALISED CLOUD STORAGE, COMES WITH HASHING FOR EVERY FILE, SO ESTABLISHING SECURED CONNECTION 
+- *PINATA* A DECENTRALISED CLOUD STORAGE, COMES WITH HASHING FOR EVERY FILE, SO ESTABLISHING SECURED CONNECTION
 
 ## Technology/Libraries Used 🐍
 - *Python:* Core programming language used for development.
@@ -46,7 +46,7 @@ The primary objective of this project is to bridge the communication gap for ind
 - **stanford-parser-3.9.1-models:** This package contains pre-trained models that the parser uses to analyze text.
 - **HAMNOSYS** and **SIGML** - for creating 3D avatars
 - **Unsloth** - for finetuning gemini models
-- **WEBGL** - 3D renderer avatar 
+- **WEBGL** - 3D renderer avatar
 
 ## Methodology 📝
 ### YouTube Video Processing 📽
@@ -85,7 +85,7 @@ The primary objective of this project is to bridge the communication gap for ind
 4. *Testing and Optimization:*
    - Test the application with various inputs to ensure accuracy and robustness.
    - Optimize the processing pipeline for efficiency and speed.
-  
+ 
 <br>
 <br>
 <br>
@@ -130,14 +130,14 @@ The primary objective of this project is to bridge the communication gap for ind
 2. Initialize the Google Cloud SDK by running:
     sh
     gcloud init
-    
+   
 3. Authenticate with your Google account and select your newly created project.
 4. Set the environment variable to the path of your service account key file:
     sh
     export GOOGLE_APPLICATION_CREDENTIALS="[PATH_TO_YOUR_SERVICE_ACCOUNT_KEY_JSON]"
-    
+   
     Replace [PATH_TO_YOUR_SERVICE_ACCOUNT_KEY_JSON] with the actual file path.
-<br> 
+<br>
 
 ## Step-5: Setting Up a Cloud Storage Bucket
 
@@ -152,7 +152,7 @@ The primary objective of this project is to bridge the communication gap for ind
 8. Click *Create*.
 <br>
 
-## Step 6: Update the Path 
+## Step 6: Update the Path
 
 1. Update the paths of JSON file which you've downloaded in main code
 2. Update the name of bucket correctly in main code

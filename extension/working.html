@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>ISL : Avatar Page</title>
+  <meta http-equiv="Access-Control-Allow-Origin" content="*">
+  <meta http-equiv="Access-Control-Allow-Methods" content="GET">
+  <link rel="stylesheet" href="css/cwasa.css">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+  <script type="text/javascript" src="avatar_files/allcsa.js"></script>
+  <script src="https://www.google.com/jsapi" type="text/javascript"></script>
+  <style>
+    .divCtrlPanel {
+      display: none !important;
+    }
+  </style>
+</head>
+
+<body onload="CWASA.init();">
+  <div class="container" id="avatar_wrapper" style="display:none;">
+    <div class="row">
+      <div class="col-md-6">
+        <div id="leftSide">
+          <label>Enter English text here</label>
+          <textarea id="engtext" class="form-control" style="width:100%; height:80px;"></textarea><br>
+          <button type="button" id="playeng" class="btn btn-primary">Play</button>
+        </div>
+      </div>
+
+      <div class="col-md-6">
+        <div class="CWASAPanel av0" align="center">
+          <div class="divAv av0">
+            <canvas class="canvasAv av0" ondragstart="return false" width="374" height="403"></canvas>
+          </div>
+        </div>
+        <div id="currentWord" class="alert alert-warning"></div>
+      </div>
+    </div>
+  </div>
+
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+  <script src="js/hindiconvert.js"></script>
+  <script>
+    var SigmlData = [];
+    var lookup = {};
+
+    $(document).ready(function () {
+      const waitForAvatar = setInterval(function () {
+        if (typeof TUavatarLoaded !== 'undefined' && TUavatarLoaded) {
+          clearInterval(waitForAvatar);
+          $("#avatar_wrapper").show();
+          $("divCtrlPanel").hide();
+        }
+      }, 500);
+
+      // Load SiGML JSON
+      $.getJSON("SignFiles/sigmlData.json", function (data) {
+        SigmlData = data;
+        for (let i = 0; i < data.length; i++) {
+          lookup[data[i].w.toLowerCase()] = data[i].s;
+        }
+      });
+
+      // Button click logic
+      $("#playeng").click(function () {
+        var text = $("#engtext").val().trim();
+        if (!text) return;
+
+        var words = text.split(/\s+/);
+        $("divCtrlPanel").hide();
+
+        function playNext(i) {
+          if (i >= words.length) return;
+
+          var word = words[i].toLowerCase();
+
+          if (lookup[word]) {
+            $(".txtaSiGMLText").val(lookup[word]);
+            $(".bttnPlaySiGMLText").click();
+            $("#currentWord").text(word);
+            setTimeout(() => playNext(i + 1), 2000);
+          } else {
+            let chars = word.split('');
+            let charIndex = 0;
+
+            function playChar() {
+              if (charIndex >= chars.length) {
+                playNext(i + 1);
+                return;
+              }
+
+              let char = chars[charIndex];
+              if (lookup[char]) {
+                $(".txtaSiGMLText").val(lookup[char]);
+                $(".bttnPlaySiGMLText").click();
+                $("#currentWord").text(char);
+                setTimeout(() => {
+                  charIndex++;
+                  playChar();
+                }, 1000);
+              } else {
+                charIndex++;
+                playChar();
+              }
+            }
+
+            playChar();
+          }
+        }
+
+        playNext(0);
+      });
+
+      
+    });
+  </script>
+</body>
+</html>
