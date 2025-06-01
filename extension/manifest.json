@@ -1,0 +1,43 @@
+{
+  "manifest_version": 3,
+  "name": "YouTube Sign Language Assistant",
+  "version": "1.0",
+  "description": "Provides sign language translation for YouTube videos",
+  "permissions": [
+    "storage",
+    "activeTab",
+    "scripting",
+    "webview"
+  ],
+  "host_permissions": [
+    "https://*.youtube.com/*",
+    "https://*.googlevideo.com/*",
+    "http://localhost:8000/work/avatarnew.html"
+
+  ],    
+  "action": {
+    "default_popup": "popup.html"
+  },
+  "content_security_policy": {
+    "extension_pages": "script-src 'self' 'wasm-unsafe-eval'; object-src 'self'"
+  },
+  "content_scripts": [
+    {
+      "matches": ["https://www.youtube.com/watch*"],
+      "js": ["content.js"]
+    }
+  ],
+  "web_accessible_resources": [{
+    "resources": [
+        "http://localhost:8000/work/avatarnew.html",  
+        "work/avatarnew.html",
+        "avatarnew.html",
+        "avatar_files/*",
+        "SignFiles/*",
+        "js/*",
+        "jquery.min.js",
+        "avatars/*"
+      ],
+    "matches": ["https://www.youtube.com/*"]
+  }]
+}
